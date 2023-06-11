@@ -1,11 +1,8 @@
-Origin: Agricu's Cydia Repo
-Label: Agricu
+Origin: Kuzao-s cydia
+Label: Kuzao-s
 Suite: stable
 Version: 1.0
-Codename: Agricu
+Codename: Kuzao-s
 Architecture: iphoneos-arm
 Components: main
-Description: Agricu's Tweaks
-MD5Sum:
- df251f590311da53b045e21b85b836e4 219766 Packages
- 096b46c7caddf86928579d06ecbec226 63624 Packages.bz2
+Description: Kuzao-s Tweaks
