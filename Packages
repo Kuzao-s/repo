@@ -20,6 +20,42 @@ Name: Unthredera1n
 Depiction: http://ichitaso.com/apt/depiction/unthredera1n.html
 Author: UnthreadedJB
 
+Package: com.iphonecake.appcake2.ios6
+Architecture: iphoneos-arm
+Version: 4.59
+Section: Utilities
+Maintainer: hotsjf <iphonecake@gmail.com>
+Pre-Depends: firmware (>= 6.0) | firware (<= 7.0)
+Filename: ./debfiles/app cake2.ios6_4.59_.deb
+Size: 4595808
+MD5sum: 252c83feff126e6696e5fd7dce87580c
+SHA1: 4ef64c8287a625091f305006273f61cdac3b6b17
+SHA256: 2f1ded9c9dd46b6b84af9953f0cc7edd833a619c7f2f56efd715dfbf94c6f086
+SHA512: 5a27e0c6f255ec9a1deb42d17467670eb556021a03870e0e04820e91177d14f1f3ea785e360e0365415507ef55ca6043de3ca9da353e7debfed9920cae785a06
+Description: **All NEW AppCake 4.0! Clean UI with enhanced Settings, download cracked apps from the largest Cracked Store. Come with iTunes Sync, Metadata Removal, Update check, AirDrop Sharing and more. *** Require AppSync to be installed ***
+Name: AppCake for iOS6
+Author: hotsjf <iphonecake@gmail.com>
+Website: http://iphonecake.com/forum/
+Icon: file:///Applications/iPhoneCake.app/AppIcon57x57.png
+Depiction: http://iphonecake.com/mobileapp/depiction/ios6.html
+
+Package: ipwnderlite
+Architecture: iphoneos-arm
+Version: 1.0
+Section: System
+Maintainer: sakuRdev/dora2ios
+Depends: firmware (>= 9.0), curl
+Filename: ./debfiles/ipwnderlite_1.0.deb
+Size: 26124
+MD5sum: 90e2e3cb01baab515108851dd3403a83
+SHA1: 56406947d25ef9abacbda06fb988a11f5f23d93b
+SHA256: a3f3ffdc7baaf6f04160648078b307f74a1e32962d9d561c7436e29c91534a6b
+SHA512: 6e927820d36352650d3888cd1986711b9ba5620013f9e987d77103874e0e9931729321aa0a2fc953ec418f2f025859481d40b1beb5cc9232146722e35a44dd1f
+Description: iPwnder Lite for iPhoneOS.
+Name: iPwnder Lite
+Depiction: https://dora2ios.github.io/info/ipwnderlite/
+Author: sakuRdev/dora2ios
+
 Package: org.tihmstar.kDFUApp
 Architecture: iphoneos-arm
 Version: 1.0.2
@@ -45,6 +81,50 @@ Description: easy way to get into kDFU mode
 Name: kDFUApp
 Author: tihmstar
 dev: tihmstar
+
+Package: kloader
+Architecture: iphoneos-arm
+Version: 1.0
+Priority: optional
+Section: System
+Maintainer: tihmstar
+Depends: firmware (>= 6.0)
+Conflicts: cy+cpu.arm64
+Filename: ./debfiles/kloader_1.0.deb
+Size: 7982
+MD5sum: 16347bf66c0c84e4870d2cbba42d1dee
+SHA1: 58194352911aa3ae03dafbc88ddb6f247818ee8f
+SHA256: 1fdbaf24db617955afd30244884f99f15be58763a723eb5d81a07b52beae42f4
+SHA512: b385be74dd495b6a9c8e484e01300677683c5d066215e14fd7055c9619adb41a064c958da8934ba57185f9f23efbb8b452926815446577f9b2e7fea90185bed5
+Homepage: https://github.com/xerub/ios-kexec-utils/blob/master/kloader.c
+Description: Don't install if you don't know what that is
+	Do not install this package if you don't know what this is.
+	Installing this on a production device is not recommended.
+Name: kloader
+Author: winocm, xerub
+
+Package: com.sina.sinaweatheralarm
+Architecture: iphoneos-arm
+Version: 1.1.5
+Section: Utilities
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 12175
+Depends: mobilesubstrate, firmware (>= 4.3)
+Filename: ./debfiles/天气通时钟1.1.5.deb
+Size: 8200274
+MD5sum: 71e900e0f2f340f8ebc02be4e611714d
+SHA1: 366757b044ff0870ad8e578fc278113bc3b136f4
+SHA256: af35e70ae5a787326cb599a804406068f3b922cfcda4bc51b6735ab0ed8ff12e
+SHA512: fee78628ebff00527dcaa1f8fcded01ae1acf0076d893801d0291a2cd1a2922b70c4ce1b38db90dd415edb3085e22693091976bd0f59265a7691db4431478748
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sinaweatheralarmDp
+Description: 天气通闹钟，绚丽的通知栏Widget+定时报天气，生活贴心小工具~
+Tag: purpose::extension
+Name: 天气通闹钟
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sinaweatheralarmDp
+Author: tianqitong support <tqt_support@sina.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: tianqitong
+Icon: file:///Applications/SinaWeatherAlarm.app/Icon-Small.png
 
 Package: com.weiphone.Battery
 Architecture: iphoneos-arm
