@@ -1,3 +1,25 @@
+Package: com.unthreadedjb.unthredera1n
+Architecture: iphoneos-arm
+Version: 1.0
+Priority: standard
+Section: System
+Maintainer: ichitaso
+Pre-Depends: cy+model.iphone (= 3.1) | cy+model.iphone (= 3.3) | cy+model.iphone (= 2.1) | cy+model.ipod (= 4.1) | cy+model.ipod (= 3.1) | cy+model.ipad (= 1.1), firmware (= 4.3.4) | firmware (= 4.3.5) |  firmware (= 5.0) | firmware (= 5.1)
+Conflicts: repo.weiphone.unthredera1n
+Replaces: com.unthreadedjb.unthredera1n
+Filename: ./debfiles/4.3.5.unthredera1n_1.0.deb
+Size: 155366
+MD5sum: d8b325819101a28a7ac1b4de043a19f7
+SHA1: 2223f98388375e8d793feeb4cd63055118d9b2d7
+SHA256: 1928fbc5d180fffe651921d268929f916b02a0ab2b8b0ce53d8b774b218d0122
+SHA512: 9c98953dee98694b6c7f4fce977e3674e486f2017fdb0917dfe9b4cab05ce813898f9beb1695a083ab50acba3d03cbc598bbcf4c0cdd0f5de91eca5d08e0643a
+Homepage: http://unthreadedjb.com/
+Description: iOS 4.3.4 - 5.1 Untethered Jailbreak by @UnthreadedJB for iPhone 3GS / iPhone 4(GSM/CDMA) / iPod Touch(3G/4G) / iPad 1
+Tag: role::enduser
+Name: Unthredera1n
+Depiction: http://ichitaso.com/apt/depiction/unthredera1n.html
+Author: UnthreadedJB
+
 Package: org.tihmstar.kDFUApp
 Architecture: iphoneos-arm
 Version: 1.0.2
@@ -23,6 +45,24 @@ Description: easy way to get into kDFU mode
 Name: kDFUApp
 Author: tihmstar
 dev: tihmstar
+
+Package: com.weiphone.Battery
+Architecture: iphoneos-arm
+Version: 1.2.1
+Section: [WeiPhone－补丁]
+Maintainer: WEIP.Tech <weip.com@gmail.com>
+Filename: ./debfiles/电量百分比.deb
+Size: 24094
+MD5sum: 2dfb8293da21d473cb02bbef18ce43f8
+SHA1: efca70e84acee76e380cd7928d87236cfbf4791e
+SHA256: 51c36f76f01d5af030bcba180b18d3de122d5b7cc613f5cb378b8febf9182ef0
+SHA512: f9b0176e8f2ad485a8a0cba7754ed20cc829d867097e27829bc90dc820f4f7fa63bafccdcfcfd451b2dbb279da61c7e54e8c8f4e9153be7f02a4cab086c07e2d
+Homepage: http://i.weiphone.com
+Description: iPhone/iPod Touch电量百分比显示补丁,安装完毕后请在设置->通用->用量里开启或关闭电量百分比显示。(iPod Touch通用项问题修复)
+Name: 电量百分比补丁(OS 3.x)
+Author: WEIP.Tech <weip.com@gmail.com>
+Sponsor: WEIP.Tech <http://i.weiphone.com>
+dev: WEIP技术组
 
 Package: com.abcydia.systeminfo
 Architecture: iphoneos-arm
@@ -92,4 +132,27 @@ Tag: purpose::uikit
 Name: iridium
 Author: Lakr Aream <launchctl@outlook.com>
 depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iridiumDp
+
+Package: org.coolstar.recordmyscreenapp
+Architecture: iphoneos-arm
+Version: 1.1-4
+Priority: optional
+Section: Utilities
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 398
+Depends: firmware (>= 5.0), gsc.armv7, firmware (<< 7.0)
+Filename: ./debfiles/长屏录像_1.1-4.deb
+Size: 281744
+MD5sum: 9127a7a26551f47615e506a69af3c959
+SHA1: 5b749785b1fe3f1cb8db2fd6ed24671a7f8e01be
+SHA256: a024cf0583cbf79fad718a6076f16d27f0a90be1c40ab3357218ac3e2c463e7b
+SHA512: d4d59dd1b677afc10d467adb778834d9460f5a4bed85e88e7422ba102d7701e8a43ac3d7ff827d14d6b03acf2da8f0ed3ebeaaea00f0b14bc0b53125bb00681f
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=recordmyscreenDp
+Description: free, open source screen recorder
+Tag: purpose::uikit
+Name: RecordMyScreen (App)
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=recordmyscreenDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: RecordMyScreen Project <coolstarorganization@gmail.com>
+dev: coolstar
 
