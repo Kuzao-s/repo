@@ -1,0 +1,26 @@
+Package: org.tihmstar.kDFUApp
+Architecture: iphoneos-arm
+Version: 1.0.2
+Priority: optional
+Section: System
+Maintainer: tihmstar
+Depends: openssl, libcrippy-1.0.0, libpartialzip-1.0.0, curl, kloader, firmware (>= 6.0)
+Filename: ./debfiles/kDFUApp_1.0.2.deb
+Size: 80458
+MD5sum: d2fb236c946705c835a08f844527f0c1
+SHA1: bd26bd0a4d7c9a60d0af75a962ced322962d2f3f
+SHA256: b52de8c051332425576b11a3d9ce9637a70c184afc5479ad449d1467a4868271
+SHA512: 5d9932fccac1aa3151c98fb9fa05e96453f43b0e008b63bf85836c00f1b7c70b7bb5ecb4f3c71ec07adde8cca3a820edefd0448088b499751dcb2a010d0067d5
+Description: easy way to get into kDFU mode
+	kDFUApp is an easy way to get into kDFU mode
+	simply activate all switches and press the button
+	<br>
+	<br>Currently compatible with:
+	<br>iPhone3,1 / iPhone3,2 / iPhone3,3 / iPhone4,1 / iPhone5,1 / iPhone5,2 / iPhone5,4
+	<br>iPad2,1 / iPad2,2 / iPad2,3 / iPad3,1 / iPad3,3
+	<br>
+	<br>NOT COMPATIBLE WITH 64BIT DEVICES!
+Name: kDFUApp
+Author: tihmstar
+dev: tihmstar
+
