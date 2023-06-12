@@ -1,24 +1,25 @@
-Package: com.unthreadedjb.unthredera1n
+Package: com.sina.sinaweatheralarm
 Architecture: iphoneos-arm
-Version: 1.0
-Priority: standard
-Section: System
-Maintainer: ichitaso
-Pre-Depends: cy+model.iphone (= 3.1) | cy+model.iphone (= 3.3) | cy+model.iphone (= 2.1) | cy+model.ipod (= 4.1) | cy+model.ipod (= 3.1) | cy+model.ipad (= 1.1), firmware (= 4.3.4) | firmware (= 4.3.5) |  firmware (= 5.0) | firmware (= 5.1)
-Conflicts: repo.weiphone.unthredera1n
-Replaces: com.unthreadedjb.unthredera1n
-Filename: ./debfiles/4.3.5.unthredera1n_1.0.deb
-Size: 155366
-MD5sum: d8b325819101a28a7ac1b4de043a19f7
-SHA1: 2223f98388375e8d793feeb4cd63055118d9b2d7
-SHA256: 1928fbc5d180fffe651921d268929f916b02a0ab2b8b0ce53d8b774b218d0122
-SHA512: 9c98953dee98694b6c7f4fce977e3674e486f2017fdb0917dfe9b4cab05ce813898f9beb1695a083ab50acba3d03cbc598bbcf4c0cdd0f5de91eca5d08e0643a
-Homepage: http://unthreadedjb.com/
-Description: iOS 4.3.4 - 5.1 Untethered Jailbreak by @UnthreadedJB for iPhone 3GS / iPhone 4(GSM/CDMA) / iPod Touch(3G/4G) / iPad 1
-Tag: role::enduser
-Name: Unthredera1n
-Depiction: http://ichitaso.com/apt/depiction/unthredera1n.html
-Author: UnthreadedJB
+Version: 1.1.5
+Section: Utilities
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 12175
+Depends: mobilesubstrate, firmware (>= 4.3)
+Filename: ./debfiles/Weather Clock-1.1.5.deb
+Size: 8200274
+MD5sum: 71e900e0f2f340f8ebc02be4e611714d
+SHA1: 366757b044ff0870ad8e578fc278113bc3b136f4
+SHA256: af35e70ae5a787326cb599a804406068f3b922cfcda4bc51b6735ab0ed8ff12e
+SHA512: fee78628ebff00527dcaa1f8fcded01ae1acf0076d893801d0291a2cd1a2922b70c4ce1b38db90dd415edb3085e22693091976bd0f59265a7691db4431478748
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sinaweatheralarmDp
+Description: 天气通闹钟，绚丽的通知栏Widget+定时报天气，生活贴心小工具~
+Tag: purpose::extension
+Name: 天气通闹钟
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sinaweatheralarmDp
+Author: tianqitong support <tqt_support@sina.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: tianqitong
+Icon: file:///Applications/SinaWeatherAlarm.app/Icon-Small.png
 
 Package: com.iphonecake.appcake2.ios6
 Architecture: iphoneos-arm
@@ -201,6 +202,58 @@ Description: CoolBooter is an all-in-one dual booting utility for jailbroken 32 
 Name: CoolBooter CLI
 Author: CoolBooter <coolbooterios@gmail.com>
 
+Package: cydia.com.ipc.crackerxi
+Architecture: iphoneos-arm
+Version: 1.1.16
+Section: System
+Maintainer: c0pyn1nja
+Depends: firmware (>= 11.0)
+Filename: ./debfiles/crackerxi_1.1.16.deb
+Size: 9960924
+MD5sum: 7363c9289b0041ba3bc8df156b751a9c
+SHA1: 27b8a552befab49a15e78d0cc1d5c5867af3c0fb
+SHA256: 3b835fa95d1d060334929db4ed8b67767c12dba58e8ded8acd0161d44ce974fc
+SHA512: e347b5b6b47acf13fb486ed012e6f444c012db45a9957edd5caeb0b9c67e49438640c4b3827656fb271cc7cd3d14f13be8b6310314b22d84c936ca61717a090b
+Description: Decrypts iOS Apps
+Name: CrackerXI+
+Website: https://ipastore.me
+Icon: file:///Applications/crackerxi.app/AppIcon.png
+
+Package: com.weiphone.Battery
+Architecture: iphoneos-arm
+Version: 1.2.1
+Section: [WeiPhone－补丁]
+Maintainer: WEIP.Tech <weip.com@gmail.com>
+Filename: ./debfiles/dianzchi.deb
+Size: 24094
+MD5sum: 2dfb8293da21d473cb02bbef18ce43f8
+SHA1: efca70e84acee76e380cd7928d87236cfbf4791e
+SHA256: 51c36f76f01d5af030bcba180b18d3de122d5b7cc613f5cb378b8febf9182ef0
+SHA512: f9b0176e8f2ad485a8a0cba7754ed20cc829d867097e27829bc90dc820f4f7fa63bafccdcfcfd451b2dbb279da61c7e54e8c8f4e9153be7f02a4cab086c07e2d
+Homepage: http://i.weiphone.com
+Description: iPhone/iPod Touch电量百分比显示补丁,安装完毕后请在设置->通用->用量里开启或关闭电量百分比显示。(iPod Touch通用项问题修复)
+Name: 电量百分比补丁(OS 3.x)
+Author: WEIP.Tech <weip.com@gmail.com>
+Sponsor: WEIP.Tech <http://i.weiphone.com>
+dev: WEIP技术组
+
+Package: netskao.dumpdecrypter
+Architecture: iphoneos-arm
+Version: 1.2-9.4
+Section: Netskao-Tweaks
+Maintainer: Nets
+Installed-Size: 1072
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: ./debfiles/dumpdecrypter_1.2-9.4.deb
+Size: 235288
+MD5sum: e6f0edcb5c17fa6c382ba06229819e12
+SHA1: 07ef69e0344c48600d8139e0d489ef1bf3e79c66
+SHA256: 01f41b84185c711377b3d88ea99aaefa5b70894b6664adc18122417b7a48f275
+SHA512: 921a87c94594fb1a67954b412ce589271d47e0a1eb5ac0445fdabfc6071244dcf0ff885bf41f0daae64d92a763d7521b281a3574251a2329fa0c27cbeb55e087
+Description: DumpDecrypter是基于dumpdecrypted的修改封装，使用方式：通过桌面的DumpDecrypter应用程序选择需要解密的应用，增加可选修改版本限制，可选删除跳转URL，可选删除设备限制，可选删除包内小组件，可选删除包内手表组件，可选修复白图标，解密完整应用并导出至/var/mobile/Documents/DumpDecrypter，选择应用后自动杀掉应用进程重新开始，解密前加载所有Frameworks，解密前停止所有非解密线程，解密完成后自动恢复等(解密后的IPA如果你要直接安装，建议重签名，无论使用的签名证书是否有效，否则某些环境会出现闪退等问题)
+Name: DumpDecrypter
+Author: Netskao
+
 Package: ipwnderlite
 Architecture: iphoneos-arm
 Version: 1.0
@@ -265,116 +318,6 @@ Description: Don't install if you don't know what that is
 Name: kloader
 Author: winocm, xerub
 
-Package: com.sina.sinaweatheralarm
-Architecture: iphoneos-arm
-Version: 1.1.5
-Section: Utilities
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 12175
-Depends: mobilesubstrate, firmware (>= 4.3)
-Filename: ./debfiles/天气通时钟1.1.5.deb
-Size: 8200274
-MD5sum: 71e900e0f2f340f8ebc02be4e611714d
-SHA1: 366757b044ff0870ad8e578fc278113bc3b136f4
-SHA256: af35e70ae5a787326cb599a804406068f3b922cfcda4bc51b6735ab0ed8ff12e
-SHA512: fee78628ebff00527dcaa1f8fcded01ae1acf0076d893801d0291a2cd1a2922b70c4ce1b38db90dd415edb3085e22693091976bd0f59265a7691db4431478748
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sinaweatheralarmDp
-Description: 天气通闹钟，绚丽的通知栏Widget+定时报天气，生活贴心小工具~
-Tag: purpose::extension
-Name: 天气通闹钟
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sinaweatheralarmDp
-Author: tianqitong support <tqt_support@sina.com>
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: tianqitong
-Icon: file:///Applications/SinaWeatherAlarm.app/Icon-Small.png
-
-Package: com.weiphone.Battery
-Architecture: iphoneos-arm
-Version: 1.2.1
-Section: [WeiPhone－补丁]
-Maintainer: WEIP.Tech <weip.com@gmail.com>
-Filename: ./debfiles/电量百分比.deb
-Size: 24094
-MD5sum: 2dfb8293da21d473cb02bbef18ce43f8
-SHA1: efca70e84acee76e380cd7928d87236cfbf4791e
-SHA256: 51c36f76f01d5af030bcba180b18d3de122d5b7cc613f5cb378b8febf9182ef0
-SHA512: f9b0176e8f2ad485a8a0cba7754ed20cc829d867097e27829bc90dc820f4f7fa63bafccdcfcfd451b2dbb279da61c7e54e8c8f4e9153be7f02a4cab086c07e2d
-Homepage: http://i.weiphone.com
-Description: iPhone/iPod Touch电量百分比显示补丁,安装完毕后请在设置->通用->用量里开启或关闭电量百分比显示。(iPod Touch通用项问题修复)
-Name: 电量百分比补丁(OS 3.x)
-Author: WEIP.Tech <weip.com@gmail.com>
-Sponsor: WEIP.Tech <http://i.weiphone.com>
-dev: WEIP技术组
-
-Package: com.abcydia.systeminfo
-Architecture: iphoneos-arm
-Version: 2.7.2-1
-Section: Tweaks
-Maintainer: WZteam <admin@abcydia.com>
-Depends: mobilesubstrate
-Filename: ./debfiles/系统详情systeminfo_2.7.2.deb
-Size: 428118
-MD5sum: 8c937cb1a06b11fb93d7d587f43a1710
-SHA1: 1275da3ca10391fc73ef0fd357cad2878916d818
-SHA256: 559ef8ed428dcbd0d4128ad4430453951304a9c93e4c00e762f7d985719883b5
-SHA512: 9df5aa59ba365b7909d5362e657dc5e579fbbd54aa7894aa8c264b2dda7f73686d879f2d54a0898991ac8d6ef9fa47938b96d13c596c899d4acf77aa617c00db
-Description: 显示更多系统底层参数
-Name: System Info 系统详情
-Author: ARX8x
-Sponsor: ABCydia <http://www.abcydia.com>
-
-Package: cydia.com.ipc.crackerxi
-Architecture: iphoneos-arm
-Version: 1.1.16
-Section: System
-Maintainer: c0pyn1nja
-Depends: firmware (>= 11.0)
-Filename: ./debfiles/脱壳crackerxi_1.1.16.deb
-Size: 9960924
-MD5sum: 7363c9289b0041ba3bc8df156b751a9c
-SHA1: 27b8a552befab49a15e78d0cc1d5c5867af3c0fb
-SHA256: 3b835fa95d1d060334929db4ed8b67767c12dba58e8ded8acd0161d44ce974fc
-SHA512: e347b5b6b47acf13fb486ed012e6f444c012db45a9957edd5caeb0b9c67e49438640c4b3827656fb271cc7cd3d14f13be8b6310314b22d84c936ca61717a090b
-Description: Decrypts iOS Apps
-Name: CrackerXI+
-Website: https://ipastore.me
-Icon: file:///Applications/crackerxi.app/AppIcon.png
-
-Package: netskao.dumpdecrypter
-Architecture: iphoneos-arm
-Version: 1.2-9.4
-Section: Netskao-Tweaks
-Maintainer: Nets
-Installed-Size: 1072
-Depends: firmware (>= 11.0), mobilesubstrate
-Filename: ./debfiles/脱壳dumpdecrypter_1.2-9.4.deb
-Size: 235288
-MD5sum: e6f0edcb5c17fa6c382ba06229819e12
-SHA1: 07ef69e0344c48600d8139e0d489ef1bf3e79c66
-SHA256: 01f41b84185c711377b3d88ea99aaefa5b70894b6664adc18122417b7a48f275
-SHA512: 921a87c94594fb1a67954b412ce589271d47e0a1eb5ac0445fdabfc6071244dcf0ff885bf41f0daae64d92a763d7521b281a3574251a2329fa0c27cbeb55e087
-Description: DumpDecrypter是基于dumpdecrypted的修改封装，使用方式：通过桌面的DumpDecrypter应用程序选择需要解密的应用，增加可选修改版本限制，可选删除跳转URL，可选删除设备限制，可选删除包内小组件，可选删除包内手表组件，可选修复白图标，解密完整应用并导出至/var/mobile/Documents/DumpDecrypter，选择应用后自动杀掉应用进程重新开始，解密前加载所有Frameworks，解密前停止所有非解密线程，解密完成后自动恢复等(解密后的IPA如果你要直接安装，建议重签名，无论使用的签名证书是否有效，否则某些环境会出现闪退等问题)
-Name: DumpDecrypter
-Author: Netskao
-
-Package: wiki.qaq.iridium
-Architecture: iphoneos-arm
-Version: 1.2.15-REL-1642832736
-Section: Applications
-Maintainer: Lakr Aream <launchctl@outlook.com>
-Pre-Depends: firmware (>= 13.5)
-Filename: ./debfiles/脱壳ridium.rel.ci.deb
-Size: 5425364
-MD5sum: 2e9e01cb519272c5b14291638c00906c
-SHA1: 8f9be410cbb2b0604fdd5f1375d84908ea167dff
-SHA256: 45709d373520f0613b39a590162e7933469d413e2c56f9dbd06d6072f0d9179c
-SHA512: 9f0284309d021c4e480fd8081d9e575be31654384a59702b5d13fbcc9e6185d65a9b25521fb6c5a1451d3617faf3f3d86d88af77aed2e4c309464e2d0dd1e458
-Description: An iOS application decrypter built ready for use.
-Tag: purpose::uikit
-Name: iridium
-Author: Lakr Aream <launchctl@outlook.com>
-depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iridiumDp
-
 Package: org.coolstar.recordmyscreenapp
 Architecture: iphoneos-arm
 Version: 1.1-4
@@ -383,7 +326,7 @@ Section: Utilities
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 398
 Depends: firmware (>= 5.0), gsc.armv7, firmware (<< 7.0)
-Filename: ./debfiles/长屏录像_1.1-4.deb
+Filename: ./debfiles/pingmuluxiang_1.1-4.deb
 Size: 281744
 MD5sum: 9127a7a26551f47615e506a69af3c959
 SHA1: 5b749785b1fe3f1cb8db2fd6ed24671a7f8e01be
@@ -397,4 +340,61 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=recordmysc
 Sponsor: thebigboss.org <http://thebigboss.org>
 Author: RecordMyScreen Project <coolstarorganization@gmail.com>
 dev: coolstar
+
+Package: wiki.qaq.iridium
+Architecture: iphoneos-arm
+Version: 1.2.15-REL-1642832736
+Section: Applications
+Maintainer: Lakr Aream <launchctl@outlook.com>
+Pre-Depends: firmware (>= 13.5)
+Filename: ./debfiles/ridium.rel.ci.deb
+Size: 5425364
+MD5sum: 2e9e01cb519272c5b14291638c00906c
+SHA1: 8f9be410cbb2b0604fdd5f1375d84908ea167dff
+SHA256: 45709d373520f0613b39a590162e7933469d413e2c56f9dbd06d6072f0d9179c
+SHA512: 9f0284309d021c4e480fd8081d9e575be31654384a59702b5d13fbcc9e6185d65a9b25521fb6c5a1451d3617faf3f3d86d88af77aed2e4c309464e2d0dd1e458
+Description: An iOS application decrypter built ready for use.
+Tag: purpose::uikit
+Name: iridium
+Author: Lakr Aream <launchctl@outlook.com>
+depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iridiumDp
+
+Package: com.abcydia.systeminfo
+Architecture: iphoneos-arm
+Version: 2.7.2-1
+Section: Tweaks
+Maintainer: WZteam <admin@abcydia.com>
+Depends: mobilesubstrate
+Filename: ./debfiles/systeminfo_2.7.2.deb
+Size: 428118
+MD5sum: 8c937cb1a06b11fb93d7d587f43a1710
+SHA1: 1275da3ca10391fc73ef0fd357cad2878916d818
+SHA256: 559ef8ed428dcbd0d4128ad4430453951304a9c93e4c00e762f7d985719883b5
+SHA512: 9df5aa59ba365b7909d5362e657dc5e579fbbd54aa7894aa8c264b2dda7f73686d879f2d54a0898991ac8d6ef9fa47938b96d13c596c899d4acf77aa617c00db
+Description: 显示更多系统底层参数
+Name: System Info 系统详情
+Author: ARX8x
+Sponsor: ABCydia <http://www.abcydia.com>
+
+Package: com.unthreadedjb.unthredera1n
+Architecture: iphoneos-arm
+Version: 1.0
+Priority: standard
+Section: System
+Maintainer: ichitaso
+Pre-Depends: cy+model.iphone (= 3.1) | cy+model.iphone (= 3.3) | cy+model.iphone (= 2.1) | cy+model.ipod (= 4.1) | cy+model.ipod (= 3.1) | cy+model.ipad (= 1.1), firmware (= 4.3.4) | firmware (= 4.3.5) |  firmware (= 5.0) | firmware (= 5.1)
+Conflicts: repo.weiphone.unthredera1n
+Replaces: com.unthreadedjb.unthredera1n
+Filename: ./debfiles/unthredera1n_1.0.deb
+Size: 155366
+MD5sum: d8b325819101a28a7ac1b4de043a19f7
+SHA1: 2223f98388375e8d793feeb4cd63055118d9b2d7
+SHA256: 1928fbc5d180fffe651921d268929f916b02a0ab2b8b0ce53d8b774b218d0122
+SHA512: 9c98953dee98694b6c7f4fce977e3674e486f2017fdb0917dfe9b4cab05ce813898f9beb1695a083ab50acba3d03cbc598bbcf4c0cdd0f5de91eca5d08e0643a
+Homepage: http://unthreadedjb.com/
+Description: iOS 4.3.4 - 5.1 Untethered Jailbreak by @UnthreadedJB for iPhone 3GS / iPhone 4(GSM/CDMA) / iPod Touch(3G/4G) / iPad 1
+Tag: role::enduser
+Name: Unthredera1n
+Depiction: http://ichitaso.com/apt/depiction/unthredera1n.html
+Author: UnthreadedJB
 
