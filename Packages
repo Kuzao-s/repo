@@ -1,3 +1,118 @@
+Package: cn.netskao.semirestore11
+Architecture: iphoneos-arm
+Version: 1.1.2-1
+Section: 系统功能
+Maintainer: 汤圆™
+Depends: cy+cpu.arm64, coreutils-bin, uikittools, firmware (>= 11.3)
+Filename: ./debfiles/11-13系统平刷工具.deb
+Size: 54352
+MD5sum: 71c697a8d7c8ac212b53ccbad8317083
+SHA1: 84b8984c2b617a852090e7df07da2bb74eab1aec
+SHA256: 57e3d31616a1fac15fe81391bab1a72f45b048e02490c0138c7ee4480df1b305
+SHA512: 4acacf0ff92c225abefb2145f55248c7602c2e9ece1be8e6a25b58e50786a4d24c9d25c6dd898fb18629426e244b87cdda615a5bc3a89b6b3814cde6f0a0c98e
+Name: Rollectra / SemiRestore11-12
+Author: Pwn20wnd
+Sponsor: 汤圆™
+
+Package: cn.agricu.4dfu
+Architecture: iphoneos-arm
+Version: 1.0
+Section: System
+Depends: firmware (>= 6.0)
+Filename: ./debfiles/4dfu_1.0.deb
+Size: 52760
+MD5sum: 92143dfc5dd6d9dd1b41d2928f54753c
+SHA1: bd78820216603fd280ce7f94a48c520b539e9eb3
+SHA256: eb847c54c95d87a50460d2d6617837b01d00d86a874bd1870c4bc973a21c54de
+SHA512: b9dca59160a9293b469c52b46b06f643f382fb92a6568c38c619afe731c6e694143bd2b87e4c374f627e833213eb35336336601f8903dae0db199ca38dbec7e8
+Description: iPhone4s进入KDFU降级模式
+Name: 进入降级DFU模式
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.4dfu
+Author: HongV
+
+Package: cn.agricu.5dfu
+Architecture: iphoneos-arm
+Version: 1.0
+Section: System
+Depends: firmware (>= 10.0)
+Filename: ./debfiles/5dfu_1.0.deb
+Size: 55144
+MD5sum: 929d2f8ed7d42be96dd68b12c69acb54
+SHA1: ebb354a4914bb8211008e6f066eaef088a02a85f
+SHA256: eb2ac273e3e7e6404970ce09ce3bdd753a6a74eb3c9228858acf54dfc4442131
+SHA512: bc4cebd7a8413a2bf9dbaf74bd872206f02442780bfd9c51b25dad64d2b53c48de397f2b94e159750d3cab18a9574d3749f2b153291b6355b6d97e20147f3e74
+Description: iPhone5进入KDFU降级模式
+Name: 5进入降级模式
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.5dfu
+Author: Agricu
+
+Package: com.saurik.afc2d
+Architecture: iphoneos-arm
+Version: 1.2
+Priority: optional
+Section: System
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Provides: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware (<< 8.0) | mobilesubstrate
+Conflicts: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Filename: ./debfiles/AFC2d_1.2_iphoneos-arm.deb
+Size: 18114
+MD5sum: 34291f44d22cfbbf3eb4bad0ade3b89c
+SHA1: bddaf385263b9aad2b032b2116179f83afd077cc
+SHA256: 287ac4ce1a6e4095e824fd90f71fed301ff7d9508f1cd2d87a7354053e347a3c
+SHA512: 6c7d197bc29d72bf5e2a68cec5aa56d08b750d0c2523ed5da5d3838bf8f943000d3adf41e704ccd54ed4b64cbf473af3e37c36386eab3a00d37aed5c058410f1
+Description: allow full file-system access over USB
+Tag: purpose::daemon, role::enduser
+Name: Apple File Conduit "2"
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/com.saurik.afc2d/
+
+Package: apt.cydiaba.Clutch1111
+Architecture: iphoneos-arm
+Version: 2.0.4
+Priority: standard
+Essential: no
+Section: TB-工具
+Maintainer: KJCracks
+Installed-Size: 1120
+Filename: ./debfiles/Clutch_2.0.4_iphoneos-arm.deb
+Size: 250326
+MD5sum: f40110ac95506b630a18bc4e53fde2aa
+SHA1: 3c9d53d68b813fddee54d20369aa00f4cf48e2f2
+SHA256: b9edb44704b20fb2fa9593c917061982828243ab2ce0f60711fed87b62abaa1e
+SHA512: e9f3868ca81e829a5e2bd6948a9a37741b76185f7910579ae66c663db1c3cb27b3d6207cacbe66ad2b041f2489721b7b0f80a78efd686ecf8553d38929b034b7
+Tag: role::enduser
+Section1: iOS10
+Name: 去掉正版APP签名ID
+Author: KJCracks
+Sponsor: KJCracks
+
+Package: tetherme.178
+Architecture: iphoneos-arm
+Version: 3.0-3
+Section: [178 - 工具]
+Maintainer: 178 Team <apt@178.com>
+Installed-Size: 437
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), firmware (<< 3.2) | firmware (>= 4.0), preferenceloader (>= 2.2.2), network-cmds
+Conflicts: net.tetherme.apnedit, net.tetherme.preferences
+Replaces: net.tetherme.apnedit, net.tetherme.preferences
+Filename: ./debfiles/TetherMe个人热点.deb
+Size: 55816
+MD5sum: bd067888870863fc35fbadc4c67b3495
+SHA1: 7bc810b68b33bd2009c810745ab0e8be83a66a75
+SHA256: 7670288dbd646c31632455884d41e3cef4e42abbb0d04dfa19a739acce6a8e9d
+SHA512: 095cab9a87bfa11ac02344b242172e09fdc7adb534a6fda92ed24b68ae60c25ef9391147ba916f38be6952d9969893ca391dd27bfa962e664ff4c25777bddfdb
+Homepage: http://apt.178.com/html/2014/0102/iphone10343.shtml
+Description: 开启设备移动网络下网络共享功能。
+Name: TetherMe
+Author: cirdan & sbingner <support@tetherme.net>
+dev: tetherme
+Icon: file:///Library/PreferenceBundles/TetherMe.bundle/TetherMe@2x.png
+Sponsor: w花
+Depiction: http://apt.178.com/html/2014/0102/iphone10343.shtml
+
 Package: com.sina.sinaweatheralarm
 Architecture: iphoneos-arm
 Version: 1.1.5
@@ -21,13 +136,30 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 dev: tianqitong
 Icon: file:///Applications/SinaWeatherAlarm.app/Icon-Small.png
 
+Package: org.h6nry.adowngrader
+Architecture: iphoneos-arm
+Version: 0.0.1-21
+Section: Tweaks
+Maintainer: H6nry <henry.anonym@gmail.com>
+Installed-Size: 216
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debfiles/adowngrader_0.0.1-21.deb
+Size: 6704
+MD5sum: 36e394d04007ccc87b7e9f54c6c38015
+SHA1: 81ed1599cdf4704682d582f661295acbba20e401
+SHA256: 10d798dfb460c93af9dfa521bc7761cc1c53b5f638014d7d8352c4fce223b113
+SHA512: cd2c3a4050d4c3d741be4fcd425c97a4ef55232f4d3f0e80aae40f93c710241294da3a21f31b04381897117bf5f41fa97532280ad6ec51992e83f9a1e903a529
+Description: Downgrade your apps, well, at least try it.
+Name: Adowngrader
+Author: H6nry <henry.anonym@gmail.com>
+
 Package: com.iphonecake.appcake2.ios6
 Architecture: iphoneos-arm
 Version: 4.59
 Section: Utilities
 Maintainer: hotsjf <iphonecake@gmail.com>
 Pre-Depends: firmware (>= 6.0) | firware (<= 7.0)
-Filename: ./debfiles/app cake2.ios6_4.59_.deb
+Filename: ./debfiles/app cake2 ios6-4.59.deb
 Size: 4595808
 MD5sum: 252c83feff126e6696e5fd7dce87580c
 SHA1: 4ef64c8287a625091f305006273f61cdac3b6b17
@@ -39,6 +171,74 @@ Author: hotsjf <iphonecake@gmail.com>
 Website: http://iphonecake.com/forum/
 Icon: file:///Applications/iPhoneCake.app/AppIcon57x57.png
 Depiction: http://iphonecake.com/mobileapp/depiction/ios6.html
+
+Package: org.thebigboss.auxopad
+Architecture: iphoneos-arm
+Version: 1.0.2-1
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 805
+Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader, applist, com.a3tweaks.flipswitch, gsc.ipad
+Filename: ./debfiles/auxo-ipad_1.0.2-1_iphoneos-arm.deb
+Size: 601434
+MD5sum: 57ae18b412d039c237ca25903a4e7a98
+SHA1: c58a6e2be1323ed5f86e82a5e51de038cee4c336
+SHA256: 7c2348ce74c08b5b042764a106b41dd6ef413a092d40bb0c7ae488cf0e7eb266
+SHA512: 32c45286da8dce24f030f7c750ce9213107a6c0b48323f2b69ef0c8f692dbb462d81677399aaa5ace1a102f486b177f615b4d177822ba2181106f09a252198d7
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxopadDp
+Description: A fantastic re-imagined multitasking bar!
+Tag: cydia::commercial, purpose::extension
+Author: A3tweaks <A3tweaks@gmail.com>
+Name: Auxo for iPad
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxopadDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: a3tweaks
+Icon: file:///Library/PreferenceBundles/Auxo.bundle/AuxoIcon@2x.png
+
+Package: auxo.178
+Architecture: iphoneos-arm
+Version: 1.4-2
+Section: [178 - 工具]
+Maintainer: 178 Team <apt@178.com>
+Installed-Size: 2127
+Depends: firmware (>= 5.1), mobilesubstrate, preferenceloader, applist
+Filename: ./debfiles/auxo.deb
+Size: 1822346
+MD5sum: 414b8ccebe8f471a2976a6a6f645784e
+SHA1: 197f4672ab72d8e038e397cb741545392ca3d836
+SHA256: 37442c31596e2ae8022d4ca9c14ab34572e431e4523750d7487624123f698250
+SHA512: 498b46c9b98b387f83e5c3ebe203b4506cf879bb37cfb65e443daf1957a474297c1f1f7361ea9ffdb04703a2617b87df3b1ada6eba79fd49bbfb7139245fc4de
+Homepage: http://apt.178.com/html/2013/0526/iphone9762.shtml
+Description: 最酷最好用ios多任务增强插件。
+Author: A3tweaks <A3tweaks@gmail.com>
+Name: Auxo
+dev: a3tweaks
+Icon: file:///Library/PreferenceLoader/Preferences/AuxoIcon@2x.png
+Sponsor: w花
+Depiction: http://apt.178.com/html/2013/0526/iphone9762.shtml
+
+Package: org.thebigboss.auxo
+Architecture: iphoneos-arm
+Version: 1.4-2
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 2127
+Depends: firmware (>= 5.1), mobilesubstrate, preferenceloader, applist
+Filename: ./debfiles/auxo_1.4-2_iphoneos-arm.deb
+Size: 1818854
+MD5sum: 11753f550e6b4cab730a5eb55bbd8dab
+SHA1: 846623888fe869f3930bf63ffb9d200cabf83dbb
+SHA256: a63e4aab3d823fe957337b1b5c3a70fa9e86dd485c9f38e4b75265ce8c1cc4ad
+SHA512: cf619a3b77b0ca4c1a392f913aab3df372607ddcc61794813f6b5339e90eab21fc77532606459bdb9022cb2756fae7ab6299e4bf8906a7d67a3bbb0a213e5378
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxoDp
+Description: A fantastic re-imagined multitasking bar!
+Tag: cydia::commercial, purpose::extension
+Author: A3tweaks <A3tweaks@gmail.com>
+Name: Auxo (iOS 5 & 6)
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxoDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: a3tweaks
+Icon: file:///Library/PreferenceLoader/Preferences/AuxoIcon@2x.png
 
 Package: com.coolbooter.cbuntether
 Architecture: iphoneos-arm
@@ -219,6 +419,25 @@ Name: CrackerXI+
 Website: https://ipastore.me
 Icon: file:///Applications/crackerxi.app/AppIcon.png
 
+Package: com.julioverne.cydown
+Architecture: iphoneos-arm
+Version: 7.1.0
+Section: Tweaks
+Maintainer: Julio
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Filename: ./debfiles/cydown_7.1.0.deb
+Size: 4325614
+MD5sum: abfcd6c91010d2ffc72575a5afa59d96
+SHA1: 8a319c42088dd119d506c40648ce6304dc342dbd
+SHA256: e7c908c61d146c2d22e68db6488162111ef62b8fa61c2de1744c977ec7f5a138
+SHA512: 9565980caccd495eebe3ca404750d3e8048c3a29f7d38e66b54b8a78ba7f4746e1d1b69e32e82ceb05305896a1ee7e19c8aad82399e8bf8274a06d85b4661b7f
+Homepage: http://twitter.com/ijulioverne
+Description: Cydia Download Manager & Extra Features!
+Name: CyDown
+Author: julioverne <julioverne@me.com>
+Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.cydown
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+
 Package: com.weiphone.Battery
 Architecture: iphoneos-arm
 Version: 1.2.1
@@ -253,6 +472,59 @@ SHA512: 921a87c94594fb1a67954b412ce589271d47e0a1eb5ac0445fdabfc6071244dcf0ff885b
 Description: DumpDecrypter是基于dumpdecrypted的修改封装，使用方式：通过桌面的DumpDecrypter应用程序选择需要解密的应用，增加可选修改版本限制，可选删除跳转URL，可选删除设备限制，可选删除包内小组件，可选删除包内手表组件，可选修复白图标，解密完整应用并导出至/var/mobile/Documents/DumpDecrypter，选择应用后自动杀掉应用进程重新开始，解密前加载所有Frameworks，解密前停止所有非解密线程，解密完成后自动恢复等(解密后的IPA如果你要直接安装，建议重签名，无论使用的签名证书是否有效，否则某些环境会出现闪退等问题)
 Name: DumpDecrypter
 Author: Netskao
+
+Package: GamePlayer
+Architecture: iphoneos-arm
+Version: 1.3.5
+Priority: optional
+Section: utils
+Maintainer: Maocai Luo <luomao2000@tom.com>
+Installed-Size: 2800
+Depends:
+Filename: ./debfiles/gameplayer_v1.3.5.deb
+Size: 1096754
+MD5sum: 5c0563bc36326a17d890ae06d36a0e7d
+SHA1: 5f827470de3c5e8b16320c0da16e86276316d0b3
+SHA256: e0f0c5c44540e5cec5b094c40c5e4f22145150cc1571f881fea2758e59fd63c5
+SHA512: 4ae4c64bb8a1ccbcf4ef7392031cf89788c65a6afdc446e58bd8664a2d62025e6cef938df5b30293f48ef4c45eb4d6224c11b31544d5fa4ec76123db7e3a9ec6
+Description: GamePlayer is a game cheating tool. It can easily modify HP, MP, money and so on. iOS 4.3.x, 5.x and 6.x are supported.
+
+Package: com.michael.generatorautosetter
+Architecture: iphoneos-arm
+Version: 0.5.11
+Section: Tweaks
+Maintainer: Halo Michael <yc992147156@me.com>
+Depends: firmware (>= 12.0), com.michael.libdementia (>= 0.2.7), preferenceloader
+Filename: ./debfiles/generator autosetter_0.5.11.deb
+Size: 11392
+MD5sum: 2e57b0c5c9d2e116c1404e2182ea30b1
+SHA1: 34df84331d20789fed7c90796b212ce4f198cae7
+SHA256: 9d4894d93e74df1e91baea71dd5303429ba6cdd9cb2dd0bfd34fd7923662a938
+SHA512: 98c8b772d6a9d7158cbfc9c3db71c2148f06e0a9e141d5af8682c642d1d6dd5b93d4b522759638c8205d305440c47864a730e89738abd655a719045d23bf3795
+Description: Auto set your generator when jailbreaking!
+Name: Generator Auto Setter
+Author: Halo Michael <yc992147156@me.com>
+Sponsor: Halo Michael <yc992147156@me.com>
+Depiction: https://halo-michael.github.io/repo/info/generatorautosetter
+
+Package: xyz.cypwn.iparanger
+Architecture: iphoneos-arm
+Version: 1.4
+Section: Applications
+Maintainer: CyPwn
+Depends: ai.akemi.appsyncunified, gawk, unzip
+Filename: ./debfiles/iparanger_1.4.deb
+Size: 1236588
+MD5sum: c451aa3293100e25c344ba0a2d21041d
+SHA1: f30db9b0adce7e0fb46eadbeb86806a1e9ae8a56
+SHA256: 83fed244b26e53e7f3ad887d6d1c9b6330612079266f4314cbae83293d834cf1
+SHA512: 5424be7e815d5cdfa6d86727c0d4aee1bbadda4e004e6edb1ffcdb64a5a9cd103e3aba20e4028758b10679f296c7b085e29c44f6a8322b114f93f5762b822806
+Description: GUI Based Application for ipatool
+Depiction: https://repo.cypwn.xyz/depiction/1065
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/1065
+Name: IPA Ranger
+Author: 0xkuj
+Icon: https://media.havoc.app/6403ab157cd66b13e322fa81
 
 Package: ipwnderlite
 Architecture: iphoneos-arm
@@ -318,6 +590,105 @@ Description: Don't install if you don't know what that is
 Name: kloader
 Author: winocm, xerub
 
+Package: com.michael.libdementia
+Architecture: iphoneos-arm
+Version: 0.2.17
+Section: System
+Maintainer: Halo Michael <yc992147156@me.com>
+Depends: firmware(>= 10.0), firmware(<< 14.0) | libkrw | org.coolstar.libkernrw
+Filename: ./debfiles/libdementia_0.2.17.deb
+Size: 13332
+MD5sum: 2f777d4f8d3a0cdd513c6c2ce26aa811
+SHA1: a0cbbdbc8661f39233c26fa8e37d5b7100c73ce4
+SHA256: e6004c3ffdfe2c6592e710937eeffb650f97f353239940eae45ef1912e365a2d
+SHA512: 2433ffc69513da1fa5746121cc29dc2d258c39bbeddd35964a75f0edd90686aa16f84220d1e28b4d9a1fa1dcf72fc94403233d3d0f164d049c4081010c076391
+Description: Library of dimentio
+Name: libdementia
+Author: 0x7ff
+
+Package: mobileterminal-applesdk
+Architecture: iphoneos-arm
+Version: 520-2
+Section: Terminal Support
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 601
+Depends: firmware (>= 3.2), dpkg (>= 1.14.25-8), bash, coreutils, ncurses, system-cmds
+Conflicts: mobileterminal
+Filename: ./debfiles/mobileterminal-applesdk_520-2_iphoneos-arm.deb
+Size: 237756
+MD5sum: 976152ac3cce2f95ae2092d97807fc31
+SHA1: 3cc37047bab030c34b9a4104f1ef655c4c960d6a
+SHA256: 6f02bb0e3f2833140725f3d6b848e9b0a1e786855dc451778133149ac2ebc986
+SHA512: 734cdd8f62246936030421e172a2f484593d2472ce7c844fe782d9650ebe331eabc4bfdbd4593b5faec9a786a3ffb7dd2e0b5caca1af4c9c3dfb0a6c699b0baa
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mobileterminalDp
+Description: A Terminal emulator for iOS
+	This is a Terminal emulator for the iPhone. With it you can do all of your standard system administration tasks from anywhere: ssh into remote boxes, download files, edit configuration files, whatever.
+Tag: purpose::uikit
+Author: MobileTerminal <mobileterminal@googlegroups.com>
+Name: MobileTerminal
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mobileterminalDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: allenporter
+Icon: file:///Applications/Terminal.app/Icon.png
+
+Package: net.85819.ios.otrlocation
+Architecture: iphoneos-arm
+Version: 2.6.1-1
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 8222
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 5.0)
+Filename: ./debfiles/otrlocation虚拟定位 ios6_2.6.1-1.deb
+Size: 3489794
+MD5sum: bccdf81c9211400296ff7413cdca89b9
+SHA1: 82ca322ae9de3700d966c8df49166d8d67e3d9d7
+SHA256: 8bfc7306287b4d905b6f4592201c68dafbe142470615f8897e0c7ff72f76a9b7
+SHA512: e17fcaf204be011e90e27a7b81182e4e125645ee201f78d7c1b8e12b57f971039928d62a5cec6bb68b84dfa32ce27c4cdbd3cfa837af9c08f29700f02f5124fb
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=otrlocationDp
+Description: 完全免费的地址和设备型号修改神器!
+Tag: purpose::extension, compatible::ios7, compatible::ios8
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=otrlocationDp
+Author: onTheRoadStudio <ontheroadstudio@live.cn>
+Name: Anywhere!--虚拟定位
+dev: ontheroadstudio
+Icon: file:///Applications/OTRLocation.app/icon.png
+
+Package: io.pangu.axe7
+Architecture: iphoneos-arm
+Version: 0.3
+Priority: optional
+Section: System
+Maintainer: Pangu <axe@pangu.io>
+Depends: coreutils-bin, firmware (>= 7.1), firmware (<= 7.1.2)
+Filename: ./debfiles/pangu.axe7_0.3_iphoneos-arm.deb
+Size: 107276
+MD5sum: 3d86ef34bda9287e6081dda95b7593dd
+SHA1: 4267988b1bfdc4578dced131667ccca8eb6eb986
+SHA256: db7e412fd629802e26c8aec481cdca9cfe0a3bc33c7a4cc243351245da5cb172
+SHA512: 74a2503e10172785b642b21801debd93c3862c81523b7ae53cd23c4b17aaef736df0a466c47caa03fc10fe75a5e7888fcc8f5b70adfad2fb5ddbba0a6b4a8e22
+Description: untethered jailbreak based on pangu exploits
+Author: Pangu <axe@pangu.io>
+Name: Pangu 7.1-7.1.x Untether
+Depiction: http://cydia.saurik.com/info/io.pangu.axe7/
+
+Package: io.pangu.xuanyuansword8
+Architecture: iphoneos-arm
+Version: 0.5
+Priority: optional
+Section: System
+Maintainer: Pangu <axe@pangu.io>
+Depends: coreutils-bin, firmware (>= 8.0), firmware (<= 8.1)
+Filename: ./debfiles/pangu.xuanyuansword8_0.5_iphoneos-arm.deb
+Size: 456978
+MD5sum: 4aaf6a47faf4896d73955980eaa9c078
+SHA1: c6b1673b646a5a72a92232210bf3fb4c44dba9ce
+SHA256: 16ebfa004be2825288121560a73b67729fcc6721e6fca83c7963db812d934e96
+SHA512: e3e050ecad906c42760abeef308499402be3b2a10c5369691a2251653ca8bdddc55c67006fb4db95a21dd6030f379421379870f9bb511826d1f582d3165c2112
+Description: untethered jailbreak based on pangu exploits
+Author: Pangu <axe@pangu.io>
+Name: Pangu 8.0-8.1 Untether
+Depiction: http://cydia.saurik.com/info/io.pangu.xuanyuansword8/
+
 Package: org.coolstar.recordmyscreenapp
 Architecture: iphoneos-arm
 Version: 1.1-4
@@ -359,6 +730,138 @@ Name: iridium
 Author: Lakr Aream <launchctl@outlook.com>
 depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iridiumDp
 
+Package: sed
+Architecture: iphoneos-arm
+Version: 4.1.5-7
+Priority: important
+Section: Utilities
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 192
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./debfiles/sed_4.1.5-7_iphoneos-arm.deb
+Size: 88426
+MD5sum: e7197f9496605d9ba76268c405450887
+SHA1: 08486bbed3de689b4c5d9b2c18a9c2e6a1323639
+SHA256: ac7a9b8d26545b16d94834a68c150d182ec2a930edcec153a219adb79fa57119
+SHA512: c1a59d212615590ef2390c7c20c64cd6ee36bddd24de55c10c90641c0f28283ba07aeef0f8bbbeaae8ea0e9d440e7ea527a574bd629571c8652a796ad9f7f032
+Homepage: http://www.gnu.org/software/sed/
+Description: edits streams of text using patterns
+
+Package: com.hacktouch.springtomize
+Architecture: iphoneos-arm
+Version: 1.2
+Section: CrackTouch Repo
+Maintainer: DaniiStaff <daniistaff@cracktouch.com>
+Depends: mobilesubstrate, preferenceloader, com.hacktouch.icon
+Filename: ./debfiles/springtomize.deb
+Size: 89714
+MD5sum: 90bff147f828d41890e30df76c50c0cd
+SHA1: 6fe40263fc53cf9a38ca325d47bfa967b45b65ba
+SHA256: 29a99c524a6973e00b916ac4d9bdb9a0e8c66a63746e9008cb13729020bf78af
+SHA512: 477a71345ace10c9711072f4dff5b45e8cc2016d9b9cfd1516d9d4d6b55fce55264ba887783e871f3aa64b2d1180a311c71a8cb6cec59b3e577f5ea491ce0e3b
+Homepage:  http://www.cracktouch.com
+Description: Muchas opciones para tu SpringBoard
+ CrackTouch
+Name: Springtomize
+Author: DaniiStaff <daniistaff@cracktouch.com>
+Sponsor: Ray <http://www.cracktouch.com>
+
+Package: com.filippobiga.springtomize2-icons
+Architecture: iphoneos-arm
+Version: 1.0-1
+Section: Addons
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 88
+Depends: firmware (>= 5.0)
+Replaces: com.filippobiga.springtomize2 (<< 1.3-3)
+Filename: ./debfiles/springtomize2-icons_1.0-1_iphoneos-arm.deb
+Size: 68014
+MD5sum: d59a046a55fc34d7baee571ff99f7bee
+SHA1: d9bb1599c6065237c3e211996386b588939d149d
+SHA256: 96154dce09c2d93ff1d0ef10e3bdcddb3f01304c1a25b0f2eadfb416d68bf52f
+SHA512: 99c19bc1cd48ed553e5ae0e049165df5311656914b1b90d1dbf83e7dd30dc46316d6e1cd14b7a951411017924c558414b730c161f5ba63768d5bb2275a8ff6d0
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=springtomize2Dp
+Description: Settings Icons for Springtomize2
+Tag: role::developer
+Name: Springtomize2-Icons
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=springtomize2Dp
+Author: FilippoBiga <filippobiga.dev@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: filippobiga
+Icon: file:///Applications/springtomizeapp.app/Icon.png
+
+Package: com.filippobiga.springtomize2-localizations
+Architecture: iphoneos-arm
+Version: 1.0.1
+Section: Addons
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 222
+Depends: firmware (>= 5.0)
+Replaces: com.filippobiga.springtomize2 (<< 1.3-3)
+Filename: ./debfiles/springtomize2-localizations_1.0.1_iphoneos-arm.deb
+Size: 56800
+MD5sum: f2392d0ec872bbf2f797f83ea2b6e076
+SHA1: df7f85514ce0501745ba647d9345d93e58a9f3b9
+SHA256: c48dd5d2a855b1df70cebadabdefb1eecd2c21875a5d802b0af3f0081270dd9d
+SHA512: b2105a7ab03ad9fb56676baf66b6b981858063b36dbfaf47c97573b3f6045c1c185fbc0193497a5b8715c3bbf8018ca41d7de0d540c35d0be16aafa5f09fa595
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=springtomize2Dp
+Description: Localizations for Springtomize2
+Tag: role::developer
+Name: Springtomize2-Localizations
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=springtomize2Dp
+Author: FilippoBiga <filippobiga.dev@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: filippobiga
+Icon: file:///Applications/springtomizeapp.app/Icon.png
+
+Package: com.filippobiga.springtomize2
+Architecture: iphoneos-arm
+Version: 1.4.5-1
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 573
+Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader, com.filippobiga.springtomize2-icons, com.filippobiga.springtomize2-localizations
+Conflicts: com.filippobiga.springtomize
+Filename: ./debfiles/springtomize2_1.4.5-1_iphoneos-arm.deb
+Size: 220784
+MD5sum: 68239afebbb1a7de95d8e358b0207c9d
+SHA1: 31107e6e35ad83edbcf3d048fc3d2b660dc2d0d0
+SHA256: f33f9609b3b6dae8c39e459f25ce1622b0ee9be7046e8bef136737205720fab9
+SHA512: 365c1b05254274920b1f23b78fae47afd9660f597a643d98ea7e6867d183c68a2b930a92abe3b57014d954621d66d1d9b15141b21cdd1aa258f2e29a5af2f838
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=springtomize2Dp
+Description: SpringBoard, the way you want it. All over again.
+Tag: cydia::commercial, purpose::extension
+Name: Springtomize 2 - iOS 5 & 6
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=springtomize2Dp
+Author: FilippoBiga <filippobiga.dev@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: filippobiga
+Icon: file:///Applications/springtomizeapp.app/Icon.png
+
+Package: com.filippobiga.springtomize2
+Architecture: iphoneos-arm
+Version: 1.3k
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 737
+Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader
+Conflicts: com.filippobiga.springtomize
+Filename: ./debfiles/springtomizeHH.deb
+Size: 330410
+MD5sum: 11d23c72fb616c889493090e0d789f2b
+SHA1: 2b973aa4d10767e02a9bada689018c293d2c720d
+SHA256: d711ca1e00eb573e0dc611ce52d406e124f1734f3f29ab1d59d7229a85372041
+SHA512: 0a51a8c92417aa09ff429669b6b007ac8418aa88d3ea4dd07724b0c7de6e8883d0999d847765ada9531ba5f2b4401e3af13a59aeb2ca72f5247678b4acf0a64b
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=springtomize2Dp
+Description: SpringBoard, the way you want it. All over again.
+Tag: cydia::commercial, purpose::extension
+Name: Springtomize 2 - iOS 5+
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=springtomize2Dp
+Author: FilippoBiga <filippobiga.dev@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: filippobiga
+Icon: file:///Applications/springtomizeapp.app/Icon.png
+
 Package: com.abcydia.systeminfo
 Architecture: iphoneos-arm
 Version: 2.7.2-1
@@ -375,6 +878,22 @@ Description: 显示更多系统底层参数
 Name: System Info 系统详情
 Author: ARX8x
 Sponsor: ABCydia <http://www.abcydia.com>
+
+Package: com.opa334.trollstorehelper
+Architecture: iphoneos-arm
+Version: 1.5.0
+Section: Applications
+Maintainer: opa334
+Installed-Size: 676
+Filename: ./debfiles/trollstorehelper_1.5.0.deb
+Size: 216412
+MD5sum: 5ab7ce2667b12a2b58a7f0c97dd42ce4
+SHA1: 35459907b3b1362e86c4a48fd28aa71df0102811
+SHA256: debffd5cedb097e0276af914b5fbb684831dac2490ce679f14c032084e0d8944
+SHA512: a3c6d337ffaabf9fa72b26d14f04ed43e8d4b50a49ab971116e0314ab2c03d6aed898c2eae31241122934980274fb9b2b3f843b7d7818d0204c26480f08e78b5
+Description: Helper utility to install and manage TrollStore!
+Name: TrollStore Helper
+Author: opa334
 
 Package: com.unthreadedjb.unthredera1n
 Architecture: iphoneos-arm
@@ -397,4 +916,183 @@ Tag: role::enduser
 Name: Unthredera1n
 Depiction: http://ichitaso.com/apt/depiction/unthredera1n.html
 Author: UnthreadedJB
+
+Package: zephyr.178
+Architecture: iphoneos-arm
+Version: 1.6.4-1
+Section: [178 - 工具]
+Maintainer: 178 Team <apt@178.com>
+Installed-Size: 112
+Pre-Depends: firmware (>= 5.0)
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.layersnapshotter
+Conflicts: com.dapetcu21.MultiCleaner (<= 2.9.4), com.xsellize.multicleaner, com.xsellize.zephyr
+Filename: ./debfiles/多任务后台.deb
+Size: 44894
+MD5sum: 0db728594f7b60be016451db3e1b6178
+SHA1: e322f685116af17b7245c2c69e083af3eddd05e4
+SHA256: 6ef481322b9d2aff158949fb605766a78ae1070a2f2861cb6d87982472121ced
+SHA512: 71916ab60fd777d627c5d02c86648ed61524a05a560dada752ddf8b96d6f8db761e8895a88e5203764d10df49d668d71d38fd1d054317a1dd3de96d4bcee6c06
+Homepage: http://apt.178.com/html/2013/0225/iphone9155.shtml
+Description: Zephyr允许您单指或多指从dock上拉开启后台或关闭程序，程序中边缘左右滑动切换后台程序。
+Name: Zephyr
+Icon: file:///Library/PreferenceLoader/Preferences/Zephyr@2x.png
+Author: chpwn <support@chpwn.com>
+dev: chpwn
+Sponsor: w花
+Depiction: http://apt.178.com/html/2013/0225/iphone9155.shtml
+
+Package: com.dewmobile.zapyapro
+Architecture: iphoneos-arm
+Version: 2.1.2
+Section: Utilities
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 25123
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debfiles/快牙zapyapro_2.1.2_iphoneos-arm.deb
+Size: 10444156
+MD5sum: f08cce8e4737d72a6076117530c0529a
+SHA1: 993db0ee0b31aacb03daaba20c1a81658a906651
+SHA256: c7d3d018de8cdf0ecec020298e03361ad8678be8845602af0ee5ba9aa687dffa
+SHA512: f39520d9b9278b6f8769cefb62b98e8d419c4954731d10c17ffbe368d596a21819612dbe89538ae9fcfdfdd100797a1f3ec8deec29ccb53ab4ccbad91724e059
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=zapyaproDp
+Description: share media & files to other phones
+	Best transfer tools on mobile phones, allow users to share all kind of contents such as Apps, Music, Video, Photos and Files to iOS and Android devices.
+Name: 快牙Zapya
+Author: Dewmobile <release@dewmobile.net>
+dev: dewmobile
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=zapyaproDp
+Icon: file:///Applications/Zapya.app/Icon.png
+
+Package: com.abcydia.newterm2
+Architecture: iphoneos-arm
+Version: 2.3
+Section: Utilities
+Maintainer: WZteam <admin@abcydia.com>
+Installed-Size: 6704
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.13), bash, coreutils, ncurses, system-cmds, com.linusyang.localeutf8
+Conflicts: ws.hbang.newterm
+Replaces: ws.hbang.newterm
+Filename: ./debfiles/手机终端2newterm2_2.3.deb
+Size: 2129108
+MD5sum: 7fd12eb78a0e16d637781f5681825eb6
+SHA1: b8876ace50929f624a9c16ae5120cf88c42a8cf3
+SHA256: 0cf7ccdaa34545c10508aacbdf1b8cec3af80173e16b8513177e2bdd777e3f3b
+SHA512: d1623f8804296669284e00afafa59fec543966ead279f1df9ddaccbae5557fc3bec8232d3bb35dbc84da1bc6d9e534ad1f6e0616f56e235c342aa77423f92a05
+Description: 运行在iOS上的手机终端
+Tag: compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Name: NewTerm 2 手机终端
+Author: HASHBANG Productions
+Sponsor: ABCydia <http://www.abcydia.com>
+Icon: file:///Applications/NewTerm.app/AppIcon60x60@3x.png
+
+Package: com.abcydia.mterminal
+Architecture: iphoneos-arm
+Version: 1.4-6
+Priority: standard
+Section: Utilities
+Maintainer: WZteam <admin@abcydia.com>
+Installed-Size: 776
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: bash, coreutils, ncurses, system-cmds
+Filename: ./debfiles/手机终端_1.4-6.deb
+Size: 108066
+MD5sum: f288ed8989cb93b4a4310edec237fb89
+SHA1: 3aaf0457e3edab28790ab47aaa237e2338a77cd7
+SHA256: 8303f9ce35f7271347d7ba00ba1428b8bf5be3f0408bbc3133188a322199f20a
+SHA512: ffa6bcc703fbf7be85351d91bc19925e7838b53f6ff0fcfa007ea7c1086757826bbeedab1642bcbe0e283cec842d14d42cc7b471b1742296630c1ffa905b08a3
+Description: 运行在iOS 上的手机终端
+Name: MTerminal 手机终端
+Author: lordscotland <admin@officialscheduler.com>
+Sponsor: ABCydia <http://www.abcydia.com>
+
+Package: com.sogou.sogouinputiphone4
+Architecture: iphoneos-arm
+Version: 4.8.2-53549
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 25120
+Depends: mobilesubstrate (>=0.9.5000), firmware (>= 5.0), firmware (<< 8.0)
+Conflicts: sogouinput, com.sogou.sogouinputiphone, com.sogou.sogouinputiphone4, app.weiphone.sogou.sogouinputiphone4, app.weiphone.sogou.sogouinputiphone, sogouinputiphone4.91, sogouinputiphone.91, sogouinputiphone4.178, sogouinputiphone.178, com.duowan.sogou.sogouinputiphone4.tui, com.duowan.sogou.sogouinputiphone.tui, com.duowan.sogou.sogouinputiphone4, com.duowan.sogou.sogouinputiphone
+Replaces: sogouinput, com.sogou.sogouinputiphone, com.sogou.sogouinputiphone4, app.weiphone.sogou.sogouinputiphone4, app.weiphone.sogou.sogouinputiphone, sogouinputiphone4.91, sogouinputiphone.91, sogouinputiphone4.178, sogouinputiphone.178, com.duowan.sogou.sogouinputiphone4.tui, com.duowan.sogou.sogouinputiphone.tui, com.duowan.sogou.sogouinputiphone4, com.duowan.sogou.sogouinputiphone
+Filename: ./debfiles/搜狗输入法-iphone_4.8.2-53549.deb
+Size: 12537156
+MD5sum: 14fd23678936cafbfd80ee82cfed262b
+SHA1: 1e2943d863b403952ad34a94c83c995e503ef1ed
+SHA256: 6b382f793775f54b099d3746a21be666faff35b71bba13a01c204261a55d5d23
+SHA512: ce29450b9d6ec4e6a4ea7017c3e4b645ac1b66c9a708a723643e8fab03597bdcb4fa0099b3b5d50392d876019ebbcaabde8a22ecc5e5eba8a0294223970a3f14
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sogouinputDp
+Description: 最适合中国用户使用的iPhone输入法。
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sogouinputDp
+Author: Sogou <mobile_sogou@sohu.com>
+Name: 搜狗输入法(iPhone)
+dev: sogou
+Icon: file:///Applications/SogouSettings.app/icon_cydia.png
+
+Package: com.sogou.sogouinputipad42
+Architecture: iphoneos-arm
+Version: 4.0.2-52978
+Section: [搜狗输入法]
+Maintainer: mobile_sogou@sohu.com
+Depends: mobilesubstrate (>=0.9.5000), firmware (>= 5.0), firmware (<< 8.0)
+Replaces:  sogouinput, com.sogou.sogouinputipad42, app.weiphone.sogou.sogouinputipad42, sogouinputipad42.91, sogouinputipad42.178
+Filename: ./debfiles/搜狗输入法HD-4.0.2.deb
+Size: 12679338
+MD5sum: 25cf8acda781851b888861cb5a767876
+SHA1: 7481052390bc5ee30b4ea2e31fc74c878c09bae7
+SHA256: bf9614dddd335e2f5de0c76c0e1275c987fcc99b6359f156ba6b4b11a42f0168
+SHA512: ef33034ddcc5593feebd88a6ce105fb837a634879b0d0dcbbaf16c6318ee76180b506fd8eefd4153cb72641fad5f5f5d5a3a27e4d8fde0ac24b07beb1d327b11
+Homepage: http://shouji.sogou.com/
+Description: 最适合中国用户使用的iPad输入法。
+Name: 搜狗输入法(iPad)
+Depiction: http://shouji.sogou.com/cydia/index.ipad.html
+Author: 搜狗
+Icon: file:///Applications/SogouSettings.app/icon_cydia.png
+
+Package: com.sogou.sogouinputipad42
+Architecture: iphoneos-arm
+Version: 4.0.1-49753
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 19110
+Depends: mobilesubstrate (>=0.9.5000), firmware (>= 5.0), firmware (<< 8.0), gsc.ipad
+Conflicts: sogouinput, com.sogou.sogouinputipad42, app.weiphone.sogou.sogouinputipad42, sogouinputipad42.91, sogouinputipad42.178
+Replaces: sogouinput, com.sogou.sogouinputipad42, app.weiphone.sogou.sogouinputipad42, sogouinputipad42.91, sogouinputipad42.178
+Filename: ./debfiles/搜狗输入法ipad42_4.0.1-49753_iphoneos-arm.deb
+Size: 10564504
+MD5sum: 51a862bfa1d623bb829c716f3968c3d0
+SHA1: 99b27388debce707248f328895cc81f00139e37e
+SHA256: 129089b2a4b507a7f548573d328b1127d6d1a8a63b606170ad91a25809a37a36
+SHA512: 6bfb8d307b64492c4fbeef42faaf6eef7ce0873836ecac62004d4a21effd122930c10b74e2898f4867707eaee415a54ba12367eae0220b986db3db6c1f4ddd5d
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sogouinputipadDp
+Description: 最适合中国用户使用的iPad输入法。
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sogouinputipadDp
+Author: Sogou <mobile_sogou@sohu.com>
+Name: 搜狗输入法(iPad)
+dev: sogou
+Icon: file:///Applications/SogouSettings.app/icon_cydia.png
+
+Package: com.ijinshan.kbatterydoctorpro
+Architecture: iphoneos-arm
+Version: 4.6.1-11
+Priority: optional
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 4712
+Depends: mobilesubstrate, firmware (>= 5.0), firmware (<< 7.0)
+Conflicts: app.weiphone.jinshan.kbatterydoctorpro, app.weiphone.myrepospace.oyoung.guan, app.weiphone.ijinshan.kbatterydoctorpro, com.ijinshan.kbatterydoctorpro, com.ijinshan.kbatterydoctorpro.universal, com.myrepospace.oyoung.guan, kbatterydoctorpro.appvv
+Filename: ./debfiles/金山电池医生专业版_4.6.1-11.deb
+Size: 2643190
+MD5sum: 98534eddb880f25b6baaefdfa9ea8077
+SHA1: 7f1a6a9ade562708b9acffdf40f245a0265e3d0d
+SHA256: 15c42e43906ee8b19e938fe5ea4fe714c77f21c8f3a43d068fce393e0b9da014
+SHA512: 8976e6529b53e137b05e08a7b1a59a275cbbc9cf179808522d43e3e59d97bc4a822e160f43ee697b5f2445121afafd315b017ba2af52e952cd6b2a1ae1b9deb3
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=batterydoctorproDp
+Description: BatteryDoctorPro (BDP) monitors and optimizes your battery
+Tag: purpose::extension
+Name: 金山电池医生专业版(BatteryDoctorPro)
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=batterydoctorproDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: Kingsoft Security <app@ijinshan.com>
+dev: kingsoftsecurity
+Icon: file:///Applications/kBatteryDoctor.app/icon.png
 
