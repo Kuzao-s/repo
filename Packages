@@ -69,6 +69,45 @@ Name: Apple File Conduit "2"
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/com.saurik.afc2d/
 
+Package: us.hackulo.appsync30
+Architecture: iphoneos-arm
+Version: 1.1
+Priority: standard
+Section: Hackulo.us
+Maintainer: Genius Blog <appsync@hackulo.us>
+Pre-Depends: firmware (= 3.0) | firmware (= 3.0.1)
+Filename: ./debfiles/AppSync for 3.0.deb
+Size: 292176
+MD5sum: 2e731080a922f82a7b458bc747188d98
+SHA1: 874e751befe4f170fc09c11193cf016a1684d742
+SHA256: 638937efab3f4e46432d9e0461a4c4057bc9758f158a2ffa964ca5d87c16d59c
+SHA512: 3c7ca04cc3909271b30f02294ed8be25e167089a5c9d25b8c4155d4c4a8c750c8b53529aa68af754ce76a6e1c6dbc8a4267807fefa94a647333ecfc4a4ad1e54
+Description: AppSync patches the installd file on your device
+Name: AppSync for OS 3.0
+Author: Reilly <appsync@hackulo.us>
+Sponsor: Hackulo.us <http://hackulo.us>
+Depiction: http://hackulo.us/depict/appsync30/
+
+Package: us.hackulo.appsync31
+Architecture: iphoneos-arm
+Version: 1.0
+Priority: standard
+Section: Hackulo.us
+Maintainer: Genius Blog <admin@hackulo.us>
+Pre-Depends: firmware (>= 3.1)
+Depends:
+Filename: ./debfiles/AppSync for 3.1.x.deb
+Size: 296804
+MD5sum: 5952d7077fe8e38452ac50f3d39cef9c
+SHA1: f7d53a4984eef265ae21256f8e4e48075e1ebc07
+SHA256: 20d381022d15181dd590ec6ba6cde5b337f100bce5d4f9f2374cc7b731e52dce
+SHA512: 8519f9a8718d6ccfc3590be9da5e7da513ccd01720f22c017153a32f28e909547bd0708c20a9970f51513321643a912a606384bee7e71341375053b016e52d92
+Description: AppSync patches the installd file on your device
+Name: AppSync for OS 3.1
+Author: Reilly <appsync@hackulo.us>
+Sponsor: Hackulo.us <http://hackulo.us>
+Depiction: http://hackulo.us/depict/appsync31/
+
 Package: apt.cydiaba.Clutch1111
 Architecture: iphoneos-arm
 Version: 2.0.4
@@ -214,25 +253,6 @@ Name: NGP.emu
 Author: Robert Broglia <repo@hackyouriphone.org>
 Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ngpemu
 
-Package: openssh
-Architecture: iphoneos-arm
-Version: 6.7p1-12
-Priority: important
-Section: Networking
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 4416
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: openssl
-Filename: ./debfiles/OpenSSH.deb
-Size: 587508
-MD5sum: 3fc8717e335ef37c7f10e99564ead3a1
-SHA1: 50b7ca5d6817f0510a0f194aa20f6e6e2de76cd7
-SHA256: a73e696b23b82b4224df7b61b869413fa7abc71ecd0100a9b469f83b32f7ebe9
-SHA512: 3e03d6f1cb98910c2a73efd92ced59cccc1c78fd22701304e6ee9e5d863a2bfa1b89c1bd53ad1b619430f69aa9a49609eb33d5eb7e972c80418b2fff83c28e19
-Description: secure remote access between machines
-Name: OpenSSH
-Depiction: http://cydia.saurik.com/info/openssh/
-
 Package: com.hackyouriphone.pceemu
 Architecture: iphoneos-arm
 Version: 1.5.19-r1
@@ -250,6 +270,29 @@ Description: full-featured PCEngine/TurboGrafx-16 emulator
 Name: PCE.emu
 Author: Robert Broglia <repo@hackyouriphone.org>
 Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=pceemu
+
+Package: com.explusalpha.snes9xexplus
+Architecture: iphoneos-arm
+Version: 1.5.29
+Section: Games
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 4813
+Depends: firmware (>= 5.0), gsc.armv7
+Filename: ./debfiles/SNES9xexplus_1.5.29_iphoneos-arm.deb
+Size: 1009016
+MD5sum: 243612e876ae0bbfac4fc88d00cd3418
+SHA1: f0eac3a3afcb08001e42e1d9f9d82f4c28bdc524
+SHA256: 0748376aa399934edab9fd0e9ba4b7ca0ef9cf74d049ca4bdcdc56adba0b6940
+SHA512: 2083167fda55f51275a7225a5a614f09768c2605f51de507b0a67473c1fca29b0fa8a01ae3690eebd3fb3856343192d9b1f1adae95940ebbb97fd4cf3a376c3a
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=snes9xexplusDp
+Description: Advanced SNES emulator; Snes9x 1.53
+Tag: purpose::uikit, ios7support::1, ios8support::1
+Author: Robert Broglia <info@explusalpha.com>
+Name: Snes9x EX+
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=snes9xexplusDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: explusalpha
+Icon: file:///Applications/Snes9xEXPlus.app/icon-57.png
 
 Package: tetherme.178
 Architecture: iphoneos-arm
@@ -335,25 +378,6 @@ Name: Apple File Conduit "2" (iOS 11+, arm64)
 Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.afc2d-arm64
 Sponsor: thebigboss.org <http://thebigboss.org>
 dev: cannathea
-
-Package: com.iphonecake.appcake2.ios6
-Architecture: iphoneos-arm
-Version: 4.59
-Section: Utilities
-Maintainer: hotsjf <iphonecake@gmail.com>
-Pre-Depends: firmware (>= 6.0) | firware (<= 7.0)
-Filename: ./debfiles/app cake2.ios6_4.59_.deb
-Size: 4595808
-MD5sum: 252c83feff126e6696e5fd7dce87580c
-SHA1: 4ef64c8287a625091f305006273f61cdac3b6b17
-SHA256: 2f1ded9c9dd46b6b84af9953f0cc7edd833a619c7f2f56efd715dfbf94c6f086
-SHA512: 5a27e0c6f255ec9a1deb42d17467670eb556021a03870e0e04820e91177d14f1f3ea785e360e0365415507ef55ca6043de3ca9da353e7debfed9920cae785a06
-Description: **All NEW AppCake 4.0! Clean UI with enhanced Settings, download cracked apps from the largest Cracked Store. Come with iTunes Sync, Metadata Removal, Update check, AirDrop Sharing and more. *** Require AppSync to be installed ***
-Name: AppCake for iOS6
-Author: hotsjf <iphonecake@gmail.com>
-Website: http://iphonecake.com/forum/
-Icon: file:///Applications/iPhoneCake.app/AppIcon57x57.png
-Depiction: http://iphonecake.com/mobileapp/depiction/ios6.html
 
 Package: ai.akemi.appsyncunified
 Architecture: iphoneos-arm
@@ -1277,6 +1301,28 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 dev: explusalpha
 Icon: file:///Applications/MdEmu.app/icon-57.png
 
+Package: mobilesubstrate
+Architecture: iphoneos-arm
+Version: 0.9.6301
+Priority: optional
+Section: System
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: com.saurik.substrate.safemode
+Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap
+Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
+Replaces: cycript (<= 0.9.594)
+Filename: ./debfiles/mobilesubstrate_0.9.6301_iphoneos-arm.deb
+Size: 122342
+MD5sum: f2ca15c08aab522d8b7e842238aa83c6
+SHA1: 02ad8dce33adae8ba256dd5a4cac3bdf0246deec
+SHA256: 8dc91a066f088632409fecf65613831b8d6802e3b799f2dc87563c3ea2ed06ca
+SHA512: 7dc2c4ec5ac9bbf97842771e201b433d2d7404ff05ab3e4a7fbb287f07a8cf07504d63155ed39612ba49ecc780f98148408cffc92b5b7dc5d81076821ca187af
+Description: powerful code insertion platform
+Name: Cydia Substrate
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/mobilesubstrate/
+
 Package: mobileterminal-applesdk
 Architecture: iphoneos-arm
 Version: 520-2
@@ -1429,20 +1475,62 @@ Name: Community Offsets
 Author: stek29
 Icon:
 
+Package: netskao.dumpdecrypter
+Architecture: iphoneos-arm
+Version: 1.2-9.4
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1330
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debfiles/netskao.dumpdecrypter_1.2-9.4_iphoneos-arm.deb
+Size: 323902
+MD5sum: f78e7a06a08fa67db73cfdaf9191adba
+SHA1: 0444ed606a4718c59afa1fed9446a7cba2d227df
+SHA256: 3d881bcc75ab7c939c957bab8bfc9e53fc58a8e9ab5629947a59663eb4616308
+SHA512: eab1b213cd2bb506d168e0db418f159a385b0a22d3cd6cc09d0d0025b85e7be6dfc6d2b37120e7685b31724a68615721b5f88e2b62ae663792c52c1521bf96a8
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dumpdecrypterDp
+Description: DumpDecrypter是基于dumpdecrypted的修改封装，使用方式：通过桌面的DumpDecrypter应用
+	程序选择需要解密的应用，增加可选修改版本限制，可选删除跳转URL，可选删除设备限制，可选删除包内小组件，可选删除包内手表组件，可选修复白图标，解密完整应用并导出至/var/mobile/Documents/DumpDecrypter，选择应用后自动杀掉应用进程重新开始，解密前加载所有Frameworks，解密前停止所有非解密线程，解密完成后自动恢复等(解密后的IPA如果你要直接安装，建议重签名，无论使用的签名证书是否有效，否则某些环境会出现闪退等问题)
+Tag: purpose::extension
+Author: Netskao <1410970825@qq.com>
+Name: DumpDecrypter
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dumpdecrypterDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: netskao
+
+Package: openssh
+Architecture: iphoneos-arm
+Version: 6.7p1-13
+Priority: important
+Section: Networking
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 4736
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: openssl
+Filename: ./debfiles/openssh_6.7p1-13_iphoneos-arm.deb
+Size: 587678
+MD5sum: 51b3398d67bc3b861642c1eff23f9e42
+SHA1: 0312d429110829359f7443adbfbb27cb1f9419d5
+SHA256: ff4eb2a1e4453051e52ba56a71c3d4f56d00c1e83095653647a7a4f49b4c3b1f
+SHA512: f57ce4135b1959f9269433f5f5fb896f17d5606f577a7e5b2e9282a66b3171b13b7f1348c83f1d8d6c037ef49656b47d26c601d05c5588b8908f2089ae03853c
+Description: secure remote access between machines
+Name: OpenSSH
+Depiction: http://cydia.saurik.com/info/openssh/
+
 Package: openssl
 Architecture: iphoneos-arm
-Version: 0.9.8zc-11
+Version: 0.9.8zg-13
 Priority: standard
 Section: Security
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 5768
+Installed-Size: 6164
 Pre-Depends: dpkg (>= 1.14.25-8)
-Filename: ./debfiles/openssl_0.9.8zc-11_iphoneos-arm.deb
-Size: 1027068
-MD5sum: 20b9509bc983e3396d7c84c2dd580ba6
-SHA1: f134bab8a533b3ae85ab0354e19c84ed524a1dfc
-SHA256: 8abcd4dad3661c3aac0db06d4d83845661a5709e8c6e9f15787d12e0c9cf7942
-SHA512: 315f46ec1e5fb9beadcd6b4e3da5cdc295fbb19dc9b5d6743c0432e8c3385e98cad2138193fa342b30468d1c43cc625e85821d9ffab8b7e471f383ceef20bd6b
+Filename: ./debfiles/openssl_0.9.8zg-13_iphoneos-arm.deb
+Size: 1031128
+MD5sum: 405f8d4c91aab0cf85e6f8ad93b8ab30
+SHA1: 3aedf9d8393b7c8a426840223625a601dd7d089d
+SHA256: 0e57f4b5968fc32c1fb56c1361d163a1ffdcda9173145551aff839cfc19be664
+SHA512: 6ece4b6fde15ed68c17d16f3590fbbbc928eba2cbb3936283f940663dc654822638667e72eb3e9dde782b138270daa81a1b96c4bf74604602594825c03d3cd7f
 Description: SSL library and cryptographic tools
 Name: OpenSSL
 
@@ -1483,6 +1571,24 @@ Author: onTheRoadStudio <ontheroadstudio@live.cn>
 Name: Anywhere!--虚拟定位
 dev: ontheroadstudio
 Icon: file:///Applications/OTRLocation.app/icon.png
+
+Package: p7zip
+Architecture: iphoneos-arm
+Version: 16.02-1
+Priority: optional
+Section: Development
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 9080
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./debfiles/p7zip_16.02-1.deb
+Size: 930130
+MD5sum: 761ba3abffef6efdfdaeaf66f30b220c
+SHA1: 154bc2ab46f53b4ea2c66afdb1ed75bb5ba95549
+SHA256: b3cfc7f54e0cf37b783c646faaeec540995e1f656e6bc42019a93def1fc8ac15
+SHA512: 58a8b1b9a122ac0109568401ade44295a58be4762f80083598d4a7bb52f0558a1f066ac3c8ff5e699cffe45a7b556e585393e076e776cff7180a959d9c1f1216
+Description: claims to be a good compressor
+Name: 7-zip (POSIX)
+Author: Sam Bingner <maintainer@sbdhi.com>
 
 Package: io.pangu.xuanyuansword8
 Architecture: iphoneos-arm
@@ -1542,6 +1648,46 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=recordmysc
 Sponsor: thebigboss.org <http://thebigboss.org>
 Author: RecordMyScreen Project <coolstarorganization@gmail.com>
 dev: coolstar
+
+Package: com.hackyouriphone.ppsspp-dev-latest
+Architecture: iphoneos-arm
+Version: 0v1.6.3-456-g6d0ed4ad0
+Section: HYI - Tweaks
+Maintainer: HackYouriPhone <repo@hackyouriphone.org>
+Provides: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing
+Conflicts: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing, org.ppsspp.ppsspp, org.ppsspp.ppsspp-dev-working
+Replaces: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing
+Filename: ./debfiles/ppsspp-dev-latest_0v1.6.3_iphoneos-arm.deb
+Size: 17259018
+MD5sum: 70f07f795fc9cc3eb579897aeb37cb38
+SHA1: c4cccc8547eb2aa75d4eca6681d6ab14c124a227
+SHA256: 4bf13ff63a47e51b8d66bb9d1f7708b251dee06f9d75d18ebd8ff1b667f60539
+SHA512: c60893bbdafbb131e2b4152cf3cc2ca2bca16e7d4868128bb01fffb64ca0f878ad5a223f5e7404c04d580ae64a20a0501a6d76cd5eb90a3e4c214f6c2ad4720d
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ppsspp-dev-latest
+Description: A PSP emulator
+Name: PPSSPP (Dev-Latest)
+Author: Henrik Rydgård <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ppsspp-dev-latest
+
+Package: com.hackyouriphone.ppsspp
+Architecture: iphoneos-arm
+Version: v0.9.9.1
+Section: HYI - Applications
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Provides: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing
+Conflicts: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing, org.ppsspp.ppsspp-dev-working, org.ppsspp.ppsspp-dev-latest
+Replaces: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing
+Filename: ./debfiles/ppsspp_v0.9.9.1_iphoneos-arm.deb
+Size: 9894440
+MD5sum: fffddbbff656a4335b58bb97e9f8a5a3
+SHA1: ab04921b4035b2d9dc3d1ffd457d3760d17857c5
+SHA256: c01146860ff9a9c37cc333c8a3e8b669ae8d7b18243227888fac0983f951e272
+SHA512: 665f45fb067a48557815bd660d6972017df18e010a4428f212b344f366b1835db8e04f7072d33d5b8660efdb939ee1e4b506fe5714585f9889e055bec0d6cacd
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ppsspp
+Description: A PSP emulator
+Name: PPSSPP 0.9.9.1
+Author: Henrik Rydgård <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ppsspp
 
 Package: wiki.qaq.iridium
 Architecture: iphoneos-arm
