@@ -214,6 +214,25 @@ Name: NGP.emu
 Author: Robert Broglia <repo@hackyouriphone.org>
 Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ngpemu
 
+Package: openssh
+Architecture: iphoneos-arm
+Version: 6.7p1-12
+Priority: important
+Section: Networking
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 4416
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: openssl
+Filename: ./debfiles/OpenSSH.deb
+Size: 587508
+MD5sum: 3fc8717e335ef37c7f10e99564ead3a1
+SHA1: 50b7ca5d6817f0510a0f194aa20f6e6e2de76cd7
+SHA256: a73e696b23b82b4224df7b61b869413fa7abc71ecd0100a9b469f83b32f7ebe9
+SHA512: 3e03d6f1cb98910c2a73efd92ced59cccc1c78fd22701304e6ee9e5d863a2bfa1b89c1bd53ad1b619430f69aa9a49609eb33d5eb7e972c80418b2fff83c28e19
+Description: secure remote access between machines
+Name: OpenSSH
+Depiction: http://cydia.saurik.com/info/openssh/
+
 Package: com.hackyouriphone.pceemu
 Architecture: iphoneos-arm
 Version: 1.5.19-r1
@@ -316,6 +335,25 @@ Name: Apple File Conduit "2" (iOS 11+, arm64)
 Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.afc2d-arm64
 Sponsor: thebigboss.org <http://thebigboss.org>
 dev: cannathea
+
+Package: com.iphonecake.appcake2.ios6
+Architecture: iphoneos-arm
+Version: 4.59
+Section: Utilities
+Maintainer: hotsjf <iphonecake@gmail.com>
+Pre-Depends: firmware (>= 6.0) | firware (<= 7.0)
+Filename: ./debfiles/app cake2.ios6_4.59_.deb
+Size: 4595808
+MD5sum: 252c83feff126e6696e5fd7dce87580c
+SHA1: 4ef64c8287a625091f305006273f61cdac3b6b17
+SHA256: 2f1ded9c9dd46b6b84af9953f0cc7edd833a619c7f2f56efd715dfbf94c6f086
+SHA512: 5a27e0c6f255ec9a1deb42d17467670eb556021a03870e0e04820e91177d14f1f3ea785e360e0365415507ef55ca6043de3ca9da353e7debfed9920cae785a06
+Description: **All NEW AppCake 4.0! Clean UI with enhanced Settings, download cracked apps from the largest Cracked Store. Come with iTunes Sync, Metadata Removal, Update check, AirDrop Sharing and more. *** Require AppSync to be installed ***
+Name: AppCake for iOS6
+Author: hotsjf <iphonecake@gmail.com>
+Website: http://iphonecake.com/forum/
+Icon: file:///Applications/iPhoneCake.app/AppIcon57x57.png
+Depiction: http://iphonecake.com/mobileapp/depiction/ios6.html
 
 Package: ai.akemi.appsyncunified
 Architecture: iphoneos-arm
@@ -962,6 +1000,24 @@ Author: julioverne <julioverne@me.com>
 Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.cydown
 Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
 
+Package: dpkg
+Architecture: iphoneos-arm
+Version: 1.14.25-9
+Priority: required
+Section: Packaging
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 828
+Depends: bash, bzip2, coreutils-bin, diffutils, findutils, gzip, lzma, ncurses, tar
+Filename: ./debfiles/dpkg_1.14.25-9_iphoneos-arm.deb
+Size: 250134
+MD5sum: 9280e37a5f5ffa31e1717d0000f70d15
+SHA1: d776b2904b6c1d6c41703baaf0e722ac56f7d75c
+SHA256: d21a51c5b9dc15b220c7568e6ddc94d56a59aa88864909fe230a6aeb92794421
+SHA512: 45a8aaf4f0746fe382fa2424427baba17c3de799ef8a9b42c8fb2160d6abc1dc18f23fef9685b3831dc2b9064b4b14d2e24615f225dfe323467533b366370c08
+Homepage: http://wiki.debian.org/Teams/Dpkg
+Description: package maintainance tools from Debian
+Name: Debian Packager
+
 Package: netskao.dumpdecrypter
 Architecture: iphoneos-arm
 Version: 1.2-9.4
@@ -1012,6 +1068,27 @@ Name: Generator Auto Setter
 Author: Halo Michael <yc992147156@me.com>
 Sponsor: Halo Michael <yc992147156@me.com>
 Depiction: https://halo-michael.github.io/repo/info/generatorautosetter
+
+Package: com.abcydia.icleanerpro
+Architecture: iphoneos-arm
+Version: 7.9.1
+Section: Utilities
+Maintainer: WZteam <admin@abcydia.com>
+Installed-Size: 16866
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debfiles/icleanerpro_7.9.1.deb
+Size: 4787254
+MD5sum: f05ea583f2e2ef72be21ec6956562d68
+SHA1: 052959951460198def53de381625717b23deb710
+SHA256: 85fe5f4303908b2a17b21af504a8822c36ecd87fcb0bdf44556f7e8d88afd971
+SHA512: 3054528f831a662e086a835996c013cf5d83f7f1791c73a84fea431737057dc9808c1d5de36e4fb063c9b3e3280efe65b51bcc11cade163d555697f954df1491
+Description: iOS系统 垃圾清理 & 插件管理 工具
+Name: iCleaner Pro 系统清理
+Author: Ivano Bilenchi
+Sponsor: ABCydia <http://www.abcydia.com>
+Icon: file:///Applications/iCleaner.app/Icon.png
 
 Package: com.yoyofr.ifba
 Architecture: iphoneos-arm
@@ -1117,6 +1194,31 @@ Description: Don't install if you don't know what that is
 	Installing this on a production device is not recommended.
 Name: kloader
 Author: winocm, xerub
+
+Package: org.xbmc.kodi-ios.legacy
+Architecture: iphoneos-arm
+Version: 17.6-0
+Priority: optional
+Section: Multimedia
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 133122
+Depends: firmware (>= 5.1)
+Conflicts: org.xbmc.kodi-ios
+Filename: ./debfiles/kodi-ios.legacy_17.6-0.deb
+Size: 47963644
+MD5sum: 125ac826bbc8e53e05bdd903b7501def
+SHA1: a3f6a0311a423f658ead6094ce72e334111d9d96
+SHA256: 3ed3359a9a009ae0693fbbdb26a83737bda89a63acf383617feb12601cad6d23
+SHA512: b2e42babe3d9a54623ba1d5ad332d656fb6ef7c2bc98f7cf7a810fd1245643b9c032b54759c292acb5083c88b8c2077410cc903df8fc4a6b47d28271385ffa15
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=kodi32legacyDp
+Description: Kodi Entertainment Center for iOS
+Tag: purpose::extension
+Name: Kodi-iOS (Legacy 32-bit)
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=kodi32legacyDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: Team-Kodi
+dev: teamkodi
+Icon: file:///Applications/Kodi.app/AppIcon57x57.png
 
 Package: com.michael.libdementia
 Architecture: iphoneos-arm
@@ -1326,6 +1428,39 @@ Description: Community Offsets for UntetherHomeDepot
 Name: Community Offsets
 Author: stek29
 Icon:
+
+Package: openssl
+Architecture: iphoneos-arm
+Version: 0.9.8zc-11
+Priority: standard
+Section: Security
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 5768
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./debfiles/openssl_0.9.8zc-11_iphoneos-arm.deb
+Size: 1027068
+MD5sum: 20b9509bc983e3396d7c84c2dd580ba6
+SHA1: f134bab8a533b3ae85ab0354e19c84ed524a1dfc
+SHA256: 8abcd4dad3661c3aac0db06d4d83845661a5709e8c6e9f15787d12e0c9cf7942
+SHA512: 315f46ec1e5fb9beadcd6b4e3da5cdc295fbb19dc9b5d6743c0432e8c3385e98cad2138193fa342b30468d1c43cc625e85821d9ffab8b7e471f383ceef20bd6b
+Description: SSL library and cryptographic tools
+Name: OpenSSL
+
+Package: cn.agricu.ota
+Architecture: iphoneos-arm
+Version: 1.0.2
+Section: System
+Maintainer: Agricu
+Depends: mobilesubstrate,firmware (>= 5.0), firmware (<= 10.3.3)
+Filename: ./debfiles/ota_1.0.2_iphoneos-arm.deb
+Size: 1298
+MD5sum: f333a29b7a9de8f39b7da6384775a920
+SHA1: 0782439a1826939077af97400757d28fbe2663b9
+SHA256: a611b35bb3d28d518e924397715492fd3cae5295f2fb16998850376b1b6fe52d
+SHA512: 9c4df46907765c6ce3e525ec062095c16e5ebcb3287b96a1483ed708408118b3ac296e67323874ff73f054eaed59a42188e28d7a8958acf5792461bdba450d3b
+Description: 禁用设备的iOS-OTA更新检测，防止意外更新
+Name: 禁用OTA更新
+Author: Agricu
 
 Package: net.85819.ios.otrlocation
 Architecture: iphoneos-arm
