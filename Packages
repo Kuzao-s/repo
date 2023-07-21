@@ -1059,6 +1059,29 @@ Description: DumpDecrypter是基于dumpdecrypted的修改封装，使用方式�
 Name: DumpDecrypter
 Author: Netskao
 
+Package: netskao.dumpdecrypter
+Architecture: iphoneos-arm
+Version: 1.2-9.4
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1330
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debfiles/dumpdecrypter_1.2-9.4_iphoneos-arm.deb
+Size: 323902
+MD5sum: f78e7a06a08fa67db73cfdaf9191adba
+SHA1: 0444ed606a4718c59afa1fed9446a7cba2d227df
+SHA256: 3d881bcc75ab7c939c957bab8bfc9e53fc58a8e9ab5629947a59663eb4616308
+SHA512: eab1b213cd2bb506d168e0db418f159a385b0a22d3cd6cc09d0d0025b85e7be6dfc6d2b37120e7685b31724a68615721b5f88e2b62ae663792c52c1521bf96a8
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dumpdecrypterDp
+Description: DumpDecrypter是基于dumpdecrypted的修改封装，使用方式：通过桌面的DumpDecrypter应用
+	程序选择需要解密的应用，增加可选修改版本限制，可选删除跳转URL，可选删除设备限制，可选删除包内小组件，可选删除包内手表组件，可选修复白图标，解密完整应用并导出至/var/mobile/Documents/DumpDecrypter，选择应用后自动杀掉应用进程重新开始，解密前加载所有Frameworks，解密前停止所有非解密线程，解密完成后自动恢复等(解密后的IPA如果你要直接安装，建议重签名，无论使用的签名证书是否有效，否则某些环境会出现闪退等问题)
+Tag: purpose::extension
+Author: Netskao <1410970825@qq.com>
+Name: DumpDecrypter
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dumpdecrypterDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: netskao
+
 Package: GamePlayer
 Architecture: iphoneos-arm
 Version: 1.3.5
@@ -1074,24 +1097,6 @@ SHA1: 5f827470de3c5e8b16320c0da16e86276316d0b3
 SHA256: e0f0c5c44540e5cec5b094c40c5e4f22145150cc1571f881fea2758e59fd63c5
 SHA512: 4ae4c64bb8a1ccbcf4ef7392031cf89788c65a6afdc446e58bd8664a2d62025e6cef938df5b30293f48ef4c45eb4d6224c11b31544d5fa4ec76123db7e3a9ec6
 Description: GamePlayer is a game cheating tool. It can easily modify HP, MP, money and so on. iOS 4.3.x, 5.x and 6.x are supported.
-
-Package: com.michael.generatorautosetter
-Architecture: iphoneos-arm
-Version: 0.5.11
-Section: Tweaks
-Maintainer: Halo Michael <yc992147156@me.com>
-Depends: firmware (>= 12.0), com.michael.libdementia (>= 0.2.7), preferenceloader
-Filename: ./debfiles/generator autosetter_0.5.11.deb
-Size: 11392
-MD5sum: 2e57b0c5c9d2e116c1404e2182ea30b1
-SHA1: 34df84331d20789fed7c90796b212ce4f198cae7
-SHA256: 9d4894d93e74df1e91baea71dd5303429ba6cdd9cb2dd0bfd34fd7923662a938
-SHA512: 98c8b772d6a9d7158cbfc9c3db71c2148f06e0a9e141d5af8682c642d1d6dd5b93d4b522759638c8205d305440c47864a730e89738abd655a719045d23bf3795
-Description: Auto set your generator when jailbreaking!
-Name: Generator Auto Setter
-Author: Halo Michael <yc992147156@me.com>
-Sponsor: Halo Michael <yc992147156@me.com>
-Depiction: https://halo-michael.github.io/repo/info/generatorautosetter
 
 Package: com.abcydia.icleanerpro
 Architecture: iphoneos-arm
@@ -1368,135 +1373,6 @@ Description: AppSync Unified allows you to sync and install unsigned iOS applica
 Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.appsync40plus
 Name: AppSync for iOS 4.0
 Author: Karen/あけみ, Dissident <angelXwind@angelxwind.net>
-
-Package: net.tihmstar.untetherhomedepot
-Architecture: iphoneos-arm
-Version: 1.4.2
-Priority: optional
-Section: System
-Maintainer:
-Depends: firmware (>= 9.1), firmware (<= 9.3.4)
-Conflicts: cy+cpu.arm64
-Replaces: net.tihmstar.betterhomedepot
-Filename: ./debfiles/net.tihmstar.untetherhomedepot_1.4.2.deb
-Size: 22650
-MD5sum: 94e2ea5ebaac343ffc1a7514accc5c24
-SHA1: 375628b9348b730bf75108e5675ed74295909b28
-SHA256: 0988d513c1d7960f63b7944f7d7baae43aa49e63c8995411dd24ad7b1254e5f6
-SHA512: 7580714cbe26a7b6786bdc0b9f5a75debf2319c50233abef8f2426572f53a258bea22cc981ba979c9c894e7b3a5194ebaf49c9a11c84a5f114b429355557cd97
-Description: Untether for 9.1-9.3.4 32bit
-	<br>
-	UntetherHomeDepo is an untether package for 32bit devices running 9.1-9.3.4
-	<p>It exploits the Pegasus jsc bug and bootstraps HomeDepot jailbreak.
-	<br>
-	<p>THIS MIGHT BOOTLOOP YOUR DEVICE!!!!!
-	<p>DO NOT INSTALL IF YOU ARE AFRAID OF BOOTLOOPS!
-	<br>
-	KNOWN BUGS:
-	<p>- openssh daemon doesn't start
-	<br>
-	CHANGELOG:
-	<p>v1.4 added support for 9.2.1
-	<p>     Refusing to install when stage1 doesn't work (to prevent bootloops)
-	<p>v1.3 fixed lwvm patch (bug where 9.3.1 rootfs was ro)
-	<p>v1.2 fixed a bug where having a passcode would disable untether
-	<p>v1.1 fixed deepsleep bug
-	<br>
-	Currently supported device:
-	<p>iPhone4,1: 9.3.4
-	<br>
-	Features:
-	Logging is disabled by default, however you can enable it by creating a file at
-	<p>/var/logs/untetherhomedepot.log (MAKE SURE TO "chmod +w"!!!)
-	<br>
-	<p>Also there is an attempt of making a "bootloop protection"
-	<p>At boot a file is created at /var/logs/untetherhomedepotLoopProtection.txt 
-	<p>which contains the number of times the exploit failed.
-	<p>If the number exceeds "10" then the untether boots without executing the kernelexploit.
-	<p>On every successfull boot the file is deleted.
-	<p>If you want to deactivate untether then run:
-	<p>"echo '10' > /var/logs/untetherhomedepotLoopProtection.txt"
-	<br>
-	There is an offsets.json file in /untether
-	<p>You should really not touch any of the files shipped with this package!
-	<p>However if you don't care about your device bootlooping, you
-	<p>might want to try your luck and add offsets to the file.
-	<p>But please keep in mind:
-	<p>MODIFYING THIS FILE CAN CAUSE BOOTLOOPS!
-	<br>
-	FINAL WARNING:
-	<p>INSTALL AT YOUR OWN RISK!!!!!
-Name: UntetherHomeDepot
-Author: tihmstar
-dev: tihmstar
-Depiction:
-Icon:
-
-Package: net.tihmstar.untetherhomedepotoffsets
-Architecture: iphoneos-arm
-Version: 1.0.0
-Priority: optional
-Section: System
-Maintainer: tihmstar
-Pre-Depends: net.tihmstar.untetherhomedepot (>= 1.4.2)
-Conflicts: cy+cpu.arm64
-Filename: ./debfiles/net.tihmstar.untetherhomedepotoffsets_1.0.0.deb
-Size: 2330
-MD5sum: f284b5c82faca2168f79752d66631e70
-SHA1: 04fec8b0fae7d14b9e2dab7eea7b19310c8cc2e3
-SHA256: 58bebcdd287a598d0ed58bd36decc1dfbc5a2978cdb4297c8d707d01ed27ce61
-SHA512: eec7fc68c96b31f081136c18571726d64aa5c58d7df536622c6b3fc3f8143e5cff10f491b99fa9661b4b9d6be76c0c8c22f5f6233cbef0e44850dccd5dee0d38
-Homepage: https://gist.github.com/stek29/52b14b851089895fa66fde383d1bdbe5
-Description: Community Offsets for UntetherHomeDepot
-	<br>
-	UntetherHomeDepot is an untether package for 32bit devices running 9.1-9.3.4
-	<p>However it only ships with configuration for iPhone4,1 on 9.3.4
-	<p>This Package was created by the jailbreak community with the
-	<p>great initiative of @stek29 and aims to add offsets for every
-	<p>other device/ios combination.
-	<br>
-	<p>THIS MIGHT BOOTLOOP YOUR DEVICE!!!!!
-	<p>DO NOT INSTALL IF YOU ARE AFRAID OF BOOTLOOPS!
-	<br>
-	Many of the offsets were tested by the community, however
-	<p>some of them are still untested (but should work).
-	<p>For more information on which offsets have been tested
-	<p>and whether you help is needed, please check following gist:
-	<p>https://gist.github.com/stek29/52b14b851089895fa66fde383d1bdbe5
-	<br>
-	Info:
-	<p>If this package bootloops your device, try triggering bootloopprotection
-	<p>by rebooting at least 10 times!
-	<br>
-	FINAL WARNING:
-	<p>TIHMSTAR IS NOT RESPONSIBLE FOR THE CORRECTNESS OF THE SHIPPED OFFSETS!
-	<p>INSTALL AT YOUR OWN RISK!!!!!
-Name: Community Offsets
-Author: stek29
-Icon:
-
-Package: netskao.dumpdecrypter
-Architecture: iphoneos-arm
-Version: 1.2-9.4
-Section: Tweaks
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 1330
-Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./debfiles/netskao.dumpdecrypter_1.2-9.4_iphoneos-arm.deb
-Size: 323902
-MD5sum: f78e7a06a08fa67db73cfdaf9191adba
-SHA1: 0444ed606a4718c59afa1fed9446a7cba2d227df
-SHA256: 3d881bcc75ab7c939c957bab8bfc9e53fc58a8e9ab5629947a59663eb4616308
-SHA512: eab1b213cd2bb506d168e0db418f159a385b0a22d3cd6cc09d0d0025b85e7be6dfc6d2b37120e7685b31724a68615721b5f88e2b62ae663792c52c1521bf96a8
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dumpdecrypterDp
-Description: DumpDecrypter是基于dumpdecrypted的修改封装，使用方式：通过桌面的DumpDecrypter应用
-	程序选择需要解密的应用，增加可选修改版本限制，可选删除跳转URL，可选删除设备限制，可选删除包内小组件，可选删除包内手表组件，可选修复白图标，解密完整应用并导出至/var/mobile/Documents/DumpDecrypter，选择应用后自动杀掉应用进程重新开始，解密前加载所有Frameworks，解密前停止所有非解密线程，解密完成后自动恢复等(解密后的IPA如果你要直接安装，建议重签名，无论使用的签名证书是否有效，否则某些环境会出现闪退等问题)
-Tag: purpose::extension
-Author: Netskao <1410970825@qq.com>
-Name: DumpDecrypter
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dumpdecrypterDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: netskao
 
 Package: openssh
 Architecture: iphoneos-arm
@@ -1871,6 +1747,112 @@ SHA512: a3c6d337ffaabf9fa72b26d14f04ed43e8d4b50a49ab971116e0314ab2c03d6aed898c2e
 Description: Helper utility to install and manage TrollStore!
 Name: TrollStore Helper
 Author: opa334
+
+Package: net.tihmstar.untetherhomedepot
+Architecture: iphoneos-arm
+Version: 1.4.2
+Priority: optional
+Section: System
+Maintainer:
+Depends: firmware (>= 9.1), firmware (<= 9.3.4)
+Conflicts: cy+cpu.arm64
+Replaces: net.tihmstar.betterhomedepot
+Filename: ./debfiles/untetherhomedepot_1.4.2.deb
+Size: 22650
+MD5sum: 94e2ea5ebaac343ffc1a7514accc5c24
+SHA1: 375628b9348b730bf75108e5675ed74295909b28
+SHA256: 0988d513c1d7960f63b7944f7d7baae43aa49e63c8995411dd24ad7b1254e5f6
+SHA512: 7580714cbe26a7b6786bdc0b9f5a75debf2319c50233abef8f2426572f53a258bea22cc981ba979c9c894e7b3a5194ebaf49c9a11c84a5f114b429355557cd97
+Description: Untether for 9.1-9.3.4 32bit
+	<br>
+	UntetherHomeDepo is an untether package for 32bit devices running 9.1-9.3.4
+	<p>It exploits the Pegasus jsc bug and bootstraps HomeDepot jailbreak.
+	<br>
+	<p>THIS MIGHT BOOTLOOP YOUR DEVICE!!!!!
+	<p>DO NOT INSTALL IF YOU ARE AFRAID OF BOOTLOOPS!
+	<br>
+	KNOWN BUGS:
+	<p>- openssh daemon doesn't start
+	<br>
+	CHANGELOG:
+	<p>v1.4 added support for 9.2.1
+	<p>     Refusing to install when stage1 doesn't work (to prevent bootloops)
+	<p>v1.3 fixed lwvm patch (bug where 9.3.1 rootfs was ro)
+	<p>v1.2 fixed a bug where having a passcode would disable untether
+	<p>v1.1 fixed deepsleep bug
+	<br>
+	Currently supported device:
+	<p>iPhone4,1: 9.3.4
+	<br>
+	Features:
+	Logging is disabled by default, however you can enable it by creating a file at
+	<p>/var/logs/untetherhomedepot.log (MAKE SURE TO "chmod +w"!!!)
+	<br>
+	<p>Also there is an attempt of making a "bootloop protection"
+	<p>At boot a file is created at /var/logs/untetherhomedepotLoopProtection.txt 
+	<p>which contains the number of times the exploit failed.
+	<p>If the number exceeds "10" then the untether boots without executing the kernelexploit.
+	<p>On every successfull boot the file is deleted.
+	<p>If you want to deactivate untether then run:
+	<p>"echo '10' > /var/logs/untetherhomedepotLoopProtection.txt"
+	<br>
+	There is an offsets.json file in /untether
+	<p>You should really not touch any of the files shipped with this package!
+	<p>However if you don't care about your device bootlooping, you
+	<p>might want to try your luck and add offsets to the file.
+	<p>But please keep in mind:
+	<p>MODIFYING THIS FILE CAN CAUSE BOOTLOOPS!
+	<br>
+	FINAL WARNING:
+	<p>INSTALL AT YOUR OWN RISK!!!!!
+Name: UntetherHomeDepot
+Author: tihmstar
+dev: tihmstar
+Depiction:
+Icon:
+
+Package: net.tihmstar.untetherhomedepotoffsets
+Architecture: iphoneos-arm
+Version: 1.0.0
+Priority: optional
+Section: System
+Maintainer: tihmstar
+Pre-Depends: net.tihmstar.untetherhomedepot (>= 1.4.2)
+Conflicts: cy+cpu.arm64
+Filename: ./debfiles/untetherhomedepotoffsets_1.0.0.deb
+Size: 2330
+MD5sum: f284b5c82faca2168f79752d66631e70
+SHA1: 04fec8b0fae7d14b9e2dab7eea7b19310c8cc2e3
+SHA256: 58bebcdd287a598d0ed58bd36decc1dfbc5a2978cdb4297c8d707d01ed27ce61
+SHA512: eec7fc68c96b31f081136c18571726d64aa5c58d7df536622c6b3fc3f8143e5cff10f491b99fa9661b4b9d6be76c0c8c22f5f6233cbef0e44850dccd5dee0d38
+Homepage: https://gist.github.com/stek29/52b14b851089895fa66fde383d1bdbe5
+Description: Community Offsets for UntetherHomeDepot
+	<br>
+	UntetherHomeDepot is an untether package for 32bit devices running 9.1-9.3.4
+	<p>However it only ships with configuration for iPhone4,1 on 9.3.4
+	<p>This Package was created by the jailbreak community with the
+	<p>great initiative of @stek29 and aims to add offsets for every
+	<p>other device/ios combination.
+	<br>
+	<p>THIS MIGHT BOOTLOOP YOUR DEVICE!!!!!
+	<p>DO NOT INSTALL IF YOU ARE AFRAID OF BOOTLOOPS!
+	<br>
+	Many of the offsets were tested by the community, however
+	<p>some of them are still untested (but should work).
+	<p>For more information on which offsets have been tested
+	<p>and whether you help is needed, please check following gist:
+	<p>https://gist.github.com/stek29/52b14b851089895fa66fde383d1bdbe5
+	<br>
+	Info:
+	<p>If this package bootloops your device, try triggering bootloopprotection
+	<p>by rebooting at least 10 times!
+	<br>
+	FINAL WARNING:
+	<p>TIHMSTAR IS NOT RESPONSIBLE FOR THE CORRECTNESS OF THE SHIPPED OFFSETS!
+	<p>INSTALL AT YOUR OWN RISK!!!!!
+Name: Community Offsets
+Author: stek29
+Icon:
 
 Package: com.unthreadedjb.unthredera1n
 Architecture: iphoneos-arm
