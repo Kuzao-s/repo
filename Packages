@@ -1082,6 +1082,30 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dumpdecryp
 Sponsor: thebigboss.org <http://thebigboss.org>
 dev: netskao
 
+Package: com.rpetrich.fullforce
+Architecture: iphoneos-arm
+Version: 1.1.4
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 312
+Depends: firmware (>= 6), mobilesubstrate, preferenceloader (>= 2.2), applist (>= 1.5.9), cy+model.iphone | cy+model.ipod
+Conflicts: com.kindadev.goodfit
+Replaces: com.kindadev.goodfit
+Filename: ./debfiles/fullforce_1.1.4_iphoneos-arm.deb
+Size: 110636
+MD5sum: 2154f775e741bc12c8b930ecb2cee7c1
+SHA1: 1e3ce335ae6f1c4868cd91e9745f522aac9d0bfe
+SHA256: 4572c00d1d068325e6c2a219d843f38a4f5a22241fc33f6ca2626979e5db5785
+SHA512: d4566e72a472a677b013b5c493ce5ecb132447bba8c63efdf5f9f04b41f1ccd2b2d7b80196fe1a05ff489f1f2547c1316e3addbf287d9b17c032f221acf1dbd6
+Homepage: http://rpetri.ch/cydia/fullforceforphone/
+Description: Force applications to show in fullscreen mode
+Tag: purpose::extension, cydia::commercial
+Name: FullForce for Phone
+Depiction: http://rpetri.ch/cydia/fullforceforphone/
+Author: Ryan Petrich <rpetrich@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: rpetrich
+
 Package: GamePlayer
 Architecture: iphoneos-arm
 Version: 1.3.5
@@ -1893,6 +1917,27 @@ Description: 已安装的DEB文件提取插件
 Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.vsz.redeb
 Name: Redeb 提取本地插件
 Author: T.Herak
+
+Package: com.myrepospace.iLEXiNFO.rat-eng
+Architecture: iphoneos-arm
+Version: 1.10-125
+Section: iLEX
+Maintainer: iLEX <ilexrepo@gmail.com>
+Installed-Size: 2000
+Depends: apt7, sed, coreutils, coreutils-bin, openssl, openssh, gawk, zip, unzip
+Conflicts: com.myrepospace.iLEX.rat-eng, com.myrepospace.iLEXiNFO.ilexrestore
+Filename: ./debfiles/冬青鼠还原.deb
+Size: 2001694
+MD5sum: 88094d33d805ed80051fd522ab248e9b
+SHA1: 246a2b95708c47fd3f7467ab0675da4fddeb3d0e
+SHA256: eae2a2e727a00b200473b2c41e43dc6e958e4f02683d05aea5dbeda2f2eac500
+SHA512: 7e2a98dcc219d1f44698ccbf68f4cda82130c8531a7caadf010209276156ab7555b1961a816acd588082c10509c750a0f2067b74fb2fdfc78f8da34e3bff25a5
+Homepage: http://twitter.com/iLEXiNFO
+Description: Restore iDevice Back To Stock. Revive, Speed Up, Clean Up Your iDevice. Remove All Cydia Apps & Tweaks & Dependencies At Once! Cydia Repair! Backup & Restore All Cydia Apps & Tweaks & Dependencies (DEB).
+Name: iLEX R.A.T.
+Author: iLEX <ilexrepo@gmail.com>
+Sponsor: iLEX <http://twitter.com/iLEXiNFO/>
+Support: http://twitter.com/iLEXiNFO
 
 Package: zephyr.178
 Architecture: iphoneos-arm
