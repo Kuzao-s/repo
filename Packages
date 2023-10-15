@@ -1894,27 +1894,6 @@ Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.vsz.redeb
 Name: Redeb 提取本地插件
 Author: T.Herak
 
-Package: com.myrepospace.iLEXiNFO.rat-eng
-Architecture: iphoneos-arm
-Version: 1.10-125
-Section: iLEX
-Maintainer: iLEX <ilexrepo@gmail.com>
-Installed-Size: 2000
-Depends: apt7, sed, coreutils, coreutils-bin, openssl, openssh, gawk, zip, unzip
-Conflicts: com.myrepospace.iLEX.rat-eng, com.myrepospace.iLEXiNFO.ilexrestore
-Filename: ./debfiles/冬青鼠还原.deb
-Size: 2001694
-MD5sum: 88094d33d805ed80051fd522ab248e9b
-SHA1: 246a2b95708c47fd3f7467ab0675da4fddeb3d0e
-SHA256: eae2a2e727a00b200473b2c41e43dc6e958e4f02683d05aea5dbeda2f2eac500
-SHA512: 7e2a98dcc219d1f44698ccbf68f4cda82130c8531a7caadf010209276156ab7555b1961a816acd588082c10509c750a0f2067b74fb2fdfc78f8da34e3bff25a5
-Homepage: http://twitter.com/iLEXiNFO
-Description: Restore iDevice Back To Stock. Revive, Speed Up, Clean Up Your iDevice. Remove All Cydia Apps & Tweaks & Dependencies At Once! Cydia Repair! Backup & Restore All Cydia Apps & Tweaks & Dependencies (DEB).
-Name: iLEX R.A.T.
-Author: iLEX <ilexrepo@gmail.com>
-Sponsor: iLEX <http://twitter.com/iLEXiNFO/>
-Support: http://twitter.com/iLEXiNFO
-
 Package: zephyr.178
 Architecture: iphoneos-arm
 Version: 1.6.4-1
