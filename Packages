@@ -744,6 +744,22 @@ Name: Netfix Cydia联网修正
 Author: ABCydia <admin@abcydia.com>
 Sponsor: ABCydia <http://www.abcydia.com>
 
+Package: com.coolbooter.coolbootercli
+Architecture: iphoneos-arm
+Version: 1.1-beta2-release
+Section: System
+Maintainer: CoolBooter <coolbooterios@gmail.com>
+Depends: xpwn, zip, unzip, ldid, diskdev-cmds, wget, firmware (>= 5.0)
+Filename: ./debfiles/com.coolbooter.coolbootercli_1.1-beta2-release.deb
+Size: 23627008
+MD5sum: 93f671a006d4f83ef76cde27b499d828
+SHA1: bacb638d66c159f26548aafeeb86a866398f6fa6
+SHA256: 40f03dd383d09290d12af650c7b78e7fe57b8c77f12b13d3c44e0a525f6f8c0a
+SHA512: 0be61914e2c93d405deaf9f6c0283b29785085435861e47fc74fd76537731ebcef4876b46336df8c58f589333c1a8f59241500cd9ede504ab221cc1b9c5d541a
+Description: CoolBooter is an all-in-one dual booting utility for jailbroken 32 bit iOS devices.
+Name: CoolBooter CLI
+Author: CoolBooter <coolbooterios@gmail.com>
+
 Package: com.haoerloveyou.enhancespeed5
 Architecture: iphoneos-arm
 Version: 1.2
@@ -1058,29 +1074,6 @@ SHA512: 921a87c94594fb1a67954b412ce589271d47e0a1eb5ac0445fdabfc6071244dcf0ff885b
 Description: DumpDecrypter是基于dumpdecrypted的修改封装，使用方式：通过桌面的DumpDecrypter应用程序选择需要解密的应用，增加可选修改版本限制，可选删除跳转URL，可选删除设备限制，可选删除包内小组件，可选删除包内手表组件，可选修复白图标，解密完整应用并导出至/var/mobile/Documents/DumpDecrypter，选择应用后自动杀掉应用进程重新开始，解密前加载所有Frameworks，解密前停止所有非解密线程，解密完成后自动恢复等(解密后的IPA如果你要直接安装，建议重签名，无论使用的签名证书是否有效，否则某些环境会出现闪退等问题)
 Name: DumpDecrypter
 Author: Netskao
-
-Package: netskao.dumpdecrypter
-Architecture: iphoneos-arm
-Version: 1.2-9.4
-Section: Tweaks
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 1330
-Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./debfiles/dumpdecrypter_1.2-9.4_iphoneos-arm.deb
-Size: 323902
-MD5sum: f78e7a06a08fa67db73cfdaf9191adba
-SHA1: 0444ed606a4718c59afa1fed9446a7cba2d227df
-SHA256: 3d881bcc75ab7c939c957bab8bfc9e53fc58a8e9ab5629947a59663eb4616308
-SHA512: eab1b213cd2bb506d168e0db418f159a385b0a22d3cd6cc09d0d0025b85e7be6dfc6d2b37120e7685b31724a68615721b5f88e2b62ae663792c52c1521bf96a8
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dumpdecrypterDp
-Description: DumpDecrypter是基于dumpdecrypted的修改封装，使用方式：通过桌面的DumpDecrypter应用
-	程序选择需要解密的应用，增加可选修改版本限制，可选删除跳转URL，可选删除设备限制，可选删除包内小组件，可选删除包内手表组件，可选修复白图标，解密完整应用并导出至/var/mobile/Documents/DumpDecrypter，选择应用后自动杀掉应用进程重新开始，解密前加载所有Frameworks，解密前停止所有非解密线程，解密完成后自动恢复等(解密后的IPA如果你要直接安装，建议重签名，无论使用的签名证书是否有效，否则某些环境会出现闪退等问题)
-Tag: purpose::extension
-Author: Netskao <1410970825@qq.com>
-Name: DumpDecrypter
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dumpdecrypterDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: netskao
 
 Package: com.rpetrich.fullforce
 Architecture: iphoneos-arm
