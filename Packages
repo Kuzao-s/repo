@@ -522,6 +522,24 @@ Description: "Untethers" an existing CoolBooter install
 Name: CoolBooter Untetherer
 Author: CoolBooter <coolbooterios@gmail.com>
 
+Package: cn.agricu.networksp.rootless
+Architecture: iphoneos-arm
+Version: 0.2.7-1+debug
+Section: Tweaks
+Maintainer: Agricu
+Installed-Size: 376
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debfiles/cn.agricu.networksp.rootless_0.2.7-1+debug_iphoneos-arm.deb
+Size: 31052
+MD5sum: 703f3f25dd6b0005db215b5d9eb57022
+SHA1: c3778d952937a507fe9e9995b7f2c88ccd23213d
+SHA256: 14b88e559ccb14ef933e735a68cc99f9f309573c533d3198927c1ef05fe25b81
+SHA512: c3912db7654c78108ae3f1fc80f12d314f50f49a52db264cf9c88838c37852cbc7f81f224cb58df5388d349ee5369255aefe02a3d760e756b007b47ebc86788e
+Description: 在状态栏正下方显示网络速度，可拖动至任意位置
+Name: 网速显示⌜Rootless⌟
+SileoDepiction: http://repo.agricu.cn/depictions/cn.agricu.networksp.rootless/depiction.json
+Author: Agricu
+
 Package: com.abcydia.14294gios9
 Architecture: iphoneos-arm
 Version: 3.0.1
@@ -823,25 +841,6 @@ SHA512: 589b8a72919b39b728d9aeaf0288711af5a09c50d78e3666d3e4a0e7a9b57d6d434cae21
 Description: 最初目的是让国行以外的机型可以调系统WI-FI的联网权限,后用于开启国行机型越狱后App无法联网的问题,支持iOS11-iOS12
 Name: ConditionalWiFi4
 Author: ATWiiks
-
-Package: com.nan.deb
-Architecture: iphoneos-arm
-Version: 0.1.8
-Section: Terminal_Support
-Maintainer: zhaonan
-Depends: sed, coreutils, findutils
-Conflicts: com.nan.lecho (<< 0.2.1)
-Filename: ./debfiles/com.nan.deb_0.1.8.deb
-Size: 6980
-MD5sum: eaf5ecb2866fbfd3eb7281e2aba33943
-SHA1: e2551d54b0aa81f44c2e8ef53ecf0902d7f6f3f8
-SHA256: 47c7b97efbebefd6109371de2fa0b72970b4eea2a63a384918989fba55502144
-SHA512: 3573cad0525a72bc16510ec80589bc435039bb2eb64817c4677ad8528c1a00bd6e92ad7bf89f6324b37cf59a8477bafaba725c81468dd520c7ffd23c7532b9ea
-Description: deb 工具，普通解压，普通打包，批量解压，批量打包，提取已安装软件包，deb 信息查看
-Name: deb
-Author: zhaonan <invalidunit@icloud.com>
-SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.deb/js.json
-Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
 
 Package: com.tigisoftware.filza64bit
 Architecture: iphoneos-arm
@@ -1910,27 +1909,6 @@ Description: 已安装的DEB文件提取插件
 Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.vsz.redeb
 Name: Redeb 提取本地插件
 Author: T.Herak
-
-Package: com.myrepospace.iLEXiNFO.rat-eng
-Architecture: iphoneos-arm
-Version: 1.10-125
-Section: iLEX
-Maintainer: iLEX <ilexrepo@gmail.com>
-Installed-Size: 2000
-Depends: apt7, sed, coreutils, coreutils-bin, openssl, openssh, gawk, zip, unzip
-Conflicts: com.myrepospace.iLEX.rat-eng, com.myrepospace.iLEXiNFO.ilexrestore
-Filename: ./debfiles/冬青鼠还原.deb
-Size: 2001694
-MD5sum: 88094d33d805ed80051fd522ab248e9b
-SHA1: 246a2b95708c47fd3f7467ab0675da4fddeb3d0e
-SHA256: eae2a2e727a00b200473b2c41e43dc6e958e4f02683d05aea5dbeda2f2eac500
-SHA512: 7e2a98dcc219d1f44698ccbf68f4cda82130c8531a7caadf010209276156ab7555b1961a816acd588082c10509c750a0f2067b74fb2fdfc78f8da34e3bff25a5
-Homepage: http://twitter.com/iLEXiNFO
-Description: Restore iDevice Back To Stock. Revive, Speed Up, Clean Up Your iDevice. Remove All Cydia Apps & Tweaks & Dependencies At Once! Cydia Repair! Backup & Restore All Cydia Apps & Tweaks & Dependencies (DEB).
-Name: iLEX R.A.T.
-Author: iLEX <ilexrepo@gmail.com>
-Sponsor: iLEX <http://twitter.com/iLEXiNFO/>
-Support: http://twitter.com/iLEXiNFO
 
 Package: zephyr.178
 Architecture: iphoneos-arm
