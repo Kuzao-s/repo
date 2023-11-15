@@ -540,6 +540,24 @@ Name: 网速显示⌜Rootless⌟
 SileoDepiction: http://repo.agricu.cn/depictions/cn.agricu.networksp.rootless/depiction.json
 Author: Agricu
 
+Package: cn.agricu.networksp
+Architecture: iphoneos-arm
+Version: 0.2.7-1+debug
+Section: Tweaks
+Maintainer: Agricu
+Installed-Size: 376
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debfiles/cn.agricu.networksp_0.2.7-1+debug_iphoneos-arm.deb
+Size: 31104
+MD5sum: b5199fcc660deef93b00650de0eb4b5e
+SHA1: 5a5b62f40337bb7c4645fe89f34c3d0c77da38ca
+SHA256: 928d4fb8d653b261d70f75f9f693ef382a1b5914341b33374a506f1508009147
+SHA512: 72aaf713be68c1b3a44e84a90d27b6242f4fa48ebfd27a4b3e974724944f3b1eb1dca88207a6d2398abc8163249fdf26b558f0c537d4bfd06acb1ad4a28a1c47
+Description: 在状态栏正下方显示网络速度，可拖动至任意位置
+Name: 网速显示
+SileoDepiction: http://repo.agricu.cn/depictions/cn.agricu.networksp.rootless/depiction.json
+Author: Agricu
+
 Package: com.abcydia.14294gios9
 Architecture: iphoneos-arm
 Version: 3.0.1
