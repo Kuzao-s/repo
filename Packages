@@ -1768,16 +1768,16 @@ Sponsor: ABCydia <http://www.abcydia.com>
 
 Package: com.opa334.trollstorehelper
 Architecture: iphoneos-arm
-Version: 1.5.0
+Version: 2.0.9
 Section: Applications
 Maintainer: opa334
-Installed-Size: 676
-Filename: ./debfiles/trollstorehelper_1.5.0.deb
-Size: 216412
-MD5sum: 5ab7ce2667b12a2b58a7f0c97dd42ce4
-SHA1: 35459907b3b1362e86c4a48fd28aa71df0102811
-SHA256: debffd5cedb097e0276af914b5fbb684831dac2490ce679f14c032084e0d8944
-SHA512: a3c6d337ffaabf9fa72b26d14f04ed43e8d4b50a49ab971116e0314ab2c03d6aed898c2eae31241122934980274fb9b2b3f843b7d7818d0204c26480f08e78b5
+Installed-Size: 4300
+Filename: ./debfiles/trollstorehelper_2.0.9.deb
+Size: 1881050
+MD5sum: c19711a383bd0cffc7594c79fa9f5adf
+SHA1: 2f8e1f1dcfb60072f19e2d217f55857980aaba5a
+SHA256: 6a099063542e10155ec464e347c7106309ba8361c32113cb893884f6d3c64233
+SHA512: 98f326382f22e7f0e631b8222c4a574c90df866d7e87265a38766b5f77a0ba02481a7e3a6344fa252ea84ed29094a0a87e60a9247aa6633824d077cc0f2cc211
 Description: Helper utility to install and manage TrollStore!
 Name: TrollStore Helper
 Author: opa334
