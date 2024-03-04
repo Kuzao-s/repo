@@ -1952,3 +1952,45 @@ dev: chpwn
 Sponsor: w花
 Depiction: http://apt.178.com/html/2013/0225/iphone9155.shtml
 
+Package: com.abcydia.mterminal
+Architecture: iphoneos-arm
+Version: 1.4-6
+Priority: standard
+Section: Utilities
+Maintainer: WZteam <admin@abcydia.com>
+Installed-Size: 776
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: bash, coreutils, ncurses, system-cmds
+Filename: ./debfiles/终端1mterminal_1.4-6.deb
+Size: 108066
+MD5sum: f288ed8989cb93b4a4310edec237fb89
+SHA1: 3aaf0457e3edab28790ab47aaa237e2338a77cd7
+SHA256: 8303f9ce35f7271347d7ba00ba1428b8bf5be3f0408bbc3133188a322199f20a
+SHA512: ffa6bcc703fbf7be85351d91bc19925e7838b53f6ff0fcfa007ea7c1086757826bbeedab1642bcbe0e283cec842d14d42cc7b471b1742296630c1ffa905b08a3
+Description: 运行在iOS 上的手机终端
+Name: MTerminal 手机终端
+Author: lordscotland <admin@officialscheduler.com>
+Sponsor: ABCydia <http://www.abcydia.com>
+
+Package: com.abcydia.newterm2
+Architecture: iphoneos-arm
+Version: 2.3
+Section: Utilities
+Maintainer: WZteam <admin@abcydia.com>
+Installed-Size: 6704
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.13), bash, coreutils, ncurses, system-cmds, com.linusyang.localeutf8
+Conflicts: ws.hbang.newterm
+Replaces: ws.hbang.newterm
+Filename: ./debfiles/终端2_2.3.deb
+Size: 2129108
+MD5sum: 7fd12eb78a0e16d637781f5681825eb6
+SHA1: b8876ace50929f624a9c16ae5120cf88c42a8cf3
+SHA256: 0cf7ccdaa34545c10508aacbdf1b8cec3af80173e16b8513177e2bdd777e3f3b
+SHA512: d1623f8804296669284e00afafa59fec543966ead279f1df9ddaccbae5557fc3bec8232d3bb35dbc84da1bc6d9e534ad1f6e0616f56e235c342aa77423f92a05
+Description: 运行在iOS上的手机终端
+Tag: compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Name: NewTerm 2 手机终端
+Author: HASHBANG Productions
+Sponsor: ABCydia <http://www.abcydia.com>
+Icon: file:///Applications/NewTerm.app/AppIcon60x60@3x.png
+
