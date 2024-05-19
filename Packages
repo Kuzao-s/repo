@@ -108,6 +108,24 @@ Author: Reilly <appsync@hackulo.us>
 Sponsor: Hackulo.us <http://hackulo.us>
 Depiction: http://hackulo.us/depict/appsync31/
 
+Package: uk.invoxiplaygames.checkmatestore
+Architecture: iphoneos-arm
+Version: 1.2
+Section: Tweaks
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Installed-Size: 164
+Depends: mobilesubstrate, firmware (>= 2.0)
+Filename: ./debfiles/Appstore_1.2.deb
+Size: 5200
+MD5sum: 5245fc6431aadd77110a226b8f0d9ee8
+SHA1: 1330e7a5c051c6dfbff558184de78accecb19032
+SHA256: 0863fee434c9a1aed89696655b4075aa3edde2b2ad3ee2a0e99a99428c17ffe3
+SHA512: 7b14fe2b83e232836f85d245797d91e31c28df3510e9e5ccb16909e858869c904f185499e99a111898eacedf5d79e7a9616c35b85589bb342be2cdef6edff4e2
+Description: Disable capability limits in the App Store.
+Name: Checkmate, Store!
+Depiction: http://cydia.invoxiplaygames.uk/dp/checkmatestore.php
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+
 Package: apt.cydiaba.Clutch1111
 Architecture: iphoneos-arm
 Version: 2.0.4
@@ -1037,6 +1055,24 @@ Description: Decrypts iOS Apps
 Name: CrackerXI+
 Website: https://ipastore.me
 Icon: file:///Applications/crackerxi.app/AppIcon.png
+
+Package: uk.invoxiplaygames.cydiahttpatch
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweaks
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk
+Installed-Size: 100
+Depends: cydia, mobilesubstrate, firmware (<< 4.0)
+Filename: ./debfiles/cydiahttpatch_1.0.deb
+Size: 2842
+MD5sum: 2100205abecf06d1a7d72d2636e770c4
+SHA1: 26c2c398c93f847aa007a7778b6148e554e395c6
+SHA256: 2c6ff66a0498eea88f786a17b8ca79400ae311a2f5f80d97eaeed44d4fe9d9bf
+SHA512: 093ed7129e9587cb94baef5a404c272be4abaef158e9982344d8efa4b9a9ccc5c6f22316d693515d4cddd5fe648de6abc29d1f314a51d986cdc372a10e67c399
+Description: Removes HTTPS from Cydia to use on iOS 3.
+Name: Cydia HTTPatch
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depiction: http://cydia.invoxiplaygames.uk/dp/cydiahttpatch.php
 
 Package: com.julioverne.cydown
 Architecture: iphoneos-arm
