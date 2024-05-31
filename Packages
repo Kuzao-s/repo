@@ -1278,7 +1278,28 @@ Section: System
 Maintainer: tihmstar
 Depends: firmware (>= 6.0)
 Conflicts: cy+cpu.arm64
-Filename: ./debfiles/kloader_1.0.0.deb
+Filename: ./debfiles/kloader-1.0.0.deb
+Size: 7982
+MD5sum: 16347bf66c0c84e4870d2cbba42d1dee
+SHA1: 58194352911aa3ae03dafbc88ddb6f247818ee8f
+SHA256: 1fdbaf24db617955afd30244884f99f15be58763a723eb5d81a07b52beae42f4
+SHA512: b385be74dd495b6a9c8e484e01300677683c5d066215e14fd7055c9619adb41a064c958da8934ba57185f9f23efbb8b452926815446577f9b2e7fea90185bed5
+Homepage: https://github.com/xerub/ios-kexec-utils/blob/master/kloader.c
+Description: Don't install if you don't know what that is
+	Do not install this package if you don't know what this is.
+	Installing this on a production device is not recommended.
+Name: kloader
+Author: winocm, xerub
+
+Package: kloader
+Architecture: iphoneos-arm
+Version: 1.0
+Priority: optional
+Section: System
+Maintainer: tihmstar
+Depends: firmware (>= 6.0)
+Conflicts: cy+cpu.arm64
+Filename: ./debfiles/kloader_1.0.deb
 Size: 7982
 MD5sum: 16347bf66c0c84e4870d2cbba42d1dee
 SHA1: 58194352911aa3ae03dafbc88ddb6f247818ee8f
