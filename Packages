@@ -354,23 +354,6 @@ Name: 2600.emu
 Author: Robert Broglia <info@explusalpha.com>
 Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=a2600emu
 
-Package: org.h6nry.adowngrader
-Architecture: iphoneos-arm
-Version: 0.0.1-21
-Section: Tweaks
-Maintainer: H6nry <henry.anonym@gmail.com>
-Installed-Size: 216
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debfiles/adowngrader_0.0.1-21.deb
-Size: 6704
-MD5sum: 36e394d04007ccc87b7e9f54c6c38015
-SHA1: 81ed1599cdf4704682d582f661295acbba20e401
-SHA256: 10d798dfb460c93af9dfa521bc7761cc1c53b5f638014d7d8352c4fce223b113
-SHA512: cd2c3a4050d4c3d741be4fcd425c97a4ef55232f4d3f0e80aae40f93c710241294da3a21f31b04381897117bf5f41fa97532280ad6ec51992e83f9a1e903a529
-Description: Downgrade your apps, well, at least try it.
-Name: Adowngrader
-Author: H6nry <henry.anonym@gmail.com>
-
 Package: cn.agricu.afc2d-arm64
 Architecture: iphoneos-arm
 Version: 1.1.6-1
@@ -441,28 +424,6 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxopadDp
 Sponsor: thebigboss.org <http://thebigboss.org>
 dev: a3tweaks
 Icon: file:///Library/PreferenceBundles/Auxo.bundle/AuxoIcon@2x.png
-
-Package: auxo.178
-Architecture: iphoneos-arm
-Version: 1.4-2
-Section: [178 - 工具]
-Maintainer: 178 Team <apt@178.com>
-Installed-Size: 2127
-Depends: firmware (>= 5.1), mobilesubstrate, preferenceloader, applist
-Filename: ./debfiles/auxo.deb
-Size: 1822346
-MD5sum: 414b8ccebe8f471a2976a6a6f645784e
-SHA1: 197f4672ab72d8e038e397cb741545392ca3d836
-SHA256: 37442c31596e2ae8022d4ca9c14ab34572e431e4523750d7487624123f698250
-SHA512: 498b46c9b98b387f83e5c3ebe203b4506cf879bb37cfb65e443daf1957a474297c1f1f7361ea9ffdb04703a2617b87df3b1ada6eba79fd49bbfb7139245fc4de
-Homepage: http://apt.178.com/html/2013/0526/iphone9762.shtml
-Description: 最酷最好用ios多任务增强插件。
-Author: A3tweaks <A3tweaks@gmail.com>
-Name: Auxo
-dev: a3tweaks
-Icon: file:///Library/PreferenceLoader/Preferences/AuxoIcon@2x.png
-Sponsor: w花
-Depiction: http://apt.178.com/html/2013/0526/iphone9762.shtml
 
 Package: org.thebigboss.auxo
 Architecture: iphoneos-arm
@@ -659,22 +620,6 @@ SHA512: 027ef37754bbdc4880d4c3c96a056cc77360ebf422288892ae41d28b37f69ceaf2bc1c16
 Name: LocalIAPStore 内购破解
 Author: anondev
 
-Package: com.abcydia.afc2dfix10
-Architecture: iphoneos-arm
-Version: 1.0-1
-Section: System
-Maintainer: WZteam <admin@abcydia.com>
-Depends: firmware (>= 10), com.abcydia.afc2d
-Filename: ./debfiles/com.abcydia.afc2dfix10_1.0-1.deb
-Size: 1162
-MD5sum: dbb34318604998d0baf45a84d885ec3a
-SHA1: 5c30d2cd4c6d3f3837d05de2e01dc70ece5cb3b6
-SHA256: d2830bab1ce75bdd8030f4cc5af0fdd8426ab6d842edde3bc1f1cf8a809bb5ac
-SHA512: 621091f1168fff82f59a9ef1a1b27a1a23bed8646c7de9b80a0a21dbae9c881e80616fe84c99de04b6b7dcf285121d5eb85651f0946f02ced91c55dc62a1b3e2
-Name: AFC2Fix iOS10 系统路径
-Author: ABCydia <admin@abcydia.com>
-Sponsor: ABCydia <http://www.abcydia.com>
-
 Package: com.abcydia.appsyncunified10
 Architecture: iphoneos-arm
 Version: 104.0
@@ -710,22 +655,6 @@ SHA256: 1154c7e8dcc1b4bb80eaa396ce57a832502711f797aaf97d6ea6e2a9be8cd142
 SHA512: 5aad2f4a6de3f3001cb23e846413f921643793ce8c8c2f6d267c8e10a58f2a5a0955ce3c64a9b98f178d4cdc5e401e1510ff29ee6cb1e18eb88968c14d001142
 Name: Display Recorder 屏幕录像
 Author: Ryan Petrich
-Sponsor: ABCydia <http://www.abcydia.com>
-
-Package: com.abcydia.downgrade10x2841
-Architecture: iphoneos-arm
-Version: 1.0.0
-Section: System
-Maintainer: WZteam <admin@abcydia.com>
-Depends: firmware (>= 10.0)
-Filename: ./debfiles/com.abcydia.downgrade10x2841_1.0.0.deb
-Size: 1010
-MD5sum: f64d4cc84bb36d071d96105b58e8dd6d
-SHA1: 71be6f7241dd55c893c1ffa187077683cdd6c588
-SHA256: b550bfcbd5653ae8dcc9b7a887dab687592de1a4781deb5868947332eb19dae8
-SHA512: b0eda09a509c2e96cd09f3455281934468ad4ae80b09fd29fb38f91e2c795fac1691515d6649855b7ea4ff93eb0ecd54c5836cca7e3a3b0e0f0787538198bbd6
-Name: DownHelper 降级辅助
-Author: FTiOS <admin@abcydia.com>
 Sponsor: ABCydia <http://www.abcydia.com>
 
 Package: com.abcydia.dropbear
@@ -781,23 +710,6 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Sponsor: ABCydia <http://www.abcydia.com>
 Icon: file:///Applications/Eraser.app/Icon-60.png
 
-Package: com.abcydia.netfix
-Architecture: iphoneos-arm
-Version: 1.0-1
-Section: System
-Maintainer: WZteam <admin@abcydia.com>
-Depends: firmware (>= 10.2.1)
-Filename: ./debfiles/com.abcydia.netfix_1.0-1.deb
-Size: 976
-MD5sum: 75283ba536601edb258c3c549e8edb45
-SHA1: b3e5fe5befb0f954f337e8b03bb51313b2124387
-SHA256: 2ab3c886cae8db812efaa42fe9b088673a5600c5c878c11a62946f318fa9eae7
-SHA512: d2b565b407ca4ca2b607c6c0aca8491aabfb451c0e66f3ab2c9781cb9484123db961a8056bffa0c9c07ba2510477c07671945feda0c07912f0c665295227ed1c
-Description: 修复Cydia越狱后不能联网问题
-Name: Netfix Cydia联网修正
-Author: ABCydia <admin@abcydia.com>
-Sponsor: ABCydia <http://www.abcydia.com>
-
 Package: com.coolbooter.coolbootercli
 Architecture: iphoneos-arm
 Version: 1.1-beta2-release
@@ -813,70 +725,6 @@ SHA512: 0be61914e2c93d405deaf9f6c0283b29785085435861e47fc74fd76537731ebcef4876b4
 Description: CoolBooter is an all-in-one dual booting utility for jailbroken 32 bit iOS devices.
 Name: CoolBooter CLI
 Author: CoolBooter <coolbooterios@gmail.com>
-
-Package: com.haoerloveyou.enhancespeed5
-Architecture: iphoneos-arm
-Version: 1.2
-Section: System
-Maintainer: haoerloveyou <haoerloveyou@gmail.com>
-Depends: firmware (>=7.0), com.haoerloveyou.2toxml
-Filename: ./debfiles/com.haoerloveyou.enhancespeed5_1.2.deb
-Size: 1226
-MD5sum: b4d2c65911334f7d71dcf08adf5a2897
-SHA1: d343d58a1e985c5c385140b6bf1bcd1fa951db00
-SHA256: 408d6f83da6d3938911f93d3ca85c7ef62cd8f35ac427274a5e191d2b03be299
-SHA512: 760b53f4bef47491691cbec085ef2922194c6a895ffa3768362a849a735fa1fd4a47ff30cd6c8859961dbf9c23ae2f81dfce9e0228a383afb4a4db615d1dd114
-Name: SpeedEnhance5 5C 提速
-Author: haoerloveyou <haoerloveyou@gmail.com>
-Sponsor: abcydia <http://abcydia.com>
-
-Package: com.haoerloveyou.enhancespeed
-Architecture: iphoneos-arm
-Version: 2.1
-Section: System
-Maintainer: haoerloveyou <haoerloveyou@gmail.com>
-Depends: firmware (>=8.0), com.haoerloveyou.2toxml
-Filename: ./debfiles/com.haoerloveyou.enhancespeed_2.1.deb
-Size: 1200
-MD5sum: b7c7818af7fea1bf0499bd8cb9e76ce2
-SHA1: de6d8dbbb3b3f58fdfac70a61f0801813a5162c5
-SHA256: 31bb7ffba005481e623b198a10c2cbed7a2fb4b209c57edb947e85953cb6c70f
-SHA512: 69b51e9682affea43950a5173946d56557373748b5f37560a6e9e60a57e50eb6d93e15711e45bd600760e71ac96b2cc6a47e5920bbd3868aa31670f7e91bedc8
-Name: SpeedEnhance5S 提速
-Author: haoerloveyou <haoerloveyou@gmail.com>
-Sponsor: abcydia <http://abcydia.com>
-
-Package: com.haoerloveyou.ifile
-Architecture: iphoneos-arm
-Version: 2.2.0-1
-Section: Utilities
-Maintainer: Agricu
-Installed-Size: 20224
-Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
-Filename: ./debfiles/com.haoerloveyou.ifile_2.2.0-1.deb
-Size: 9838006
-MD5sum: ddcd5c0084f40ea5d693e54403668a95
-SHA1: 152b9ff1d5241483585f199474bb1c18754289f1
-SHA256: 6b40cc389add415bb0078c1efddf986e8adc7d34b6fae983b9185e1e316649d8
-SHA512: 7636ffe6d4961f65b3583d4145ebd050d88f5a6748e376886d3423d08ae02d9cf12a801cf24e930cf3c06a5cacd7eaff29f69ec0e2d8a56dabfb3ab12a11f38f
-Name: iFile 文件管理器
-Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
-
-Package: com.nan.conditionalwifi4
-Architecture: iphoneos-arm
-Version: 1.0.0
-Section: System
-Maintainer: zhaonan
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Filename: ./debfiles/com.nan.conditionalwifi4_1.0.0.deb
-Size: 11716
-MD5sum: 09a3eb8347d9478657175c244a48fef3
-SHA1: 17a3d4230f399ae71e7bd722e8635570035a71a4
-SHA256: 12b7e6af10b20141824f7ab101e97f9597a8c9f0815c17a8417775d960db57d0
-SHA512: 589b8a72919b39b728d9aeaf0288711af5a09c50d78e3666d3e4a0e7a9b57d6d434cae21fffc1b5a7cbf5a562d5736890b46f798c75604fd848b951ca7ca5f43
-Description: 最初目的是让国行以外的机型可以调系统WI-FI的联网权限,后用于开启国行机型越狱后App无法联网的问题,支持iOS11-iOS12
-Name: ConditionalWiFi4
-Author: ATWiiks
 
 Package: com.tigisoftware.filza64bit
 Architecture: iphoneos-arm
@@ -1211,6 +1059,22 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 dev: yoyofr
 Icon: file:///Applications/iFBA.app/Icon@2x.png
 
+Package: com.haoerloveyou.ifile
+Architecture: iphoneos-arm
+Version: 2.2.0-1
+Section: Utilities
+Maintainer: Agricu
+Installed-Size: 20224
+Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
+Filename: ./debfiles/ifile_2.2.0-1.deb
+Size: 9838006
+MD5sum: ddcd5c0084f40ea5d693e54403668a95
+SHA1: 152b9ff1d5241483585f199474bb1c18754289f1
+SHA256: 6b40cc389add415bb0078c1efddf986e8adc7d34b6fae983b9185e1e316649d8
+SHA512: 7636ffe6d4961f65b3583d4145ebd050d88f5a6748e376886d3423d08ae02d9cf12a801cf24e930cf3c06a5cacd7eaff29f69ec0e2d8a56dabfb3ab12a11f38f
+Name: iFile 文件管理器
+Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
+
 Package: xyz.cypwn.iparanger
 Architecture: iphoneos-arm
 Version: 1.4
@@ -1229,6 +1093,40 @@ SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/1065
 Name: IPA Ranger
 Author: 0xkuj
 Icon: https://media.havoc.app/6403ab157cd66b13e322fa81
+
+Package: ipwnderlite
+Architecture: iphoneos-arm
+Version: 1.0.57
+Section: System
+Maintainer: sakuRdev/dora2ios
+Depends: firmware (>= 9.0), curl
+Filename: ./debfiles/ipwnderlite_1.0.57-arm.deb
+Size: 44184
+MD5sum: a32eae4b052e65d5dab016ac04f7b24c
+SHA1: d3d774ca9d49d91659642b3ae537ab85b6aa575b
+SHA256: ac9129d1cd4635a956dd48e9490b6e525f63031afa4643bef8093e6d213f9f77
+SHA512: f45610f8219f03b01499c884de9307d61ee1d8817077e2fddc33c4227ddbef8130ec4b0b5f3694b73b4b5bed526bf197dcb17c5723301de525d047349c50a48c
+Description: iPwnder Lite for iPhoneOS.
+Name: iPwnder Lite
+Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
+Author: sakuRdev/dora2ios
+
+Package: ipwnderlite
+Architecture: iphoneos-arm64
+Version: 1.0.57
+Section: System
+Maintainer: sakuRdev/dora2ios
+Depends: firmware (>= 9.0), curl
+Filename: ./debfiles/ipwnderlite_1.0.57-arm64.deb
+Size: 18484
+MD5sum: b9dcbcd918676d260a30ef9dcac44a2d
+SHA1: fa7d54977a29f5d6a17fcbcc57aa998421068050
+SHA256: 257600c872d295981e67a91e453f30d1be9817aa412dc84fa4cb7e21090cbcb6
+SHA512: 7025a8ee9f93562d40207f45ceecb6dfdbb7254811da2312f477e4251e46e1b62a0481fc1338bf71e56bba215646e939bc395022a0713d6dc9be62c7a26e5449
+Description: iPwnder Lite for iPhoneOS.
+Name: iPwnder Lite
+Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
+Author: sakuRdev/dora2ios
 
 Package: ipwnderlite
 Architecture: iphoneos-arm
@@ -1273,6 +1171,40 @@ Name: kDFUApp
 Author: tihmstar
 dev: tihmstar
 
+Package: org.tihmstar.kDFUApp
+Architecture: iphoneos-arm
+Version: 1.0.3
+Priority: optional
+Section: System
+Maintainer: tihmstar
+Depends: openssl, libcrippy-1.0.0, libpartialzip-1.0.0, curl, kloader, com.lukezgd.kDFUBundles, firmware (>= 6.0), firmware (<= 9.3.6)
+Filename: ./debfiles/kDFUApp_1.0.3.deb
+Size: 80264
+MD5sum: 11acba9233d569267c58a2ff1e85a600
+SHA1: 5ecdfd856331a124649cf2af6a83b39d48d6ef62
+SHA256: 1f44ba92f5e194e56234eff7f5c09bf571d30b3001c6d6d52488b55fa070cb7c
+SHA512: aa313edd3855ba87c0c844c037db5dba2fa50f157f7be642c5c53c974f20f81730464145237482289c0c8d1604babc545dc41954efb81cdaaea58a91ade52cc2
+Description: easy way to get into kDFU mode
+Name: kDFUApp
+Author: tihmstar
+dev: tihmstar
+
+Package: com.lukezgd.kDFUBundles
+Architecture: iphoneos-arm
+Version: 1.0.1
+Section: System
+Maintainer: LukeZGD
+Depends: org.tihmstar.kDFUApp
+Filename: ./debfiles/kDFUBundles-1.0.1_iphoneos-arm.deb
+Size: 10730
+MD5sum: 96964db28234171b2ebbebfc04239559
+SHA1: f5bff05635caeaeea05237f60a7ae1f2ebb0f1b9
+SHA256: dd55fa1d75cebac3c6423a1ee5405ca680580c6b569f4667869d04fe6951b141
+SHA512: 41838f42df530bcb71698dce05a74cb39e8d6e3f9e11e137b3a6798e12a46a2cf3bcec6c6adb87c1224d984ae315fcf9341b61f94d4766650b136af45fdf7c56
+Description: More device support for kDFUApp
+Name: kDFUApp Bundles
+Author: LukeZGD
+
 Package: kloader
 Architecture: iphoneos-arm
 Version: 1.0
@@ -1281,7 +1213,7 @@ Section: System
 Maintainer: tihmstar
 Depends: firmware (>= 6.0)
 Conflicts: cy+cpu.arm64
-Filename: ./debfiles/kloader_1.0.deb
+Filename: ./debfiles/kloader_1.0.0.deb
 Size: 7982
 MD5sum: 16347bf66c0c84e4870d2cbba42d1dee
 SHA1: 58194352911aa3ae03dafbc88ddb6f247818ee8f
@@ -1516,28 +1448,6 @@ Description: 禁用设备的iOS-OTA更新检测，防止意外更新
 Name: 禁用OTA更新
 Author: Agricu
 
-Package: net.85819.ios.otrlocation
-Architecture: iphoneos-arm
-Version: 2.6.1-1
-Section: Tweaks
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 8222
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 5.0)
-Filename: ./debfiles/otrlocation虚拟定位 ios6_2.6.1-1.deb
-Size: 3489794
-MD5sum: bccdf81c9211400296ff7413cdca89b9
-SHA1: 82ca322ae9de3700d966c8df49166d8d67e3d9d7
-SHA256: 8bfc7306287b4d905b6f4592201c68dafbe142470615f8897e0c7ff72f76a9b7
-SHA512: e17fcaf204be011e90e27a7b81182e4e125645ee201f78d7c1b8e12b57f971039928d62a5cec6bb68b84dfa32ce27c4cdbd3cfa837af9c08f29700f02f5124fb
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=otrlocationDp
-Description: 完全免费的地址和设备型号修改神器!
-Tag: purpose::extension, compatible::ios7, compatible::ios8
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=otrlocationDp
-Author: onTheRoadStudio <ontheroadstudio@live.cn>
-Name: Anywhere!--虚拟定位
-dev: ontheroadstudio
-Icon: file:///Applications/OTRLocation.app/icon.png
-
 Package: p7zip
 Architecture: iphoneos-arm
 Version: 16.02-1
@@ -1556,6 +1466,24 @@ Description: claims to be a good compressor
 Name: 7-zip (POSIX)
 Author: Sam Bingner <maintainer@sbdhi.com>
 
+Package: io.pangu.axe7
+Architecture: iphoneos-arm
+Version: 0.3
+Priority: optional
+Section: System
+Maintainer: Pangu <axe@pangu.io>
+Depends: coreutils-bin, firmware (>= 7.1), firmware (<= 7.1.2)
+Filename: ./debfiles/pangu.7_0.3_iphoneos-arm.deb
+Size: 107276
+MD5sum: 3d86ef34bda9287e6081dda95b7593dd
+SHA1: 4267988b1bfdc4578dced131667ccca8eb6eb986
+SHA256: db7e412fd629802e26c8aec481cdca9cfe0a3bc33c7a4cc243351245da5cb172
+SHA512: 74a2503e10172785b642b21801debd93c3862c81523b7ae53cd23c4b17aaef736df0a466c47caa03fc10fe75a5e7888fcc8f5b70adfad2fb5ddbba0a6b4a8e22
+Description: untethered jailbreak based on pangu exploits
+Author: Pangu <axe@pangu.io>
+Name: Pangu 7.1-7.1.x Untether
+Depiction: http://cydia.saurik.com/info/io.pangu.axe7/
+
 Package: io.pangu.xuanyuansword8
 Architecture: iphoneos-arm
 Version: 0.5
@@ -1573,24 +1501,6 @@ Description: untethered jailbreak based on pangu exploits
 Author: Pangu <axe@pangu.io>
 Name: Pangu 8.0-8.1 Untether
 Depiction: http://cydia.saurik.com/info/io.pangu.xuanyuansword8/
-
-Package: io.pangu.axe7
-Architecture: iphoneos-arm
-Version: 0.3
-Priority: optional
-Section: System
-Maintainer: Pangu <axe@pangu.io>
-Depends: coreutils-bin, firmware (>= 7.1), firmware (<= 7.1.2)
-Filename: ./debfiles/pangu.axe7_0.3_iphoneos-arm.deb
-Size: 107276
-MD5sum: 3d86ef34bda9287e6081dda95b7593dd
-SHA1: 4267988b1bfdc4578dced131667ccca8eb6eb986
-SHA256: db7e412fd629802e26c8aec481cdca9cfe0a3bc33c7a4cc243351245da5cb172
-SHA512: 74a2503e10172785b642b21801debd93c3862c81523b7ae53cd23c4b17aaef736df0a466c47caa03fc10fe75a5e7888fcc8f5b70adfad2fb5ddbba0a6b4a8e22
-Description: untethered jailbreak based on pangu exploits
-Author: Pangu <axe@pangu.io>
-Name: Pangu 7.1-7.1.x Untether
-Depiction: http://cydia.saurik.com/info/io.pangu.axe7/
 
 Package: org.coolstar.recordmyscreenapp
 Architecture: iphoneos-arm
@@ -1965,24 +1875,6 @@ Tag: role::enduser
 Name: Unthredera1n
 Depiction: http://ichitaso.com/apt/depiction/unthredera1n.html
 Author: UnthreadedJB
-
-Package: cn.agricu.vsz.redeb
-Architecture: iphoneos-arm
-Version: 1.0.3
-Priority: extra
-Section: Utilities
-Maintainer: T.Herak
-Depends: bash (>= 4.0.17-13), coreutils (>= 8.12-12p), grep (>= 2.5.4-3), sed (>= 4.1.5-7), gawk (>= 3.1.6-2p)
-Filename: ./debfiles/vsz.redeb_1.0.3.deb
-Size: 3620
-MD5sum: 29088d17cbb85325cc83020636b5708d
-SHA1: 7bd31e1cf4df2ef1e71b256efa912014afa7a41f
-SHA256: 29f9923f72871c724d0e63da8e10eac6b2c3c7c856b5736b4278ba301b72b243
-SHA512: 483d960b9ecd2678ed2ff8bfb677f3be29da8cf87fd9ff7b92c79b30571b39f81b5c9b53495199ee4fe04c974d11d78fb79c632786364dd574e3cbe6130fd588
-Description: 已安装的DEB文件提取插件
-Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.vsz.redeb
-Name: Redeb 提取本地插件
-Author: T.Herak
 
 Package: zephyr.178
 Architecture: iphoneos-arm
