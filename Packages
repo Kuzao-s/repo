@@ -620,6 +620,22 @@ SHA512: 027ef37754bbdc4880d4c3c96a056cc77360ebf422288892ae41d28b37f69ceaf2bc1c16
 Name: LocalIAPStore 内购破解
 Author: anondev
 
+Package: com.abcydia.afc2dfix10
+Architecture: iphoneos-arm
+Version: 1.0-1
+Section: System
+Maintainer: WZteam <admin@abcydia.com>
+Depends: firmware (>= 10), com.abcydia.afc2d
+Filename: ./debfiles/com.abcydia.afc2dfix10_1.0-1.deb
+Size: 1162
+MD5sum: dbb34318604998d0baf45a84d885ec3a
+SHA1: 5c30d2cd4c6d3f3837d05de2e01dc70ece5cb3b6
+SHA256: d2830bab1ce75bdd8030f4cc5af0fdd8426ab6d842edde3bc1f1cf8a809bb5ac
+SHA512: 621091f1168fff82f59a9ef1a1b27a1a23bed8646c7de9b80a0a21dbae9c881e80616fe84c99de04b6b7dcf285121d5eb85651f0946f02ced91c55dc62a1b3e2
+Name: AFC2Fix iOS10 系统路径
+Author: ABCydia <admin@abcydia.com>
+Sponsor: ABCydia <http://www.abcydia.com>
+
 Package: com.abcydia.appsyncunified10
 Architecture: iphoneos-arm
 Version: 104.0
@@ -710,6 +726,23 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Sponsor: ABCydia <http://www.abcydia.com>
 Icon: file:///Applications/Eraser.app/Icon-60.png
 
+Package: com.abcydia.netfix
+Architecture: iphoneos-arm
+Version: 1.0-1
+Section: System
+Maintainer: WZteam <admin@abcydia.com>
+Depends: firmware (>= 10.2.1)
+Filename: ./debfiles/com.abcydia.netfix_1.0-1.deb
+Size: 976
+MD5sum: 75283ba536601edb258c3c549e8edb45
+SHA1: b3e5fe5befb0f954f337e8b03bb51313b2124387
+SHA256: 2ab3c886cae8db812efaa42fe9b088673a5600c5c878c11a62946f318fa9eae7
+SHA512: d2b565b407ca4ca2b607c6c0aca8491aabfb451c0e66f3ab2c9781cb9484123db961a8056bffa0c9c07ba2510477c07671945feda0c07912f0c665295227ed1c
+Description: 修复Cydia越狱后不能联网问题
+Name: Netfix Cydia联网修正
+Author: ABCydia <admin@abcydia.com>
+Sponsor: ABCydia <http://www.abcydia.com>
+
 Package: com.coolbooter.coolbootercli
 Architecture: iphoneos-arm
 Version: 1.1-beta2-release
@@ -725,6 +758,38 @@ SHA512: 0be61914e2c93d405deaf9f6c0283b29785085435861e47fc74fd76537731ebcef4876b4
 Description: CoolBooter is an all-in-one dual booting utility for jailbroken 32 bit iOS devices.
 Name: CoolBooter CLI
 Author: CoolBooter <coolbooterios@gmail.com>
+
+Package: com.haoerloveyou.enhancespeed5
+Architecture: iphoneos-arm
+Version: 1.2
+Section: System
+Maintainer: haoerloveyou <haoerloveyou@gmail.com>
+Depends: firmware (>=7.0), com.haoerloveyou.2toxml
+Filename: ./debfiles/com.haoerloveyou.enhancespeed5_1.2.deb
+Size: 1226
+MD5sum: b4d2c65911334f7d71dcf08adf5a2897
+SHA1: d343d58a1e985c5c385140b6bf1bcd1fa951db00
+SHA256: 408d6f83da6d3938911f93d3ca85c7ef62cd8f35ac427274a5e191d2b03be299
+SHA512: 760b53f4bef47491691cbec085ef2922194c6a895ffa3768362a849a735fa1fd4a47ff30cd6c8859961dbf9c23ae2f81dfce9e0228a383afb4a4db615d1dd114
+Name: SpeedEnhance5 5C 提速
+Author: haoerloveyou <haoerloveyou@gmail.com>
+Sponsor: abcydia <http://abcydia.com>
+
+Package: com.haoerloveyou.enhancespeed
+Architecture: iphoneos-arm
+Version: 2.1
+Section: System
+Maintainer: haoerloveyou <haoerloveyou@gmail.com>
+Depends: firmware (>=8.0), com.haoerloveyou.2toxml
+Filename: ./debfiles/com.haoerloveyou.enhancespeed_2.1.deb
+Size: 1200
+MD5sum: b7c7818af7fea1bf0499bd8cb9e76ce2
+SHA1: de6d8dbbb3b3f58fdfac70a61f0801813a5162c5
+SHA256: 31bb7ffba005481e623b198a10c2cbed7a2fb4b209c57edb947e85953cb6c70f
+SHA512: 69b51e9682affea43950a5173946d56557373748b5f37560a6e9e60a57e50eb6d93e15711e45bd600760e71ac96b2cc6a47e5920bbd3868aa31670f7e91bedc8
+Name: SpeedEnhance5S 提速
+Author: haoerloveyou <haoerloveyou@gmail.com>
+Sponsor: abcydia <http://abcydia.com>
 
 Package: com.tigisoftware.filza64bit
 Architecture: iphoneos-arm
@@ -1251,6 +1316,23 @@ Author: Team-Kodi
 dev: teamkodi
 Icon: file:///Applications/Kodi.app/AppIcon57x57.png
 
+Package: libcrippy-1.0.0
+Architecture: iphoneos-arm
+Version: 1.0
+Priority: optional
+Section: Development
+Maintainer: tihmstar
+Depends: firmware (>= 6.0)
+Filename: ./debfiles/libcrippy-1.0.0.deb
+Size: 15858
+MD5sum: d0057e3946594ac6c18b7112383955e5
+SHA1: 175bfec615f2c802a1c0c74ffca649664f036001
+SHA256: f1f3253d43601acbacd12071e1de880a83b2b987b6238a131fc84ef813928465
+SHA512: faf1c66b923d142fcdb3fed425f31c584d2e5070002eb656dfb316bc648456c264a2c81ab606b5b096dcd21cb1b1d932d1a9d8b79be95ef5d63017e174b33754
+Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
+Name: libcrippy-1.0.0
+Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
+
 Package: com.michael.libdementia
 Architecture: iphoneos-arm
 Version: 0.2.17
@@ -1266,6 +1348,23 @@ SHA512: 2433ffc69513da1fa5746121cc29dc2d258c39bbeddd35964a75f0edd90686aa16f84220
 Description: Library of dimentio
 Name: libdementia
 Author: 0x7ff
+
+Package: libpartialzip-1.0.0
+Architecture: iphoneos-arm
+Version: 1.0
+Priority: optional
+Section: Development
+Maintainer: tihmstar
+Depends: firmware (>= 6.0), libcrippy-1.0.0
+Filename: ./debfiles/libpartialzip-1.0.0.deb
+Size: 6830
+MD5sum: ab609167a1653beda05eb2876f2500bd
+SHA1: cf24410d852a756df9869e99dc3e0075baed092d
+SHA256: 2a0417afeaf3368285d409c396492158632a6c44e8051bc12f2bdb7b8ff0f1d6
+SHA512: 61b9052be350fa8cd2b9dafc71685ae7338a1ae186db9e4dabf19b13077e6c3fb2de14ff39d8d841055d563828d5e50bc8f174d6dc5ffe43c43d5daf364532a1
+Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
+Name: libpartialzip-1.0.0
+Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
 
 Package: com.hackyouriphone.mdemu
 Architecture: iphoneos-arm
@@ -1875,6 +1974,24 @@ Tag: role::enduser
 Name: Unthredera1n
 Depiction: http://ichitaso.com/apt/depiction/unthredera1n.html
 Author: UnthreadedJB
+
+Package: cn.agricu.vsz.redeb
+Architecture: iphoneos-arm
+Version: 1.0.3
+Priority: extra
+Section: Utilities
+Maintainer: T.Herak
+Depends: bash (>= 4.0.17-13), coreutils (>= 8.12-12p), grep (>= 2.5.4-3), sed (>= 4.1.5-7), gawk (>= 3.1.6-2p)
+Filename: ./debfiles/vsz.redeb_1.0.3.deb
+Size: 3620
+MD5sum: 29088d17cbb85325cc83020636b5708d
+SHA1: 7bd31e1cf4df2ef1e71b256efa912014afa7a41f
+SHA256: 29f9923f72871c724d0e63da8e10eac6b2c3c7c856b5736b4278ba301b72b243
+SHA512: 483d960b9ecd2678ed2ff8bfb677f3be29da8cf87fd9ff7b92c79b30571b39f81b5c9b53495199ee4fe04c974d11d78fb79c632786364dd574e3cbe6130fd588
+Description: 已安装的DEB文件提取插件
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.vsz.redeb
+Name: Redeb 提取本地插件
+Author: T.Herak
 
 Package: zephyr.178
 Architecture: iphoneos-arm
