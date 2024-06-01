@@ -707,25 +707,6 @@ Name: Active 1429 4G iOS8
 Author: ABCydia <admin@abcydia.com>
 Sponsor: ABCydia <http://www.abcydia.com>
 
-Package: com.abcydia.impactor
-Architecture: iphoneos-arm
-Version: 0.9.43
-Priority: optional
-Section: Utilities
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Depends: firmware (>= 7.1), firmware (<= 10.3.3)
-Filename: ./debfiles/com.abcydia.impactor_0.9.43.deb
-Size: 386526
-MD5sum: 2e799bf7ae0411d9221bdc1a1da4ab51
-SHA1: ce40997316aa0abea80397fb656ccc9ddcef441d
-SHA256: 1261f646aad0e883d10df4a7648b6f3ff9976b42df6be2a185a5bf87b77a7411
-SHA512: a4023ace0642fa6da26b3df639c63572baeb44a207a394a494ff1df0157506ca5b52ee58051fa15a665d0021a876a8ee15edc74696716a53e1a939ccbc599720
-Tag: purpose::uikit, role::enduser
-Name: Cydia Eraser 平刷软件
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Sponsor: ABCydia <http://www.abcydia.com>
-Icon: file:///Applications/Eraser.app/Icon-60.png
-
 Package: com.abcydia.netfix
 Architecture: iphoneos-arm
 Version: 1.0-1
