@@ -1081,25 +1081,25 @@ SHA256: e0f0c5c44540e5cec5b094c40c5e4f22145150cc1571f881fea2758e59fd63c5
 SHA512: 4ae4c64bb8a1ccbcf4ef7392031cf89788c65a6afdc446e58bd8664a2d62025e6cef938df5b30293f48ef4c45eb4d6224c11b31544d5fa4ec76123db7e3a9ec6
 Description: GamePlayer is a game cheating tool. It can easily modify HP, MP, money and so on. iOS 4.3.x, 5.x and 6.x are supported.
 
-Package: com.abcydia.icleanerpro
+Package: com.exile90.icleanerpro
 Architecture: iphoneos-arm
-Version: 7.9.1
+Version: 7.10.0
 Section: Utilities
-Maintainer: WZteam <admin@abcydia.com>
-Installed-Size: 16866
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
 Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner
 Replaces: org.altervista.exilecom.icleaner
-Filename: ./debfiles/icleanerpro_7.9.1.deb
-Size: 4787254
-MD5sum: f05ea583f2e2ef72be21ec6956562d68
-SHA1: 052959951460198def53de381625717b23deb710
-SHA256: 85fe5f4303908b2a17b21af504a8822c36ecd87fcb0bdf44556f7e8d88afd971
-SHA512: 3054528f831a662e086a835996c013cf5d83f7f1791c73a84fea431737057dc9808c1d5de36e4fb063c9b3e3280efe65b51bcc11cade163d555697f954df1491
-Description: iOS系统 垃圾清理 & 插件管理 工具
-Name: iCleaner Pro 系统清理
-Author: Ivano Bilenchi
-Sponsor: ABCydia <http://www.abcydia.com>
+Filename: ./debfiles/iCleanerpro_7.10.0.deb
+Size: 2450460
+MD5sum: 830ebd462d173a9211f5f7c41ce64d1a
+SHA1: 437f5c5097cdab433698b11dab81c3cb8fc82917
+SHA256: 99c90c0f4629d47af1c52772f374eb74828f7cdafc469fcc42af0eea6d417c66
+SHA512: a19de8e370ca25295088e7e4426d02f6124f2a957231a6c69dddd7f0cb23f88603f10e4c89c17315cbfa60ce2eddfd1209caa3b222852782b2d036da991a054b
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleanup and management utility
+Name: iCleaner Pro
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 Icon: file:///Applications/iCleaner.app/Icon.png
 
 Package: com.yoyofr.ifba
