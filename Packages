@@ -199,6 +199,20 @@ Name: GBC.emu
 Author: Robert Broglia <repo@hackyouriphone.org>
 Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=gbcemu
 
+Package: com.abcydia.LocalIAPStore
+Architecture: iphoneos-arm
+Version: 1.5-1x
+Section: Tweaks
+Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
+Filename: ./debfiles/LocalIAPStore_1.5-1x.deb
+Size: 42122
+MD5sum: c877e692405be332ef185d058982f643
+SHA1: 15b5a44ac487d6554c83da2fb4c5189b050b18f4
+SHA256: 3e4fee29a71a7a14d68f8423bcdd1f1e80071e171341b2fd834f1b921daac2f1
+SHA512: 027ef37754bbdc4880d4c3c96a056cc77360ebf422288892ae41d28b37f69ceaf2bc1c16fe91cf1bfcd18b50aa364de354183930a77682bf3e191badda60d1aa
+Name: LocalIAPStore 内购破解
+Author: anondev
+
 Package: com.hackyouriphone.gbcemu
 Architecture: iphoneos-arm
 Version: 1.5.19-r1
@@ -312,30 +326,6 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 dev: explusalpha
 Icon: file:///Applications/Snes9xEXPlus.app/icon-57.png
 
-Package: tetherme.178
-Architecture: iphoneos-arm
-Version: 3.0-3
-Section: [178 - 工具]
-Maintainer: 178 Team <apt@178.com>
-Installed-Size: 437
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), firmware (<< 3.2) | firmware (>= 4.0), preferenceloader (>= 2.2.2), network-cmds
-Conflicts: net.tetherme.apnedit, net.tetherme.preferences
-Replaces: net.tetherme.apnedit, net.tetherme.preferences
-Filename: ./debfiles/TetherMe个人热点.deb
-Size: 55816
-MD5sum: bd067888870863fc35fbadc4c67b3495
-SHA1: 7bc810b68b33bd2009c810745ab0e8be83a66a75
-SHA256: 7670288dbd646c31632455884d41e3cef4e42abbb0d04dfa19a739acce6a8e9d
-SHA512: 095cab9a87bfa11ac02344b242172e09fdc7adb534a6fda92ed24b68ae60c25ef9391147ba916f38be6952d9969893ca391dd27bfa962e664ff4c25777bddfdb
-Homepage: http://apt.178.com/html/2014/0102/iphone10343.shtml
-Description: 开启设备移动网络下网络共享功能。
-Name: TetherMe
-Author: cirdan & sbingner <support@tetherme.net>
-dev: tetherme
-Icon: file:///Library/PreferenceBundles/TetherMe.bundle/TetherMe@2x.png
-Sponsor: w花
-Depiction: http://apt.178.com/html/2014/0102/iphone10343.shtml
-
 Package: com.hackyouriphone.a2600emu
 Architecture: iphoneos-arm
 Version: 1.5.29
@@ -379,6 +369,48 @@ Name: Apple File Conduit "2" (iOS 11+, arm64)
 Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.afc2d-arm64
 Sponsor: thebigboss.org <http://thebigboss.org>
 dev: cannathea
+
+Package: net.angelxwind.appsync40plus
+Architecture: iphoneos-arm
+Version: 1.2.2
+Section: Tweaks
+Maintainer: Karen/あけみ (angelXwind) <angelXwind@angelxwind.net>
+Provides: appsync, us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
+Pre-Depends: firmware (>= 4.0), firmware (<< 5.0)
+Conflicts: us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
+Replaces: us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
+Filename: ./debfiles/appsync40plus_1.2.2.deb
+Size: 9214
+MD5sum: 8778373b7335e4ae639e4396b0331c06
+SHA1: ca39e60d280222183d51958f7ae1fd27fe8fb892
+SHA256: 415e3d73c7dd2d64d679db804b94fe381ed9b67b0f295375b95278cb74a971c6
+SHA512: 4189d71ff025bb123a37a3e6c0f20a388707387bd1b264b1da50adf82f0bca8d09e5b7cb0bf9e87b2e028b5a95875a2fe4683359fec933ebdc710b2d2151a111
+Homepage: https://cydia.angelxwind.net/
+Description: AppSync Unified allows you to sync and install unsigned iOS applications. Only for iOS 4.
+Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.appsync40plus
+Name: AppSync for iOS 4.0
+Author: Karen/あけみ, Dissident <angelXwind@angelxwind.net>
+
+Package: com.abcydia.appsyncunified10
+Architecture: iphoneos-arm
+Version: 104.0
+Section: Tweaks
+Maintainer: WZteam <admin@abcydia.com>
+Installed-Size: 732
+Provides: appsync
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.8.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
+Replaces: us.hackulo.appsync50
+Filename: ./debfiles/appsyncunified_104.0.deb
+Size: 59296
+MD5sum: e6d239da735a6fae5df6e371fb5da26a
+SHA1: 2dd9434095bd75dd05f6df172cf424f48bc5ee40
+SHA256: 3e92c4face1c8f24d3e8b96c56b6c43d7de65040d35d12f97359fe26616502d9
+SHA512: ef219ee3a6e27a869f1a972044b826d085f00a5aac7bb4fa62fc42f934b37ac64ec7cb93a33b7bd68e013bfda382279dab8d59e87cdf9498ef47ab8b4417d87a
+Description: 关闭iOS App签名校验
+Name: AppSync Unified 关闭签名
+Author: Karen, Linus Yang
+Sponsor: ABCydia <http://www.abcydia.com>
 
 Package: ai.akemi.appsyncunified
 Architecture: iphoneos-arm
@@ -606,20 +638,6 @@ Author: YouYuanApp
 Sponsor: ABCydia <http://www.abcydia.com>
 Icon: file:///Applications/IAPCrazy.app/AppIcon57x57.png
 
-Package: com.abcydia.LocalIAPStore
-Architecture: iphoneos-arm
-Version: 1.5-1x
-Section: Tweaks
-Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
-Filename: ./debfiles/com.abcydia.LocalIAPStore_1.5-1x.deb
-Size: 42122
-MD5sum: c877e692405be332ef185d058982f643
-SHA1: 15b5a44ac487d6554c83da2fb4c5189b050b18f4
-SHA256: 3e4fee29a71a7a14d68f8423bcdd1f1e80071e171341b2fd834f1b921daac2f1
-SHA512: 027ef37754bbdc4880d4c3c96a056cc77360ebf422288892ae41d28b37f69ceaf2bc1c16fe91cf1bfcd18b50aa364de354183930a77682bf3e191badda60d1aa
-Name: LocalIAPStore 内购破解
-Author: anondev
-
 Package: com.abcydia.afc2dfix10
 Architecture: iphoneos-arm
 Version: 1.0-1
@@ -634,27 +652,6 @@ SHA256: d2830bab1ce75bdd8030f4cc5af0fdd8426ab6d842edde3bc1f1cf8a809bb5ac
 SHA512: 621091f1168fff82f59a9ef1a1b27a1a23bed8646c7de9b80a0a21dbae9c881e80616fe84c99de04b6b7dcf285121d5eb85651f0946f02ced91c55dc62a1b3e2
 Name: AFC2Fix iOS10 系统路径
 Author: ABCydia <admin@abcydia.com>
-Sponsor: ABCydia <http://www.abcydia.com>
-
-Package: com.abcydia.appsyncunified10
-Architecture: iphoneos-arm
-Version: 104.0
-Section: Tweaks
-Maintainer: WZteam <admin@abcydia.com>
-Installed-Size: 732
-Provides: appsync
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.8.1)
-Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
-Replaces: us.hackulo.appsync50
-Filename: ./debfiles/com.abcydia.appsyncunified10_104.0.deb
-Size: 59296
-MD5sum: e6d239da735a6fae5df6e371fb5da26a
-SHA1: 2dd9434095bd75dd05f6df172cf424f48bc5ee40
-SHA256: 3e92c4face1c8f24d3e8b96c56b6c43d7de65040d35d12f97359fe26616502d9
-SHA512: ef219ee3a6e27a869f1a972044b826d085f00a5aac7bb4fa62fc42f934b37ac64ec7cb93a33b7bd68e013bfda382279dab8d59e87cdf9498ef47ab8b4417d87a
-Description: 关闭iOS App签名校验
-Name: AppSync Unified 关闭签名
-Author: Karen, Linus Yang
 Sponsor: ABCydia <http://www.abcydia.com>
 
 Package: com.abcydia.displayrecorder
@@ -739,22 +736,6 @@ SHA512: 0be61914e2c93d405deaf9f6c0283b29785085435861e47fc74fd76537731ebcef4876b4
 Description: CoolBooter is an all-in-one dual booting utility for jailbroken 32 bit iOS devices.
 Name: CoolBooter CLI
 Author: CoolBooter <coolbooterios@gmail.com>
-
-Package: com.haoerloveyou.enhancespeed5
-Architecture: iphoneos-arm
-Version: 1.2
-Section: System
-Maintainer: haoerloveyou <haoerloveyou@gmail.com>
-Depends: firmware (>=7.0), com.haoerloveyou.2toxml
-Filename: ./debfiles/com.haoerloveyou.enhancespeed5_1.2.deb
-Size: 1226
-MD5sum: b4d2c65911334f7d71dcf08adf5a2897
-SHA1: d343d58a1e985c5c385140b6bf1bcd1fa951db00
-SHA256: 408d6f83da6d3938911f93d3ca85c7ef62cd8f35ac427274a5e191d2b03be299
-SHA512: 760b53f4bef47491691cbec085ef2922194c6a895ffa3768362a849a735fa1fd4a47ff30cd6c8859961dbf9c23ae2f81dfce9e0228a383afb4a4db615d1dd114
-Name: SpeedEnhance5 5C 提速
-Author: haoerloveyou <haoerloveyou@gmail.com>
-Sponsor: abcydia <http://abcydia.com>
 
 Package: com.haoerloveyou.enhancespeed
 Architecture: iphoneos-arm
@@ -1142,16 +1123,16 @@ Icon: https://media.havoc.app/6403ab157cd66b13e322fa81
 
 Package: ipwnderlite
 Architecture: iphoneos-arm
-Version: 1.0.57
+Version: 1.0.62
 Section: System
 Maintainer: sakuRdev/dora2ios
-Depends: firmware (>= 9.0), curl
-Filename: ./debfiles/ipwnderlite_1.0.57-arm.deb
-Size: 44184
-MD5sum: a32eae4b052e65d5dab016ac04f7b24c
-SHA1: d3d774ca9d49d91659642b3ae537ab85b6aa575b
-SHA256: ac9129d1cd4635a956dd48e9490b6e525f63031afa4643bef8093e6d213f9f77
-SHA512: f45610f8219f03b01499c884de9307d61ee1d8817077e2fddc33c4227ddbef8130ec4b0b5f3694b73b4b5bed526bf197dcb17c5723301de525d047349c50a48c
+Depends: firmware (>= 9.0), curl, com.ra9stuff.accessoryalertblocker
+Filename: ./debfiles/ipwnderlite_1.0.62_arm.deb
+Size: 44528
+MD5sum: b672176463c340b63de5b11200983224
+SHA1: 59ceb7308bd01df2e393ec60ffcde3aaeb9087a9
+SHA256: b501c7c22b13545ffa88fa5a8d0f659c68d4dd73dc420765afefc9408dff4629
+SHA512: 37e6f2da26f07922229457ab9d4bc277ac9ca773b7b99a85a33ecb96ac2ff40270799723488819567d8cf65e2fd07f0808d8369d3cff59560ec6d98cb784298f
 Description: iPwnder Lite for iPhoneOS.
 Name: iPwnder Lite
 Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
@@ -1159,16 +1140,16 @@ Author: sakuRdev/dora2ios
 
 Package: ipwnderlite
 Architecture: iphoneos-arm64
-Version: 1.0.57
+Version: 1.0.62
 Section: System
 Maintainer: sakuRdev/dora2ios
-Depends: firmware (>= 9.0), curl
-Filename: ./debfiles/ipwnderlite_1.0.57-arm64.deb
-Size: 18484
-MD5sum: b9dcbcd918676d260a30ef9dcac44a2d
-SHA1: fa7d54977a29f5d6a17fcbcc57aa998421068050
-SHA256: 257600c872d295981e67a91e453f30d1be9817aa412dc84fa4cb7e21090cbcb6
-SHA512: 7025a8ee9f93562d40207f45ceecb6dfdbb7254811da2312f477e4251e46e1b62a0481fc1338bf71e56bba215646e939bc395022a0713d6dc9be62c7a26e5449
+Depends: firmware (>= 9.0), curl, com.ra9stuff.accessoryalertblocker
+Filename: ./debfiles/ipwnderlite_1.0.62_arm64.deb
+Size: 22400
+MD5sum: 24305239612509dd084443e0c02de74d
+SHA1: 7c499bfcb85007470619d4e4b8746a3cadbb8ddd
+SHA256: db621c55f04701da808a3f3af5429cebb19fe58246ac21641c062b8c70eec497
+SHA512: c4b6cc650859a8848671cb82ac683db73ffe9b665c2a83da843c21ae977681684bc1ffe91472aee6aaf6d87a36fd6048e21253b61fc0912d19e8ef171a5e40ff
 Description: iPwnder Lite for iPhoneOS.
 Name: iPwnder Lite
 Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
@@ -1259,28 +1240,7 @@ Section: System
 Maintainer: tihmstar
 Depends: firmware (>= 6.0)
 Conflicts: cy+cpu.arm64
-Filename: ./debfiles/kloader-1.0.0.deb
-Size: 7982
-MD5sum: 16347bf66c0c84e4870d2cbba42d1dee
-SHA1: 58194352911aa3ae03dafbc88ddb6f247818ee8f
-SHA256: 1fdbaf24db617955afd30244884f99f15be58763a723eb5d81a07b52beae42f4
-SHA512: b385be74dd495b6a9c8e484e01300677683c5d066215e14fd7055c9619adb41a064c958da8934ba57185f9f23efbb8b452926815446577f9b2e7fea90185bed5
-Homepage: https://github.com/xerub/ios-kexec-utils/blob/master/kloader.c
-Description: Don't install if you don't know what that is
-	Do not install this package if you don't know what this is.
-	Installing this on a production device is not recommended.
-Name: kloader
-Author: winocm, xerub
-
-Package: kloader
-Architecture: iphoneos-arm
-Version: 1.0
-Priority: optional
-Section: System
-Maintainer: tihmstar
-Depends: firmware (>= 6.0)
-Conflicts: cy+cpu.arm64
-Filename: ./debfiles/kloader_1.0.deb
+Filename: ./debfiles/kloader_1.0.0.deb
 Size: 7982
 MD5sum: 16347bf66c0c84e4870d2cbba42d1dee
 SHA1: 58194352911aa3ae03dafbc88ddb6f247818ee8f
@@ -1431,31 +1391,6 @@ Name: Cydia Substrate
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/mobilesubstrate/
 
-Package: mobileterminal-applesdk
-Architecture: iphoneos-arm
-Version: 520-2
-Section: Terminal Support
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 601
-Depends: firmware (>= 3.2), dpkg (>= 1.14.25-8), bash, coreutils, ncurses, system-cmds
-Conflicts: mobileterminal
-Filename: ./debfiles/mobileterminal-applesdk_520-2_iphoneos-arm.deb
-Size: 237756
-MD5sum: 976152ac3cce2f95ae2092d97807fc31
-SHA1: 3cc37047bab030c34b9a4104f1ef655c4c960d6a
-SHA256: 6f02bb0e3f2833140725f3d6b848e9b0a1e786855dc451778133149ac2ebc986
-SHA512: 734cdd8f62246936030421e172a2f484593d2472ce7c844fe782d9650ebe331eabc4bfdbd4593b5faec9a786a3ffb7dd2e0b5caca1af4c9c3dfb0a6c699b0baa
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mobileterminalDp
-Description: A Terminal emulator for iOS
-	This is a Terminal emulator for the iPhone. With it you can do all of your standard system administration tasks from anywhere: ssh into remote boxes, download files, edit configuration files, whatever.
-Tag: purpose::uikit
-Author: MobileTerminal <mobileterminal@googlegroups.com>
-Name: MobileTerminal
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mobileterminalDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: allenporter
-Icon: file:///Applications/Terminal.app/Icon.png
-
 Package: com.abcydia.mterminal
 Architecture: iphoneos-arm
 Version: 1.4-6
@@ -1475,27 +1410,6 @@ Description: 运行在iOS 上的手机终端
 Name: MTerminal 手机终端
 Author: lordscotland <admin@officialscheduler.com>
 Sponsor: ABCydia <http://www.abcydia.com>
-
-Package: net.angelxwind.appsync40plus
-Architecture: iphoneos-arm
-Version: 1.2.2
-Section: Tweaks
-Maintainer: Karen/あけみ (angelXwind) <angelXwind@angelxwind.net>
-Provides: appsync, us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
-Pre-Depends: firmware (>= 4.0), firmware (<< 5.0)
-Conflicts: us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
-Replaces: us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
-Filename: ./debfiles/net.angelxwind.appsync40plus_1.2.2.deb
-Size: 9214
-MD5sum: 8778373b7335e4ae639e4396b0331c06
-SHA1: ca39e60d280222183d51958f7ae1fd27fe8fb892
-SHA256: 415e3d73c7dd2d64d679db804b94fe381ed9b67b0f295375b95278cb74a971c6
-SHA512: 4189d71ff025bb123a37a3e6c0f20a388707387bd1b264b1da50adf82f0bca8d09e5b7cb0bf9e87b2e028b5a95875a2fe4683359fec933ebdc710b2d2151a111
-Homepage: https://cydia.angelxwind.net/
-Description: AppSync Unified allows you to sync and install unsigned iOS applications. Only for iOS 4.
-Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.appsync40plus
-Name: AppSync for iOS 4.0
-Author: Karen/あけみ, Dissident <angelXwind@angelxwind.net>
 
 Package: openssh
 Architecture: iphoneos-arm
@@ -1665,24 +1579,6 @@ Description: A PSP emulator
 Name: PPSSPP 0.9.9.1
 Author: Henrik Rydgård <repo@hackyouriphone.org>
 Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ppsspp
-
-Package: wiki.qaq.iridium
-Architecture: iphoneos-arm
-Version: 1.2.15-REL-1642832736
-Section: Applications
-Maintainer: Lakr Aream <launchctl@outlook.com>
-Pre-Depends: firmware (>= 13.5)
-Filename: ./debfiles/ridium.rel.ci.deb
-Size: 5425364
-MD5sum: 2e9e01cb519272c5b14291638c00906c
-SHA1: 8f9be410cbb2b0604fdd5f1375d84908ea167dff
-SHA256: 45709d373520f0613b39a590162e7933469d413e2c56f9dbd06d6072f0d9179c
-SHA512: 9f0284309d021c4e480fd8081d9e575be31654384a59702b5d13fbcc9e6185d65a9b25521fb6c5a1451d3617faf3f3d86d88af77aed2e4c309464e2d0dd1e458
-Description: An iOS application decrypter built ready for use.
-Tag: purpose::uikit
-Name: iridium
-Author: Lakr Aream <launchctl@outlook.com>
-depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iridiumDp
 
 Package: sed
 Architecture: iphoneos-arm
