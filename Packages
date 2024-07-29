@@ -753,6 +753,40 @@ Name: SpeedEnhance5S 提速
 Author: haoerloveyou <haoerloveyou@gmail.com>
 Sponsor: abcydia <http://abcydia.com>
 
+Package: com.ra9stuff.accessoryalertblocker
+Architecture: iphoneos-arm64
+Version: 0.0.1-2
+Section: Tweaks
+Maintainer: rA9stuff
+Installed-Size: 216
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debfiles/com.ra9stuff.accessoryalertblocker_0.0.1-2_iphoneos-arm64.deb
+Size: 4970
+MD5sum: c585aca0c818a74d52b2e045b29d9fd2
+SHA1: ab44734d1b78494d2bbf3d61c5e79f6959aa4d79
+SHA256: a38c9303115330e1abc471bc21136622c532255c4a1a35dfd82143255a656760
+SHA512: 8c4969e4a75cacbfd06bd4bc76ec01eaced8d19c465eb32eac8bdb2c5fe28c5998a5523ca233d3413849cc5c7a86e40346b061367ab24aa98433b52d03e7b181
+Description: blocks downloading accessory firmware alert.
+Name: accessoryalertblocker
+Author: rA9stuff
+
+Package: com.ra9stuff.accessoryalertblocker
+Architecture: iphoneos-arm
+Version: 0.0.1-2
+Section: Tweaks
+Maintainer: rA9stuff
+Installed-Size: 216
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debfiles/com.ra9stuff.accessoryalertblocker_0.0.1_iphoneos-arm.deb
+Size: 4908
+MD5sum: fd284f54ce49e93397e462947f5f1ad2
+SHA1: 3518e993db934723dfaaf5b7fd83f3d49b10c4c1
+SHA256: a5663a19248dce79aa74b7f23b75b3dc893260012cfa9ff908675721da0f9844
+SHA512: 5f7006a86079f56abffdb13261bc687dc60ab0683978117a19a86b4ea2674738c170e00423a8173bb7875127a26f06b05e584ed88dc23f45c3e06aa15914a943
+Description: blocks downloading accessory firmware alert.
+Name: accessoryalertblocker
+Author: rA9stuff
+
 Package: com.tigisoftware.filza64bit
 Architecture: iphoneos-arm
 Version: 4.0.0-6
@@ -1120,6 +1154,40 @@ SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/1065
 Name: IPA Ranger
 Author: 0xkuj
 Icon: https://media.havoc.app/6403ab157cd66b13e322fa81
+
+Package: ipwnderlite
+Architecture: iphoneos-arm
+Version: 1.0.57
+Section: System
+Maintainer: sakuRdev/dora2ios
+Depends: firmware (>= 9.0), curl
+Filename: ./debfiles/ipwnderlite_1.0.57-arm.deb
+Size: 44184
+MD5sum: a32eae4b052e65d5dab016ac04f7b24c
+SHA1: d3d774ca9d49d91659642b3ae537ab85b6aa575b
+SHA256: ac9129d1cd4635a956dd48e9490b6e525f63031afa4643bef8093e6d213f9f77
+SHA512: f45610f8219f03b01499c884de9307d61ee1d8817077e2fddc33c4227ddbef8130ec4b0b5f3694b73b4b5bed526bf197dcb17c5723301de525d047349c50a48c
+Description: iPwnder Lite for iPhoneOS.
+Name: iPwnder Lite
+Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
+Author: sakuRdev/dora2ios
+
+Package: ipwnderlite
+Architecture: iphoneos-arm64
+Version: 1.0.57
+Section: System
+Maintainer: sakuRdev/dora2ios
+Depends: firmware (>= 9.0), curl
+Filename: ./debfiles/ipwnderlite_1.0.57-arm64.deb
+Size: 18484
+MD5sum: b9dcbcd918676d260a30ef9dcac44a2d
+SHA1: fa7d54977a29f5d6a17fcbcc57aa998421068050
+SHA256: 257600c872d295981e67a91e453f30d1be9817aa412dc84fa4cb7e21090cbcb6
+SHA512: 7025a8ee9f93562d40207f45ceecb6dfdbb7254811da2312f477e4251e46e1b62a0481fc1338bf71e56bba215646e939bc395022a0713d6dc9be62c7a26e5449
+Description: iPwnder Lite for iPhoneOS.
+Name: iPwnder Lite
+Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
+Author: sakuRdev/dora2ios
 
 Package: ipwnderlite
 Architecture: iphoneos-arm
