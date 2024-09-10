@@ -1155,6 +1155,42 @@ Name: IPA Ranger
 Author: 0xkuj
 Icon: https://media.havoc.app/6403ab157cd66b13e322fa81
 
+Package: ipwnderlite32
+Architecture: iphoneos-arm
+Version: 1.0.63
+Section: System
+Maintainer: sakuRdev/dora2ios
+Depends: firmware (>= 9.0), firmware (<< 11.0), curl, com.ra9stuff.accessoryalertblocker
+Conflicts: ipwnderlite
+Filename: ./debfiles/ipwnderlite32_1.0.63_arm.deb
+Size: 22882
+MD5sum: 56b35989d96bd89cc913575866cbe7b8
+SHA1: 69a2d2fa9f78b13af7c2794c2560e6a98f5f9253
+SHA256: 5a092523f82b8a6fe7bfb307eef8da359d78676618c0eb8bbe8ca09195cf15a0
+SHA512: c89356cd4ecff2bcc2bfc6cc5a789ab6982dbdb38f3c6455cbacd894ee376cf8d05cc40b8f73c5fa7cc161416d3a2b962369a7dfe75bc3ee4c620645b0dade0a
+Description: iPwnder Lite for iPhoneOS.
+Name: iPwnder Lite
+Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
+Author: sakuRdev/dora2ios
+
+Package: ipwnderlite64
+Architecture: iphoneos-arm
+Version: 1.0.63
+Section: System
+Maintainer: sakuRdev/dora2ios
+Depends: firmware (>= 11.0), curl, com.ra9stuff.accessoryalertblocker
+Conflicts: ipwnderlite
+Filename: ./debfiles/ipwnderlite64_1.0.63_arm.deb
+Size: 22390
+MD5sum: d8adab1018a0fb283d2a3d7cbd6f1276
+SHA1: 3e8d381bb8ab4276fd9ab61feba159b58cea3c1c
+SHA256: 3c7354bbf06977b38371bcd525230c11d8c919caf397a94b775bdd6d0c4d0554
+SHA512: d7da10e857198b35b9d39941c036291804ea1599c59d6d1146d9f93cbd128e71687bc31da20f5064e7a83123415f6e3a7530d8bfd8edf31d2df95e4a2faf379b
+Description: iPwnder Lite for iPhoneOS.
+Name: iPwnder Lite (iOS 11+)
+Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
+Author: sakuRdev/dora2ios
+
 Package: ipwnderlite
 Architecture: iphoneos-arm
 Version: 1.0.57
