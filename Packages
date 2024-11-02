@@ -1147,10 +1147,10 @@ Installed-Size: 20224
 Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
 Filename: ./debfiles/ifile_2.2.0-1.deb
 Size: 9838006
-MD5sum: d74951ab2f45742cb6000e81aead0053
-SHA1: 47497bf4a6cd6083aae8e4737f5880f61f57d2ea
-SHA256: a7d78e1bb9af18e8f863391658ad8e6196b7976269819dd6f41504d6ec226290
-SHA512: cce7e4112a4e275df984795e7b1ffade835e408cc303751c3ee4d7bb4454f5536de6f5b8c4fef7a89b6eff01e8cc683db9704a0ffa7a042e6cd04bb0ccdb1c0c
+MD5sum: ddcd5c0084f40ea5d693e54403668a95
+SHA1: 152b9ff1d5241483585f199474bb1c18754289f1
+SHA256: 6b40cc389add415bb0078c1efddf986e8adc7d34b6fae983b9185e1e316649d8
+SHA512: 7636ffe6d4961f65b3583d4145ebd050d88f5a6748e376886d3423d08ae02d9cf12a801cf24e930cf3c06a5cacd7eaff29f69ec0e2d8a56dabfb3ab12a11f38f
 Name: iFile 文件管理器
 Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
 
