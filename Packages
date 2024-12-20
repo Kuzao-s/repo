@@ -1248,6 +1248,23 @@ Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa4
 Author: sakuRdev/dora2ios
 
 Package: ipwnderlite
+Architecture: iphoneos-arm64
+Version: 1.0.63
+Section: System
+Maintainer: sakuRdev/dora2ios
+Depends: firmware (>= 15.0), curl, com.ra9stuff.accessoryalertblocker
+Filename: ./debfiles/ipwnderlite_1.0.63_iphoneos-arm64.deb
+Size: 22364
+MD5sum: e42f7e476f6f247bf9695a6c4d0067e3
+SHA1: cfc6724cd5a36991587e746a64b4297c97528868
+SHA256: 274bf166961ae7fa1837d6ece9203797fb7dea0f6cffb6a6fc5c7a734384b419
+SHA512: 8aba74604d5a47882f4e1fadedde5167d4ffc7b8552c6383b52e4ab9c41ad49e03b4c4c2909584406f219ea64222e2ba8e3f0abe3a2e3e94305bf8a3d33c2501
+Description: iPwnder Lite for iPhoneOS.
+Name: iPwnder Lite (Rootless)
+Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
+Author: sakuRdev/dora2ios
+
+Package: ipwnderlite
 Architecture: iphoneos-arm
 Version: 1.0
 Section: System
@@ -1263,6 +1280,23 @@ Description: iPwnder Lite for iPhoneOS.
 Name: iPwnder Lite
 Depiction: https://dora2ios.github.io/info/ipwnderlite/
 Author: sakuRdev/dora2ios
+
+Package: com.ra9stuff.accessoryalertblocker
+Architecture: iphoneos-arm64e
+Version: 0.0.1-2
+Section: Tweaks
+Maintainer: rA9stuff
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debfiles/ipwnderlite_RootHide.deb
+Size: 5380
+MD5sum: f5d613afdd654e67abdea9327a958ab0
+SHA1: 293d5ebac101eaed4a0adc622b4bf1eebb673849
+SHA256: c4bba87055e8dca3f04a78f8eaa0e49bfe39de5bb160b12b76348952b3d642e7
+SHA512: 3c560937bb9cbc672b7c0490c9917e1de1d39fc67578a65cbb01c656aded55685fd2b2e0d47228deb89bb5ce1304b8e042f6e36276ede52a4ed0edbd8cf872a3
+Description: blocks downloading accessory firmware alert.
+Name: accessoryalertblocker
+Author: rA9stuff
 
 Package: org.tihmstar.kDFUApp
 Architecture: iphoneos-arm
