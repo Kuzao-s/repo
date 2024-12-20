@@ -805,6 +805,44 @@ Description: blocks downloading accessory firmware alert.
 Name: accessoryalertblocker
 Author: rA9stuff
 
+Package: com.skyglow.itunesstorex
+Architecture: iphoneos-arm
+Version: 2.5
+Section: Tweaks
+Maintainer: Requis, Bag.xml
+Installed-Size: 312
+Depends: mobilesubstrate, firmware(<==7.9)
+Filename: ./debfiles/com.skyglow.itunesstorex_2.5_iphoneos-arm.deb
+Size: 106508
+MD5sum: fe7579e05ac248a38df0a065fc92f6dc
+SHA1: 06ab5ef2a70520f97669afec34f16a2b3e765ba1
+SHA256: c8ff8a6d141ed09f28a9ae8c8bdb793dfaddd5cc0b221065f5fe02d663038c1c
+SHA512: 29dc9ff40a02c5a6911a9d9f5371b9ba6fed00981c5fa393a6bd0ca70441bc27861a117f67d63932946cf2095446818ce3e6d27b77533ff4acb82477200e014e
+Description: This tweak fixes any storefront. It fixes every app's connection issues with the iTunes Store, as of recent changes made by Apple, this tweak does not allow to download apps.
+Name: iTunesStoreX
+Author: Requis, Bag.xml
+Icon: file:///Library/Application%20Support/com.skyglow.itunesstorex/iTunesStoreX-Icon.png
+Depiction: http://cydia.skyglow.es/depictions/com.skyglow.itunesstorex/depictions/index.html
+
+Package: com.skyglow.itunesstorex
+Architecture: iphoneos-arm
+Version: 3.2
+Section: Tweaks
+Maintainer: Requis, Bag.xml
+Installed-Size: 312
+Depends: mobilesubstrate, firmware(<==7.9)
+Filename: ./debfiles/com.skyglow.itunesstorex_3.2_iphoneos-arm.deb
+Size: 108400
+MD5sum: 119e8183a48268f6920cfc3b0a8df212
+SHA1: 6b411c683fba5f6b3278a9aae28d956465bc32ba
+SHA256: 946952cc2bcc33ddd512dc5bbcfc0755c3ccd975cdd7f0a2c4384d9a4589cdcc
+SHA512: b543d31dd2f7c03b71b0ec9222c5166f0904c00fa3ec2d390ceff0a2b8b1bdff783dc177a36cc11b2b776fbc7aa53ad2fbcfe28fc7ba20a3bcca04ace769aa6c
+Description: This tweak fixes any storefront. It fixes every app's connection issues with the iTunes Store, as of recent changes made by Apple, this tweak does not allow to download apps.
+Name: iTunesStoreX
+Author: Requis, Bag.xml
+Icon: file:///Library/Application%20Support/com.skyglow.itunesstorex/iTunesStoreX-Icon.png
+Depiction: http://cydia.skyglow.es/depictions/com.skyglow.itunesstorex/depictions/index.html
+
 Package: com.tigisoftware.filza64bit
 Architecture: iphoneos-arm
 Version: 4.0.0-6
@@ -1332,6 +1370,25 @@ Author: Team-Kodi
 dev: teamkodi
 Icon: file:///Applications/Kodi.app/AppIcon57x57.png
 
+Package: kokeshi.untether9x
+Architecture: iphoneos-arm
+Version: 1.0
+Priority: important
+Section: System
+Maintainer: kok3shiDev
+Depends: firmware (>= 9.2), firmware (<= 9.3.4), cy+cpu.arm64
+Conflicts:
+Filename: ./debfiles/kokeshi.untether9x_1.0_iphoneos-arm.deb
+Size: 49404
+MD5sum: 2cc32605cd3fc4c706cc89d86143c665
+SHA1: ca49e08d47bf7454de7fe2d6206ada05b4c0ffb1
+SHA256: 96ac1d2418fbd9cae466b3b8d21ccdd1328c597d3138d05ebfff378788e6a37c
+SHA512: f2d99c2ca4a89316ecd8cd83906c227f984da79ccf3984b522f39b4e276d3e44e63962e6b83b2a95d7e2852c535b9fb6fba0dbfff2767ee1c6c721f7f1aec7f6
+Description: arm64 untethered 9.2-9.3.4 jailbreak.
+Name: kokeshi 9.2-9.3.4 Untether
+Depiction: https://kok3shidoll.github.io/info/kokeshi.untether9x/
+Author: Clarity, kok3shidoll, staturnz
+
 Package: libcrippy-1.0.0
 Architecture: iphoneos-arm
 Version: 1.0
@@ -1500,6 +1557,57 @@ SHA256: 0e57f4b5968fc32c1fb56c1361d163a1ffdcda9173145551aff839cfc19be664
 SHA512: 6ece4b6fde15ed68c17d16f3590fbbbc928eba2cbb3936283f940663dc654822638667e72eb3e9dde782b138270daa81a1b96c4bf74604602594825c03d3cd7f
 Description: SSL library and cryptographic tools
 Name: OpenSSL
+
+Package: org.h6nry.adowngrader
+Architecture: iphoneos-arm
+Version: 0.0.1-21
+Section: Tweaks
+Maintainer: H6nry <henry.anonym@gmail.com>
+Installed-Size: 216
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debfiles/org.h6nry.adowngrader_0.0.1-21_iphoneos-arm.deb
+Size: 6704
+MD5sum: 36e394d04007ccc87b7e9f54c6c38015
+SHA1: 81ed1599cdf4704682d582f661295acbba20e401
+SHA256: 10d798dfb460c93af9dfa521bc7761cc1c53b5f638014d7d8352c4fce223b113
+SHA512: cd2c3a4050d4c3d741be4fcd425c97a4ef55232f4d3f0e80aae40f93c710241294da3a21f31b04381897117bf5f41fa97532280ad6ec51992e83f9a1e903a529
+Description: Downgrade your apps, well, at least try it.
+Name: Adowngrader
+Author: H6nry <henry.anonym@gmail.com>
+
+Package: org.h6nry.adowngrader
+Architecture: iphoneos-arm
+Version: 0.0.2-1
+Section: Tweaks
+Maintainer: H6nry <henry.anonym@gmail.com>
+Installed-Size: 104
+Depends: mobilesubstrate
+Filename: ./debfiles/org.h6nry.adowngrader_0.0.2-1_iphoneos-arm.deb
+Size: 5930
+MD5sum: 01f815df6875c42e866567d7dafed9c9
+SHA1: 62fb42ca576abafd3e698357613adde1a6deca7b
+SHA256: 1933dc60635bcd9b9586d82a26e0e8818b7708629c10568883395ddfd6a003f3
+SHA512: 3dce482595eb6b175d19f8bdcfcdd6bb55cdc2d11c250eb76c0dd1fe5d80578816107bb990ef58b54e05c4d26dc6dd0a69457e28fe68fed776fbb511b1e1fca0
+Description: Downgrade your apps. Well, at least try it.
+Name: Adowngrader
+Author: H6nry <henry.anonym@gmail.com>
+
+Package: org.h6nry.adowngrader
+Architecture: iphoneos-arm
+Version: 0.0.2-7
+Section: Tweaks
+Maintainer: H6nry <henry.anonym@gmail.com>
+Installed-Size: 304
+Depends: mobilesubstrate
+Filename: ./debfiles/org.h6nry.adowngrader_0.0.2-7_iphoneos-arm.deb
+Size: 53280
+MD5sum: 814bfbfb309e70b575af5afe9e897e5d
+SHA1: 3d65e66c3736017940560d03cf744c3fc23d3be1
+SHA256: 72a4c1c91746c3bce290710d64f3491469548e5ef4048baeb1aca3a3fccd1674
+SHA512: 030f4c83903592a21f4116e51b4a7fb4f85f67738bc9e2c7a3e09bbc706b03e8454334c9f9866e2d532bc49923dffb034cd38c1be7be43500758fa96203fabd9
+Description: Downgrade your apps. Well, at least try it.
+Name: Adowngrader
+Author: H6nry <henry.anonym@gmail.com>
 
 Package: cn.agricu.ota
 Architecture: iphoneos-arm
