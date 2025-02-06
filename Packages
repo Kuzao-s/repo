@@ -721,6 +721,26 @@ Name: Netfix Cydia联网修正
 Author: ABCydia <admin@abcydia.com>
 Sponsor: ABCydia <http://www.abcydia.com>
 
+Package: com.aoi.storefix
+Architecture: iphoneos-arm
+Version: 1.0-6
+Section: System
+Maintainer: aoi_satou
+Depends: firmware (<= 6.1.6)
+Conflicts: com.aoi.storefix
+Filename: ./debfiles/com.aoi.storefix_1.0-6_iphoneos-arm.deb
+Size: 822
+MD5sum: d36c5ccc3325ba38d4ececa799acf187
+SHA1: 1132c4cbd90bd2a83f077df031e37cad89302aec
+SHA256: 176d23ccfd44446a60f96e7e48e543247abb907e75ea480d905de045ff19aad2
+SHA512: 0d1215d3930288aeac5f2954349c32a0beda0066035f5b9c85627a174a30035ecdfb45edd651fc65d99752b850bddd066dbb81e7745e14aa152846ea0eee1490
+Description: Fixed an issue where iOS 6 and earlier could not connect to the App Store. (Only the host file is rewritten. A restart may be required after installation.) If you applied the patch in the previous version, you may not be able to log in with your Apple ID, so we recommend initializing it.
+Tag: purpose::extension
+Author: aoi_satou
+Name: AppStoreFix
+Depiction: http://aoiblog.jp/appstorefix_history.html
+dev: aoi_satou
+
 Package: com.coolbooter.coolbootercli
 Architecture: iphoneos-arm
 Version: 1.1-beta2-release
@@ -1244,23 +1264,6 @@ SHA256: 3c7354bbf06977b38371bcd525230c11d8c919caf397a94b775bdd6d0c4d0554
 SHA512: d7da10e857198b35b9d39941c036291804ea1599c59d6d1146d9f93cbd128e71687bc31da20f5064e7a83123415f6e3a7530d8bfd8edf31d2df95e4a2faf379b
 Description: iPwnder Lite for iPhoneOS.
 Name: iPwnder Lite (iOS 11+)
-Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
-Author: sakuRdev/dora2ios
-
-Package: ipwnderlite
-Architecture: iphoneos-arm64
-Version: 1.0.63
-Section: System
-Maintainer: sakuRdev/dora2ios
-Depends: firmware (>= 15.0), curl, com.ra9stuff.accessoryalertblocker
-Filename: ./debfiles/ipwnderlite_1.0.63_iphoneos-arm64.deb
-Size: 22364
-MD5sum: e42f7e476f6f247bf9695a6c4d0067e3
-SHA1: cfc6724cd5a36991587e746a64b4297c97528868
-SHA256: 274bf166961ae7fa1837d6ece9203797fb7dea0f6cffb6a6fc5c7a734384b419
-SHA512: 8aba74604d5a47882f4e1fadedde5167d4ffc7b8552c6383b52e4ab9c41ad49e03b4c4c2909584406f219ea64222e2ba8e3f0abe3a2e3e94305bf8a3d33c2501
-Description: iPwnder Lite for iPhoneOS.
-Name: iPwnder Lite (Rootless)
 Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
 Author: sakuRdev/dora2ios
 
@@ -2087,6 +2090,26 @@ Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.vsz.redeb
 Name: Redeb 提取本地插件
 Author: T.Herak
 
+Package: x8a4
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Priority: optional
+Section: Utilities
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 92
+Depends: libiosexec1 (>= 1.3.1), libx8a4-1 (= 1.0.1)
+Enhances: dimentio
+Filename: ./debfiles/x8a4_1.0.1_iphoneos-arm64.deb
+Size: 7924
+MD5sum: 4c791a722b5b7d47acd2e7e1d7332362
+SHA1: ddc7a103ce4e39fb5a152d40636922b34cb7a207
+SHA256: 64af9c72902a8abf083322435a2df1b1218361f7191b70bbf3dfa4370d5b1a2e
+SHA512: 0dc329e4d7f45c050ec0d5c4490513da5c830272304df3a7d1c5c6c2278eab5f117833ada8ebc2b0f88938c3afc0ac2d47331c127da0a6a2abfba72d36b041b3
+Homepage: https://github.com/Cryptiiiic/x8A4
+Description: An all-in-one tool for firmware nonces, seeds, and downgrade support
+Name: x8A4
+Author: Cryptiiiic
+
 Package: zephyr.178
 Architecture: iphoneos-arm
 Version: 1.6.4-1
@@ -2110,26 +2133,4 @@ Author: chpwn <support@chpwn.com>
 dev: chpwn
 Sponsor: w花
 Depiction: http://apt.178.com/html/2013/0225/iphone9155.shtml
-
-Package: com.abcydia.newterm2
-Architecture: iphoneos-arm
-Version: 2.3
-Section: Utilities
-Maintainer: WZteam <admin@abcydia.com>
-Installed-Size: 6704
-Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.13), bash, coreutils, ncurses, system-cmds, com.linusyang.localeutf8
-Conflicts: ws.hbang.newterm
-Replaces: ws.hbang.newterm
-Filename: ./debfiles/终端2_2.3.deb
-Size: 2129108
-MD5sum: 7fd12eb78a0e16d637781f5681825eb6
-SHA1: b8876ace50929f624a9c16ae5120cf88c42a8cf3
-SHA256: 0cf7ccdaa34545c10508aacbdf1b8cec3af80173e16b8513177e2bdd777e3f3b
-SHA512: d1623f8804296669284e00afafa59fec543966ead279f1df9ddaccbae5557fc3bec8232d3bb35dbc84da1bc6d9e534ad1f6e0616f56e235c342aa77423f92a05
-Description: 运行在iOS上的手机终端
-Tag: compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
-Name: NewTerm 2 手机终端
-Author: HASHBANG Productions
-Sponsor: ABCydia <http://www.abcydia.com>
-Icon: file:///Applications/NewTerm.app/AppIcon60x60@3x.png
 
