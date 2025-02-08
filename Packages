@@ -792,6 +792,23 @@ Author: haoerloveyou <haoerloveyou@gmail.com>
 Sponsor: abcydia <http://abcydia.com>
 
 Package: com.ra9stuff.accessoryalertblocker
+Architecture: iphoneos-arm
+Version: 0.0.1-2
+Section: Tweaks
+Maintainer: rA9stuff
+Installed-Size: 216
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debfiles/com.ra9stuff.accessoryalertblocker_0.0.1-1_iphoneos-arm.deb
+Size: 7624
+MD5sum: 9e9431bf504d0d5a69ade4cfa2b3fa12
+SHA1: 5381fc21b474e0e0e8aad1b0be04a1c21c9b6069
+SHA256: 09117fac8a737b2f9379fb184df047d0b26b2b71338d8f9c804101d44d71eac0
+SHA512: 37527b3a779508e93873a7bb47c5eb987322ae96b6ac6d5498753132daae31d468887be4dac54823427959c19268ced05a57c0b41eda1e668ca71347ca7d30d9
+Description: blocks downloading accessory firmware alert.
+Name: accessoryalertblocker
+Author: rA9stuff
+
+Package: com.ra9stuff.accessoryalertblocker
 Architecture: iphoneos-arm64
 Version: 0.0.1-2
 Section: Tweaks
@@ -1297,6 +1314,23 @@ MD5sum: f5d613afdd654e67abdea9327a958ab0
 SHA1: 293d5ebac101eaed4a0adc622b4bf1eebb673849
 SHA256: c4bba87055e8dca3f04a78f8eaa0e49bfe39de5bb160b12b76348952b3d642e7
 SHA512: 3c560937bb9cbc672b7c0490c9917e1de1d39fc67578a65cbb01c656aded55685fd2b2e0d47228deb89bb5ce1304b8e042f6e36276ede52a4ed0edbd8cf872a3
+Description: blocks downloading accessory firmware alert.
+Name: accessoryalertblocker
+Author: rA9stuff
+
+Package: com.ra9stuff.accessoryalertblocker
+Architecture: iphoneos-arm
+Version: 0.0.1-2
+Section: Tweaks
+Maintainer: rA9stuff
+Installed-Size: 216
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debfiles/ipwnderlite_必装依赖(有根越狱专用).deb
+Size: 4816
+MD5sum: 9d4853167c233272b9b14d944359a8f2
+SHA1: 931eeca67334219c96d415bc508a2db4ed2fba78
+SHA256: 306d0f2a2357b7f6ddd67ceaaeae6ca49f686e76ec18ddd92589120286d8d461
+SHA512: 8e100da8de896545334625e3d6fb14a8fabc0666676cf82939a2c3be41667693902534802c495daf47461fab4242f421f3f1cbfded68b670d2f32bc245c4743e
 Description: blocks downloading accessory firmware alert.
 Name: accessoryalertblocker
 Author: rA9stuff
