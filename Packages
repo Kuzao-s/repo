@@ -1254,6 +1254,21 @@ SHA512: 7636ffe6d4961f65b3583d4145ebd050d88f5a6748e376886d3423d08ae02d9cf12a801c
 Name: iFile 文件管理器
 Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
 
+Package: cn.agricu.ioskdfu
+Architecture: iphoneos-arm
+Version: 1.2
+Section: System
+Filename: ./debfiles/ioskdfu_1.2_iphoneos-arm.deb
+Size: 932078
+MD5sum: 9e936f81d6b744ffe4464238872ddf59
+SHA1: 132ce541654e3002c5b1f545d3d1ae2b16aa0556
+SHA256: 91eaf64089818d8a58df823028f6a3e004bcf4c1748ed42183610072d62e83aa
+SHA512: 93a2edb117241ecc25511efb67c1961f270d7373ad2104ba970a36f67e437044fdc43d40a8131454cecef6cf1898115565d0dea99693346720ae0a192cb9f5f4
+Description: A5、A6进入KDFU降级模式
+Name: 降级DFU模式
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.4dfu
+Author: Agricu
+
 Package: xyz.cypwn.iparanger
 Architecture: iphoneos-arm
 Version: 1.4
