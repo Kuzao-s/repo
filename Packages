@@ -267,6 +267,31 @@ Name: NES.emu
 Author: Robert Broglia <repo@hackyouriphone.org>
 Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=nesemu
 
+Package: app.weiphone.explusalpha.nesemu
+Architecture: iphoneos-arm
+Version: 1.5.29
+Priority: standard
+Essential: no
+Section: [威锋源-游戏娱乐]
+Maintainer: Feng.com <support@office.feng.com>
+Installed-Size: 3122
+Depends: firmware (>= 3.1)
+Filename: ./debfiles/NES.emu_1.5.29_iphoneos-arm.deb
+Size: 920044
+MD5sum: f7af40b48185f71cc419b667f04c0b4e
+SHA1: 47d7f0d44b761a91057ae8abbbef0b40bfb6c8e0
+SHA256: 1a578fe0abbcfc7a2eddb4568e2ce759bd4296a7be1a2d26b136294885343b05
+SHA512: 8f9a39f4d07063c98f191c4fd0f0da7d6e150c191954c0847eee611bf2ac810fe1f3a8ff2fdd17fd28b6031863dcf5abc8abd06103cd3901716abdc0303a6e59
+Homepage: http://apt.so/index.php?r=read&id=5625441fe9634625768b4571
+Description: ios最好的FC游戏模拟器
+Tag: role::enduser
+Depiction: http://apt.so/index.php?r=cydia&id=5625441fe9634625768b4571
+dev: explusalpha
+Author: Robert Broglia <info@explusalpha.com>
+Name: NES.emu v1.5.29
+Sponsor: Feng.com <http://www.feng.com>
+Icon: file:///Applications/NesEmu.app/icon-57.png
+
 Package: com.hackyouriphone.ngpemu
 Architecture: iphoneos-arm
 Version: 1.5.19-r1
