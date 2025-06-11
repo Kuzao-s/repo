@@ -14,38 +14,6 @@ Name: Rollectra / SemiRestore11-12
 Author: Pwn20wnd
 Sponsor: 汤圆™
 
-Package: cn.agricu.4dfu
-Architecture: iphoneos-arm
-Version: 1.0
-Section: System
-Depends: firmware (>= 6.0)
-Filename: ./debfiles/4dfu_1.0.deb
-Size: 52760
-MD5sum: 92143dfc5dd6d9dd1b41d2928f54753c
-SHA1: bd78820216603fd280ce7f94a48c520b539e9eb3
-SHA256: eb847c54c95d87a50460d2d6617837b01d00d86a874bd1870c4bc973a21c54de
-SHA512: b9dca59160a9293b469c52b46b06f643f382fb92a6568c38c619afe731c6e694143bd2b87e4c374f627e833213eb35336336601f8903dae0db199ca38dbec7e8
-Description: iPhone4s进入KDFU降级模式
-Name: 进入降级DFU模式
-Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.4dfu
-Author: HongV
-
-Package: cn.agricu.5dfu
-Architecture: iphoneos-arm
-Version: 1.0
-Section: System
-Depends: firmware (>= 10.0)
-Filename: ./debfiles/5dfu_1.0.deb
-Size: 55144
-MD5sum: 929d2f8ed7d42be96dd68b12c69acb54
-SHA1: ebb354a4914bb8211008e6f066eaef088a02a85f
-SHA256: eb2ac273e3e7e6404970ce09ce3bdd753a6a74eb3c9228858acf54dfc4442131
-SHA512: bc4cebd7a8413a2bf9dbaf74bd872206f02442780bfd9c51b25dad64d2b53c48de397f2b94e159750d3cab18a9574d3749f2b153291b6355b6d97e20147f3e74
-Description: iPhone5进入KDFU降级模式
-Name: 5进入降级模式
-Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.5dfu
-Author: Agricu
-
 Package: com.saurik.afc2d
 Architecture: iphoneos-arm
 Version: 1.2
