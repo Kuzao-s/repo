@@ -1292,23 +1292,6 @@ Name: iPwnder Lite (iOS 11+)
 Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
 Author: sakuRdev/dora2ios
 
-Package: ipwnderlite
-Architecture: iphoneos-arm
-Version: 1.0
-Section: System
-Maintainer: sakuRdev/dora2ios
-Depends: firmware (>= 9.0), curl
-Filename: ./debfiles/ipwnderlite_1.0.deb
-Size: 26124
-MD5sum: 90e2e3cb01baab515108851dd3403a83
-SHA1: 56406947d25ef9abacbda06fb988a11f5f23d93b
-SHA256: a3f3ffdc7baaf6f04160648078b307f74a1e32962d9d561c7436e29c91534a6b
-SHA512: 6e927820d36352650d3888cd1986711b9ba5620013f9e987d77103874e0e9931729321aa0a2fc953ec418f2f025859481d40b1beb5cc9232146722e35a44dd1f
-Description: iPwnder Lite for iPhoneOS.
-Name: iPwnder Lite
-Depiction: https://dora2ios.github.io/info/ipwnderlite/
-Author: sakuRdev/dora2ios
-
 Package: com.ra9stuff.accessoryalertblocker
 Architecture: iphoneos-arm64e
 Version: 0.0.1-2
@@ -1405,25 +1388,6 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 Author: Team-Kodi
 dev: teamkodi
 Icon: file:///Applications/Kodi.app/AppIcon57x57.png
-
-Package: kokeshi.untether9x
-Architecture: iphoneos-arm
-Version: 1.0
-Priority: important
-Section: System
-Maintainer: kok3shiDev
-Depends: firmware (>= 9.2), firmware (<= 9.3.4), cy+cpu.arm64
-Conflicts:
-Filename: ./debfiles/kokeshi.untether9x_1.0_iphoneos-arm.deb
-Size: 49404
-MD5sum: 2cc32605cd3fc4c706cc89d86143c665
-SHA1: ca49e08d47bf7454de7fe2d6206ada05b4c0ffb1
-SHA256: 96ac1d2418fbd9cae466b3b8d21ccdd1328c597d3138d05ebfff378788e6a37c
-SHA512: f2d99c2ca4a89316ecd8cd83906c227f984da79ccf3984b522f39b4e276d3e44e63962e6b83b2a95d7e2852c535b9fb6fba0dbfff2767ee1c6c721f7f1aec7f6
-Description: arm64 untethered 9.2-9.3.4 jailbreak.
-Name: kokeshi 9.2-9.3.4 Untether
-Depiction: https://kok3shidoll.github.io/info/kokeshi.untether9x/
-Author: Clarity, kok3shidoll, staturnz
 
 Package: libcrippy-1.0.0
 Architecture: iphoneos-arm
