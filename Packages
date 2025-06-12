@@ -526,6 +526,21 @@ Description: "Untethers" an existing CoolBooter install
 Name: CoolBooter Untetherer
 Author: CoolBooter <coolbooterios@gmail.com>
 
+Package: cn.agricu.ioskdfu
+Architecture: iphoneos-arm
+Version: 1.2.2
+Section: System
+Filename: ./debfiles/cn.agricu.ioskdfu_1.2.2_iphoneos-arm.deb
+Size: 932002
+MD5sum: 6b16c3240a0146731127661019d04094
+SHA1: edfd5883359ebc18601d8b8a6ddb44e84082efa4
+SHA256: ef9053fe21491b1fa4654f41ee2f3ab9093e1d9cd8898dfbd6e9ed7d9cec0d39
+SHA512: 57cfaeaff260b07fe6ebd5d68e0c31b16dfbcda11f9b3c0541b46861df67a43f02536d079d9aff35c4f8fc0160b7006ec82ace980ff27de635515fb14c16d86d
+Description: A5、A6进入KDFU降级模式
+Name: KDFU for A5、A6
+Depiction: http://repo.agricu.cn/cydia/package.html?id=cn.agricu.ioskdfu
+Author: Agricu
+
 Package: cn.agricu.networksp.rootless
 Architecture: iphoneos-arm
 Version: 0.2.7-1+debug
@@ -1222,21 +1237,6 @@ SHA512: 7636ffe6d4961f65b3583d4145ebd050d88f5a6748e376886d3423d08ae02d9cf12a801c
 Name: iFile 文件管理器
 Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
 
-Package: cn.agricu.ioskdfu
-Architecture: iphoneos-arm
-Version: 1.2
-Section: System
-Filename: ./debfiles/ioskdfu_1.2_iphoneos-arm.deb
-Size: 932078
-MD5sum: 9e936f81d6b744ffe4464238872ddf59
-SHA1: 132ce541654e3002c5b1f545d3d1ae2b16aa0556
-SHA256: 91eaf64089818d8a58df823028f6a3e004bcf4c1748ed42183610072d62e83aa
-SHA512: 93a2edb117241ecc25511efb67c1961f270d7373ad2104ba970a36f67e437044fdc43d40a8131454cecef6cf1898115565d0dea99693346720ae0a192cb9f5f4
-Description: A5、A6进入KDFU降级模式
-Name: 降级DFU模式
-Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.4dfu
-Author: Agricu
-
 Package: xyz.cypwn.iparanger
 Architecture: iphoneos-arm
 Version: 1.4
@@ -1325,49 +1325,6 @@ SHA512: 3c560937bb9cbc672b7c0490c9917e1de1d39fc67578a65cbb01c656aded55685fd2b2e0
 Description: blocks downloading accessory firmware alert.
 Name: accessoryalertblocker
 Author: rA9stuff
-
-Package: com.ra9stuff.accessoryalertblocker
-Architecture: iphoneos-arm
-Version: 0.0.1-2
-Section: Tweaks
-Maintainer: rA9stuff
-Installed-Size: 216
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debfiles/ipwnderlite_必装依赖(有根越狱专用).deb
-Size: 4816
-MD5sum: 9d4853167c233272b9b14d944359a8f2
-SHA1: 931eeca67334219c96d415bc508a2db4ed2fba78
-SHA256: 306d0f2a2357b7f6ddd67ceaaeae6ca49f686e76ec18ddd92589120286d8d461
-SHA512: 8e100da8de896545334625e3d6fb14a8fabc0666676cf82939a2c3be41667693902534802c495daf47461fab4242f421f3f1cbfded68b670d2f32bc245c4743e
-Description: blocks downloading accessory firmware alert.
-Name: accessoryalertblocker
-Author: rA9stuff
-
-Package: org.tihmstar.kDFUApp
-Architecture: iphoneos-arm
-Version: 1.0.2
-Priority: optional
-Section: System
-Maintainer: tihmstar
-Depends: openssl, libcrippy-1.0.0, libpartialzip-1.0.0, curl, kloader, firmware (>= 6.0)
-Filename: ./debfiles/kDFUApp_1.0.2.deb
-Size: 80458
-MD5sum: d2fb236c946705c835a08f844527f0c1
-SHA1: bd26bd0a4d7c9a60d0af75a962ced322962d2f3f
-SHA256: b52de8c051332425576b11a3d9ce9637a70c184afc5479ad449d1467a4868271
-SHA512: 5d9932fccac1aa3151c98fb9fa05e96453f43b0e008b63bf85836c00f1b7c70b7bb5ecb4f3c71ec07adde8cca3a820edefd0448088b499751dcb2a010d0067d5
-Description: easy way to get into kDFU mode
-	kDFUApp is an easy way to get into kDFU mode
-	simply activate all switches and press the button
-	<br>
-	<br>Currently compatible with:
-	<br>iPhone3,1 / iPhone3,2 / iPhone3,3 / iPhone4,1 / iPhone5,1 / iPhone5,2 / iPhone5,4
-	<br>iPad2,1 / iPad2,2 / iPad2,3 / iPad3,1 / iPad3,3
-	<br>
-	<br>NOT COMPATIBLE WITH 64BIT DEVICES!
-Name: kDFUApp
-Author: tihmstar
-dev: tihmstar
 
 Package: org.tihmstar.kDFUApp
 Architecture: iphoneos-arm
