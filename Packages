@@ -1274,6 +1274,24 @@ Name: iPwnder Lite
 Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
 Author: sakuRdev/dora2ios
 
+Package: ipwnderlite32
+Architecture: iphoneos-arm
+Version: 1.0.69-1
+Section: System
+Maintainer: sakuRdev/dora2ios
+Depends: firmware (>= 9.0), firmware (<< 11.0), curl, com.ra9stuff.accessoryalertblocker
+Conflicts: ipwnderlite
+Filename: ./debfiles/ipwnderlite32_1.0.69-1_iphoneos-arm.deb
+Size: 23194
+MD5sum: 397bd0c8e81336e8be96a02fc8be2cf7
+SHA1: dd9666ef2763748b094fb5833cdf6e174e8a64e7
+SHA256: b887948ac97ffb4744b087e4e5e0bfe1bdc075902481035a70b66b8be290ec02
+SHA512: 5f22ab49940bee4dd0f7225d3e5e326de21a55da9c96cfe0ef477c49d7a2ffb34a5f6179bf75e1d5c7e19621ec54c9c324edcd36e3f412ccc696ac1c5bb0bdfc
+Description: iPwnder Lite for iPhoneOS.
+Name: iPwnder Lite
+Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
+Author: sakuRdev/dora2ios
+
 Package: ipwnderlite64
 Architecture: iphoneos-arm
 Version: 1.0.63
@@ -1289,6 +1307,41 @@ SHA256: 3c7354bbf06977b38371bcd525230c11d8c919caf397a94b775bdd6d0c4d0554
 SHA512: d7da10e857198b35b9d39941c036291804ea1599c59d6d1146d9f93cbd128e71687bc31da20f5064e7a83123415f6e3a7530d8bfd8edf31d2df95e4a2faf379b
 Description: iPwnder Lite for iPhoneOS.
 Name: iPwnder Lite (iOS 11+)
+Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
+Author: sakuRdev/dora2ios
+
+Package: ipwnderlite64
+Architecture: iphoneos-arm
+Version: 1.0.69
+Section: System
+Maintainer: sakuRdev/dora2ios
+Depends: firmware (>= 11.0), curl, com.ra9stuff.accessoryalertblocker
+Conflicts: ipwnderlite
+Filename: ./debfiles/ipwnderlite64_1.0.69_iphoneos-arm.deb
+Size: 22868
+MD5sum: 48f01c9e24fc0b6d049983a29c511716
+SHA1: e508428723e9b5c24736b986d60387f91e3f45e1
+SHA256: 3a002fc710cd6aac02730ae53e5f51930d940b4402e2e4d5f4cfad1eb30e9f31
+SHA512: 77a814e82dbf141ead591e832e7a4ab1cc810ccd9d76f1f4f0b9288da0192ae9ceda5821a8f61640649f7966e644f410ffddb2b0afcac6119a8ac18c04c71fdb
+Description: iPwnder Lite for iPhoneOS.
+Name: iPwnder Lite (iOS 11+)
+Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
+Author: sakuRdev/dora2ios
+
+Package: ipwnderlite
+Architecture: iphoneos-arm64
+Version: 1.0.69
+Section: System
+Maintainer: sakuRdev/dora2ios
+Depends: firmware (>= 15.0), curl, com.ra9stuff.accessoryalertblocker
+Filename: ./debfiles/ipwnderlite_1.0.69_iphoneos-arm64.deb
+Size: 19264
+MD5sum: 6e73d0ed0209ff2602642c85accccc30
+SHA1: c61efbc795cde3ec8da8fb0ffdc72d92c5ca79d8
+SHA256: 93a9ee4ac459478876ee17c7e4c30b418fca3a0bb2645f4293b105c816f110a6
+SHA512: 2463f81ebbade96f953e8e9b53e90d1a5b4287a097147bed7096926c97a064d77f335790c430b045592eef242ec6c56421868f5773f0b889ccd41600c4c1a0e8
+Description: iPwnder Lite for iPhoneOS.
+Name: iPwnder Lite (Rootless)
 Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
 Author: sakuRdev/dora2ios
 
@@ -1388,6 +1441,25 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 Author: Team-Kodi
 dev: teamkodi
 Icon: file:///Applications/Kodi.app/AppIcon57x57.png
+
+Package: kokeshi.untether9x
+Architecture: iphoneos-arm
+Version: 1.0
+Priority: important
+Section: System
+Maintainer: kok3shiDev
+Depends: firmware (>= 9.2), firmware (<= 9.3.4), cy+cpu.arm64
+Conflicts:
+Filename: ./debfiles/kokeshi.untether9x_1.0_iphoneos-arm.deb
+Size: 49404
+MD5sum: 2cc32605cd3fc4c706cc89d86143c665
+SHA1: ca49e08d47bf7454de7fe2d6206ada05b4c0ffb1
+SHA256: 96ac1d2418fbd9cae466b3b8d21ccdd1328c597d3138d05ebfff378788e6a37c
+SHA512: f2d99c2ca4a89316ecd8cd83906c227f984da79ccf3984b522f39b4e276d3e44e63962e6b83b2a95d7e2852c535b9fb6fba0dbfff2767ee1c6c721f7f1aec7f6
+Description: arm64 untethered 9.2-9.3.4 jailbreak.
+Name: kokeshi 9.2-9.3.4 Untether
+Depiction: https://kok3shidoll.github.io/info/kokeshi.untether9x/
+Author: Clarity, kok3shidoll, staturnz
 
 Package: libcrippy-1.0.0
 Architecture: iphoneos-arm
