@@ -729,26 +729,6 @@ Name: Netfix Cydia联网修正
 Author: ABCydia <admin@abcydia.com>
 Sponsor: ABCydia <http://www.abcydia.com>
 
-Package: com.aoi.storefix
-Architecture: iphoneos-arm
-Version: 1.0-6
-Section: System
-Maintainer: aoi_satou
-Depends: firmware (<= 6.1.6)
-Conflicts: com.aoi.storefix
-Filename: ./debfiles/com.aoi.storefix_1.0-6_iphoneos-arm.deb
-Size: 822
-MD5sum: d36c5ccc3325ba38d4ececa799acf187
-SHA1: 1132c4cbd90bd2a83f077df031e37cad89302aec
-SHA256: 176d23ccfd44446a60f96e7e48e543247abb907e75ea480d905de045ff19aad2
-SHA512: 0d1215d3930288aeac5f2954349c32a0beda0066035f5b9c85627a174a30035ecdfb45edd651fc65d99752b850bddd066dbb81e7745e14aa152846ea0eee1490
-Description: Fixed an issue where iOS 6 and earlier could not connect to the App Store. (Only the host file is rewritten. A restart may be required after installation.) If you applied the patch in the previous version, you may not be able to log in with your Apple ID, so we recommend initializing it.
-Tag: purpose::extension
-Author: aoi_satou
-Name: AppStoreFix
-Depiction: http://aoiblog.jp/appstorefix_history.html
-dev: aoi_satou
-
 Package: com.coolbooter.coolbootercli
 Architecture: iphoneos-arm
 Version: 1.1-beta2-release
@@ -1334,7 +1314,7 @@ Version: 1.0.69
 Section: System
 Maintainer: sakuRdev/dora2ios
 Depends: firmware (>= 15.0), curl, com.ra9stuff.accessoryalertblocker
-Filename: ./debfiles/ipwnderlite_1.0.69_iphoneos-arm64.deb
+Filename: ./debfiles/ipwnderlite64_1.0.69_iphoneos-arm64.deb
 Size: 19264
 MD5sum: 6e73d0ed0209ff2602642c85accccc30
 SHA1: c61efbc795cde3ec8da8fb0ffdc72d92c5ca79d8
@@ -1361,6 +1341,24 @@ SHA512: 3c560937bb9cbc672b7c0490c9917e1de1d39fc67578a65cbb01c656aded55685fd2b2e0
 Description: blocks downloading accessory firmware alert.
 Name: accessoryalertblocker
 Author: rA9stuff
+
+Package: org.jyvee8games.itunesfix
+Architecture: iphoneos-arm
+Version: 0.2-9+debug
+Section: Tweaks
+Maintainer: Jyvee
+Installed-Size: 752
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
+Filename: ./debfiles/itunesfix7_0.2-9+debug.deb
+Size: 65542
+MD5sum: 0f33483bf01194dde08843a16a5db592
+SHA1: 168e8ff5329c1092e7bfd9fd7534efaa28fa0423
+SHA256: 6c437ab8a7a73cb32ac1c94209e500bd749e6fe22550ec118500259da5ac7804
+SHA512: af2f4dd58417d2f780aa93d3629ced9c52b587e3f78132e1078d9c0e73a575027f0db43308622d526e02d2b6ec49a1cbf2ae90229a44c6a3945079161fa5de86
+Description: A fix for the iOS 7 AppStore! Original Tweak & Method by bag.xml & Requis!
+Name: iTunesStoreX7
+Author: Jyvee
+Icon: file:///Library/Application%20Support/org.jyvee8games.itunesfix/Icon.png
 
 Package: org.tihmstar.kDFUApp
 Architecture: iphoneos-arm
@@ -1441,25 +1439,6 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 Author: Team-Kodi
 dev: teamkodi
 Icon: file:///Applications/Kodi.app/AppIcon57x57.png
-
-Package: kokeshi.untether9x
-Architecture: iphoneos-arm
-Version: 1.0
-Priority: important
-Section: System
-Maintainer: kok3shiDev
-Depends: firmware (>= 9.2), firmware (<= 9.3.4), cy+cpu.arm64
-Conflicts:
-Filename: ./debfiles/kokeshi.untether9x_1.0_iphoneos-arm.deb
-Size: 49404
-MD5sum: 2cc32605cd3fc4c706cc89d86143c665
-SHA1: ca49e08d47bf7454de7fe2d6206ada05b4c0ffb1
-SHA256: 96ac1d2418fbd9cae466b3b8d21ccdd1328c597d3138d05ebfff378788e6a37c
-SHA512: f2d99c2ca4a89316ecd8cd83906c227f984da79ccf3984b522f39b4e276d3e44e63962e6b83b2a95d7e2852c535b9fb6fba0dbfff2767ee1c6c721f7f1aec7f6
-Description: arm64 untethered 9.2-9.3.4 jailbreak.
-Name: kokeshi 9.2-9.3.4 Untether
-Depiction: https://kok3shidoll.github.io/info/kokeshi.untether9x/
-Author: Clarity, kok3shidoll, staturnz
 
 Package: libcrippy-1.0.0
 Architecture: iphoneos-arm
@@ -1946,6 +1925,26 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 dev: filippobiga
 Icon: file:///Applications/springtomizeapp.app/Icon.png
 
+Package: com.aoi.storefix
+Architecture: iphoneos-arm
+Version: 1.0-6
+Section: System
+Maintainer: aoi_satou
+Depends: firmware (<= 6.1.6)
+Conflicts: com.aoi.storefix
+Filename: ./debfiles/storefix_1.0-6_iphoneos-arm.deb
+Size: 822
+MD5sum: d36c5ccc3325ba38d4ececa799acf187
+SHA1: 1132c4cbd90bd2a83f077df031e37cad89302aec
+SHA256: 176d23ccfd44446a60f96e7e48e543247abb907e75ea480d905de045ff19aad2
+SHA512: 0d1215d3930288aeac5f2954349c32a0beda0066035f5b9c85627a174a30035ecdfb45edd651fc65d99752b850bddd066dbb81e7745e14aa152846ea0eee1490
+Description: Fixed an issue where iOS 6 and earlier could not connect to the App Store. (Only the host file is rewritten. A restart may be required after installation.) If you applied the patch in the previous version, you may not be able to log in with your Apple ID, so we recommend initializing it.
+Tag: purpose::extension
+Author: aoi_satou
+Name: AppStoreFix
+Depiction: http://aoiblog.jp/appstorefix_history.html
+dev: aoi_satou
+
 Package: com.abcydia.systeminfo
 Architecture: iphoneos-arm
 Version: 2.7.2-1
@@ -1978,6 +1977,25 @@ SHA512: 98f326382f22e7f0e631b8222c4a574c90df866d7e87265a38766b5f77a0ba02481a7e3a
 Description: Helper utility to install and manage TrollStore!
 Name: TrollStore Helper
 Author: opa334
+
+Package: kokeshi.untether9x
+Architecture: iphoneos-arm
+Version: 1.0
+Priority: important
+Section: System
+Maintainer: kok3shiDev
+Depends: firmware (>= 9.2), firmware (<= 9.3.4), cy+cpu.arm64
+Conflicts:
+Filename: ./debfiles/untether9x_1.0_iphoneos-arm.deb
+Size: 49404
+MD5sum: 2cc32605cd3fc4c706cc89d86143c665
+SHA1: ca49e08d47bf7454de7fe2d6206ada05b4c0ffb1
+SHA256: 96ac1d2418fbd9cae466b3b8d21ccdd1328c597d3138d05ebfff378788e6a37c
+SHA512: f2d99c2ca4a89316ecd8cd83906c227f984da79ccf3984b522f39b4e276d3e44e63962e6b83b2a95d7e2852c535b9fb6fba0dbfff2767ee1c6c721f7f1aec7f6
+Description: arm64 untethered 9.2-9.3.4 jailbreak.
+Name: kokeshi 9.2-9.3.4 Untether
+Depiction: https://kok3shidoll.github.io/info/kokeshi.untether9x/
+Author: Clarity, kok3shidoll, staturnz
 
 Package: net.tihmstar.untetherhomedepot
 Architecture: iphoneos-arm
