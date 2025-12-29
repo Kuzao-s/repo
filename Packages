@@ -1219,17 +1219,17 @@ Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
 
 Package: io.github.kuzao-s
 Architecture: iphoneos-arm
-Version: 1.0.0-4+debug
+Version: 1.0.0-2+debug
 Section: System
 Maintainer: Kuzaos
-Installed-Size: 72
+Installed-Size: 168
 Depends: firmware (>= 14.0), cy+cpu.arm64, libcurl4, libssl3, usbmuxd, curl, grep, gawk, unzip, libirecovery-utils
-Filename: ./debfiles/io.github.kuzao-s_1.0.0-4+debug_iphoneos-arm.deb
-Size: 34258
-MD5sum: 9ba729728de5908f07b7ed9d2cc7c0da
-SHA1: fa9872e9c492d496c2eb6910d1445ee4bf093d23
-SHA256: 9aced000f6c5452661f622b3147db712573bc72a691cd9ef172b704a57cbce61
-SHA512: da17d40e7c3480ada2874bb55f9e9f6ec09a0056df0bd08f48d3ecfc12bf31c738308627d06d1b7b4f7ffe7523e7185befe5d9274dc20f1ef9c3082e5bea1526
+Filename: ./debfiles/io.github.kuzao-s_1.0.0-2+debug_iphoneos-arm.deb
+Size: 39388
+MD5sum: a898ba51bd7b72701368a8cfd0a3cb70
+SHA1: 9498ab6f5881bae5439c90309216f89743fd9d4f
+SHA256: f1ece691c6b4e0bff3e97b21b8b440c5801af394583a45f618c5244db06d1444
+SHA512: 0d6ebbcbb5bc9a9f063211583d08de626a247994823f78d1492d6bc3d7b07800c45582f12f25abe767fb836c27244b50d8d3d9fc9c90b3bd6baf0902bc7a4ae6
 Description: An awesome tool of some sort!!
 Tag: role::hacker
 Name: 乌鸫TMD
