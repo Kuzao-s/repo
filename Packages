@@ -1217,6 +1217,24 @@ SHA512: 7636ffe6d4961f65b3583d4145ebd050d88f5a6748e376886d3423d08ae02d9cf12a801c
 Name: iFile 文件管理器
 Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
 
+Package: io.github.kuzao-s
+Architecture: iphoneos-arm
+Version: 1.0.0-1+debug
+Section: System
+Maintainer: Kuzaos
+Installed-Size: 168
+Depends: firmware (>= 14.0), cy+cpu.arm64, libcurl4, libssl3, usbmuxd, curl, grep, gawk, irecovery, unzip
+Filename: ./debfiles/io.github.kuzao-s_1.0.0-1+debug_iphoneos-arm.deb
+Size: 36794
+MD5sum: 41ecbf534939891310cb89a15bf9e722
+SHA1: 94967a84939241c25ed21db8dd7e60d233343ee1
+SHA256: f465c5e13039cf98a936dba7d0952dc711213b573e02137912cac85746c86c61
+SHA512: 912d3b5c4074420bc1ac40250fb9533c895c5fe535505d6d55b0656447a63110c0f49461156c879bf542496bd02c89e79bbda69fd170601ee890459f634edc44
+Description: An awesome tool of some sort!!
+Tag: role::hacker
+Name: 乌鸫TMD
+Author: Kuzaos
+
 Package: xyz.cypwn.iparanger
 Architecture: iphoneos-arm
 Version: 1.4
@@ -1235,24 +1253,6 @@ SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/1065
 Name: IPA Ranger
 Author: 0xkuj
 Icon: https://media.havoc.app/6403ab157cd66b13e322fa81
-
-Package: ipwnderlite32
-Architecture: iphoneos-arm
-Version: 1.0.63
-Section: System
-Maintainer: sakuRdev/dora2ios
-Depends: firmware (>= 9.0), firmware (<< 11.0), curl, com.ra9stuff.accessoryalertblocker
-Conflicts: ipwnderlite
-Filename: ./debfiles/ipwnderlite32_1.0.63_arm.deb
-Size: 22882
-MD5sum: 56b35989d96bd89cc913575866cbe7b8
-SHA1: 69a2d2fa9f78b13af7c2794c2560e6a98f5f9253
-SHA256: 5a092523f82b8a6fe7bfb307eef8da359d78676618c0eb8bbe8ca09195cf15a0
-SHA512: c89356cd4ecff2bcc2bfc6cc5a789ab6982dbdb38f3c6455cbacd894ee376cf8d05cc40b8f73c5fa7cc161416d3a2b962369a7dfe75bc3ee4c620645b0dade0a
-Description: iPwnder Lite for iPhoneOS.
-Name: iPwnder Lite
-Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
-Author: sakuRdev/dora2ios
 
 Package: ipwnderlite32
 Architecture: iphoneos-arm
@@ -1287,24 +1287,6 @@ SHA256: 57eb4383f480a11a65053c91538fe1bd83697db914722b0aa62778ed542f2b3d
 SHA512: 6957991ac7cfe87e981fde4e7b862e02da6230e5b37922817ca5967ac129177d04776b9bced25754301ce759a702ec44cc570138462efc089044929464696737
 Description: iPwnder Lite for iPhoneOS.
 Name: iPwnder Lite
-Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
-Author: sakuRdev/dora2ios
-
-Package: ipwnderlite64
-Architecture: iphoneos-arm
-Version: 1.0.63
-Section: System
-Maintainer: sakuRdev/dora2ios
-Depends: firmware (>= 11.0), curl, com.ra9stuff.accessoryalertblocker
-Conflicts: ipwnderlite
-Filename: ./debfiles/ipwnderlite64_1.0.63_arm.deb
-Size: 22390
-MD5sum: d8adab1018a0fb283d2a3d7cbd6f1276
-SHA1: 3e8d381bb8ab4276fd9ab61feba159b58cea3c1c
-SHA256: 3c7354bbf06977b38371bcd525230c11d8c919caf397a94b775bdd6d0c4d0554
-SHA512: d7da10e857198b35b9d39941c036291804ea1599c59d6d1146d9f93cbd128e71687bc31da20f5064e7a83123415f6e3a7530d8bfd8edf31d2df95e4a2faf379b
-Description: iPwnder Lite for iPhoneOS.
-Name: iPwnder Lite (iOS 11+)
 Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
 Author: sakuRdev/dora2ios
 
@@ -1542,6 +1524,40 @@ SHA512: 61b9052be350fa8cd2b9dafc71685ae7338a1ae186db9e4dabf19b13077e6c3fb2de14ff
 Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
 Name: libpartialzip-1.0.0
 Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
+
+Package: lol.sep.turdusmerula
+Architecture: iphoneos-arm
+Version: 1.1
+Section: Development
+Maintainer: kok3shi
+Depends: firmware (>= 14.0), cy+cpu.arm64, libcurl4, libssl3, usbmuxd
+Filename: ./debfiles/lol.sep.turdusmerula_1.1_b0ea3ee7_iphoneos-arm.deb
+Size: 1669124
+MD5sum: aecdd9b18cbd3d1a2d40cfe9e0875710
+SHA1: 8d51e39159149af9b58062d2592484d09814254c
+SHA256: 4d4bcc44010b3f25146bc71cba24cb05acd47b1a40e8a44a1c9dab3eb77f453a
+SHA512: 4ea554135a3b93b5c5770d4fd76b6df2c2aec7ec08364147a2d6e0675f7536bbb5579d5902bd3e154e9b39c55718d3c91fcc1fd67758f955a1ab5e45b496d4b6
+Description: meow
+Name: turdus merula
+Depiction: https://kok3shidoll.github.io/info/lol.sep.turdusmerula/
+Author: Clarity, kok3shidoll, Mineek
+
+Package: lol.sep.turdusmerula
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Development
+Maintainer: kok3shi
+Depends: firmware (>= 15.0), cy+cpu.arm64, libcurl4, libssl3, usbmuxd
+Filename: ./debfiles/lol.sep.turdusmerula_1.1_b0ea3ee7_iphoneos-arm64.deb
+Size: 1629256
+MD5sum: 44de784c57467af336a3d6b25fa99c4b
+SHA1: 55546bccf1c595d45c5b7b149da723efc11ba11f
+SHA256: 2d2bcd31c761fa1d4145252acf86e2d0476b1798bb2b785dff286d346ed361a3
+SHA512: 5c83657742f71655b6a46c6fada5a0673824a98d717356cce124bfdea24ccc2c424f21805c0b52f5a71ced67ad34fdf07b115de372ca6456b1150833d8dbc7be
+Description: meow
+Name: turdus merula
+Depiction: https://kok3shidoll.github.io/info/lol.sep.turdusmerula/
+Author: Clarity, kok3shidoll, Mineek
 
 Package: com.hackyouriphone.mdemu
 Architecture: iphoneos-arm
