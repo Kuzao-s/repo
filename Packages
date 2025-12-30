@@ -1642,15 +1642,15 @@ Architecture: iphoneos-arm
 Version: 1.0.1
 Section: System
 Maintainer: Kuzaos
-Installed-Size: 180
+Installed-Size: 216
 Depends: firmware (>= 14.0), cy+cpu.arm64, libcurl4, libssl3, usbmuxd, curl, grep, gawk, unzip, libirecovery-utils, lol.sep.turdusmerula
 Filename: ./debfiles/repo.kuzaos.tmd_1.0.1_iphoneos-arm.deb
-Size: 39708
-MD5sum: ca690b7bed9ee0bc971bd26d19fa9859
-SHA1: 12977779e3e4f0dc35c5c81144bd3266c52afb9a
-SHA256: 9227f2a65e7fd93252a4ee0046b2d499f3964f7195cc21e482a99e00da41a8df
-SHA512: c7c9ac4bf1d5668633c7eb00d1469547c2b3acaeaa99c54f7068e46e3047b2fb23bb16bcdeccc067f36be9e77982aff41e2e5f9dfaa0086968836e2080af3ab7
-Description: Terminal operation TMD
+Size: 40596
+MD5sum: 7c1ab619040fe44d70026a0571f4d673
+SHA1: 490f802e97a1fffedff73b9248024f8aa733f9c2
+SHA256: ae5809627fa17e173a7097863a24a13ea70d86cd4a83dd9935c391d33fd3c72f
+SHA512: a34d6cd06e450624c211511dcd370f7920fee7399e8ee8fd890347212ad7389cc85f251645ff9dff980385f7b612dee63c2873028116e47950f4ccacbc70a17b
+Description: 打开终端运行：TMD 一键降级 Terminal operation TMD
 Tag: role::hacker
 Name: TMD乌鸫一键降级
 Author: 枯燥
@@ -1660,15 +1660,15 @@ Architecture: iphoneos-arm64
 Version: 1.0.1
 Section: System
 Maintainer: Kuzaos
-Installed-Size: 216
+Installed-Size: 196
 Depends: firmware (>= 14.0), cy+cpu.arm64, libcurl4, libssl3, usbmuxd, curl, grep, gawk, unzip, libirecovery-utils, lol.sep.turdusmerula
 Filename: ./debfiles/repo.kuzaos.tmd_1.0.1_iphoneos-arm64.deb
-Size: 40724
-MD5sum: 1df5ceebf0d59e5becd849f1f12643df
-SHA1: 57e56bc80015b9d93ce17ac588170e196b38e1d9
-SHA256: ab2f44568c7bbc17260482116532e8ec15fdb0a0928937b4787b6ce0801823bd
-SHA512: 3248e46ec87e95d54bb94a4d1f065ae97185bdaa5f7104ede273a914588769e5117b3755a603a2cdac23c57e409724d4c7e6e8ceca7fc0d3c678d5dd64bde078
-Description: Terminal operation TMD
+Size: 36420
+MD5sum: e0a59cf66d70027b60efa3ce81d2f355
+SHA1: 848e99daaf8eb6a2e698df4024b6fcd6a3759acd
+SHA256: 2a60c841bb932b26ba6d047ef4d8ddb4d55cbe0cbe182de1e35cc3c9d8ce99e7
+SHA512: f70ebe5dd0b00000c48ebdba9f209f9e703fa2b23f967dce09090cb320f82292331ccfb867a420ee908df0b057fbefe69c2fbfc0c91067f0437421c64bc84c39
+Description: 打开终端运行：TMD 一键降级 Terminal operation TMD
 Tag: role::hacker
 Name: TMD乌鸫一键降级
 Author: 枯燥
