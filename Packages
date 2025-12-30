@@ -1534,6 +1534,77 @@ Description: Library of dimentio
 Name: libdementia
 Author: 0x7ff
 
+Package: libgnutls30
+Architecture: iphoneos-arm
+Version: 3.8.5
+Priority: optional
+Section: Libraries
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 1924
+Provides: gnutls (= 1:0)
+Depends: libiosexec1 (>= 1.3.1), libintl8 (>= 0.20.0), libgmp10, libidn2-0, libunistring5, libnettle8, libhogweed6, libp11-kit0, libtasn1-6, libzstd1, libbrotli1
+Conflicts: gnutls (<< 1:0)
+Replaces: gnutls (<< 1:0)
+Filename: ./debfiles/libgnutls30_3.8.5_iphoneos-arm.deb
+Size: 990902
+MD5sum: 51faf1fe9bfaefd8adc8334303bd2921
+SHA1: 045a703b4a1c2511bc69a1166069d78355bb2a4d
+SHA256: c451bf4e5aa058f47b70a5ac924fc7c4045ff8166e26126e1ad3bb4d48802b4d
+SHA512: 829d033ce9b97884dfd9da9dfa472f60320dac4d12e4ae6fd5fc098d845aca67e13eb99f6e4065714fee2a4bca93c1019fa74ef425d50fba3aae45c93c9d1d4f
+Homepage: http://www.gnu.org/software/gnutls/
+Description: GNU TLS library - main runtime library
+ GnuTLS is a portable library which implements the Transport Layer
+ Security (TLS 1.0, 1.1, 1.2, 1.3) and Datagram
+ Transport Layer Security (DTLS 1.0, 1.2) protocols.
+ .
+ GnuTLS features support for:
+  - certificate path validation, as well as DANE and trust on first use.
+  - public key methods, including RSA and Elliptic curves, as well as password
+    and key authentication methods such as SRP and PSK protocols.
+  - all the strong encryption algorithms, including AES and Camellia.
+  - CPU-assisted cryptography with VIA padlock and AES-NI instruction sets.
+  - HSMs and cryptographic tokens, via PKCS #11.
+ .
+ This package contains the main runtime library.
+
+Package: libhogweed6
+Architecture: iphoneos-arm
+Version: 3.9.1
+Priority: optional
+Section: Libraries
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 320
+Depends: libiosexec1 (>= 1.3.1), libgmp10, libnettle8 (= 3.9.1)
+Filename: ./debfiles/libhogweed6_3.9.1_iphoneos-arm.deb
+Size: 399134
+MD5sum: f4ff022b5841f3a8a222bd60e61e9d2c
+SHA1: 1461966a15875c339a6c140358433f38e4dea261
+SHA256: 23c4b90fd74132ff98dfb43620e98909fcf800b4e4d921fdccc8fcd72206bf90
+SHA512: c54a023b9ec507eff10b67b3bf8ab9aba8a19a476a4cf6c1734e46e6bac8ad2da4751ffab017dab289eb54c31166399df5863d716720e6c190497b6c56d6a31a
+Homepage: http://www.lysator.liu.se/~nisse/nettle/
+Description: low level cryptographic library (public-key cryptos)
+
+Package: libidn2-0
+Architecture: iphoneos-arm
+Version: 2.3.7
+Multi-Arch: foreign
+Priority: optional
+Section: Libraries
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 396
+Provides: libidn2 (= 2.3.7)
+Depends: libiosexec1 (>= 1.3.1), libintl8, libunistring5
+Conflicts: libidn2 (<< 2.3.7)
+Replaces: libidn2 (<< 2.3.7)
+Filename: ./debfiles/libidn2-0_2.3.7_iphoneos-arm.deb
+Size: 115662
+MD5sum: cc06307bb5718a0f0f448abdbc3b9817
+SHA1: 21465900e9ffb6ffc8c7d9ce5c7bdd37e4cd5e7c
+SHA256: 72d4fe956405c7c8e99178aae457f06fa2e25e6ce3fc66b1575aafc886237774
+SHA512: 5639bca2b0b2e2501dffa31bc31318289abca214a6219dfea05aeb1b159cc7d0b450207fb1462c94d0c73378a8a3b3c4c20eaf7f592f81475b90def33cc8f987
+Homepage: https://www.gnu.org/software/libidn/#libidn2
+Description: Internationalized domain names (IDNA2008/TR46) library
+
 Package: libimobiledevice-glue1.0-0
 Architecture: iphoneos-arm
 Version: 1.0.0+git20220522.d2ff796
@@ -1549,6 +1620,24 @@ SHA1: b1b4faca050cd8e9d1ec6687dfd125db6e6d25c3
 SHA256: 848d522b3894045261b33658a2cc4056cfabb01b6f867c3e844afbeaffc1bfd6
 SHA512: b8022ba8bcc615680c51364feee5d476b04a5ff595a73d00b2996b2dcc2420509c6ccef1167c1f246cc5b1f165c28bce7b1f2d72446ccc1b6bf51172416b2bc1
 Description: A library with common code used by libraries and tools around the libimobiledevice project
+
+Package: libiosexec1
+Architecture: iphoneos-arm
+Version: 1.3.1
+Priority: required
+Essential: yes
+Section: Libraries
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 76
+Depends: libiosexec1 (>= 1.3.1)
+Filename: ./debfiles/libiosexec1_1.3.1_iphoneos-arm.deb
+Size: 7224
+MD5sum: 693d5e8b90b19e80a05a15834e7efbe4
+SHA1: 3fa3989493677de052ab112ddf5ad39ff9d24336
+SHA256: f73275074921b9a966fb1774b834caed460362e5fbaa65521e0971cb94fd99f6
+SHA512: 089da33c361ee3051b865bc533f72776828865b9c5ce1468fd79aad987a7a19668b6ae0e117ed5e961b20e9ddbfb7f0667cb72cbc9e0609804395a785818a511
+Homepage: http://github.com/ProcursusTeam/libiosexec
+Description: shim for execve w/ shell script support
 
 Package: libirecovery-utils
 Architecture: iphoneos-arm
@@ -1586,6 +1675,23 @@ SHA256: 495f0df17cb3bc8ef1306f44f955ab7104fb7e3207672f0a73692049ba0e3e9d
 SHA512: 7c0ded36ce0c6fecc0daafcf893e4311605115c85a999fe88d3029e99436cabd43e54036f36be25025b88317c112a99fd04ce3bae049235997ca1c8c5d29094e
 Description: Library allowing communication with iBoot/iBSS of iOS devices via USB
 
+Package: libnettle8
+Architecture: iphoneos-arm
+Version: 3.9.1
+Priority: optional
+Section: Libraries
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 348
+Depends: libiosexec1 (>= 1.3.1)
+Filename: ./debfiles/libnettle8_3.9.1_iphoneos-arm.deb
+Size: 325530
+MD5sum: 0be13e8196463be67c6d0ddf04f031e6
+SHA1: 074c5c4b1afbe00b8ace20767b70cb1260c109cc
+SHA256: 2f0e49a88e42e3fff6d2d7fad7e628da870e19c16575f26819981ad37a8501da
+SHA512: 2648855104c8cd598479eacc177b860d063cb0da76334ef82d96b8182784d568b6d12d9859ad7cd4b7134d76a70ab1c8c4055913de959c4aa8c440cd87c92b94
+Homepage: http://www.lysator.liu.se/~nisse/nettle/
+Description: low level cryptographic library (symmetric and one-way cryptos)
+
 Package: libpartialzip-1.0.0
 Architecture: iphoneos-arm
 Version: 1.0
@@ -1603,6 +1709,48 @@ Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
 Name: libpartialzip-1.0.0
 Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
 
+Package: librtmp1
+Architecture: iphoneos-arm
+Version: 2.4+20151223.gitfa8646d.1-1
+Priority: standard
+Section: Libraries
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 184
+Depends: libiosexec1 (>= 1.3.1), libgnutls30, libhogweed6, libnettle8, libgmp10
+Filename: ./debfiles/librtmp1_2.4+20151223.gitfa8646d.1-1_iphoneos-arm.deb
+Size: 71172
+MD5sum: 22897f1ba29cec1e3206badc074de7b2
+SHA1: 3e3c8257a3a2ff80e2e5188afc1952aa4e8cdab4
+SHA256: 2502986928b50b390a8135be2fa48dd486a30a7fd305fda893f1383bea6c20d6
+SHA512: 4231960c29593c3de8cd2e8fa4594248321f4bda3c0cffafa3512197ef6c995772b7f50ebbd0ad451b6245dd7b20a26354702f5911791de2083a585c010cc171
+Description: toolkit for RTMP streams (shared library)
+ A small dumper for media content streamed over the RTMP protocol (like BBC's
+ iPlayer high quality streams). Supplying an RTMP URL will result in a dumped
+ flv file, which can be played/transcoded with standard tools.
+ .
+ This package contains the shared libraries, header files needed by
+ programs that want to use librtmp.
+
+Package: libssh2-1
+Architecture: iphoneos-arm
+Version: 1.11.0
+Priority: optional
+Section: Libraries
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 348
+Provides: libssh2 (= 1.11.0)
+Depends: libiosexec1 (>= 1.3.1), libssl3
+Conflicts: libssh2 (<< 1.11.0)
+Replaces: libssh2 (<< 1.11.0)
+Filename: ./debfiles/libssh2-1_1.11.0_iphoneos-arm.deb
+Size: 187808
+MD5sum: 1cfe90537b00d8909599f75997758f6d
+SHA1: 8218650b036c2256446b218658d68b6a81a346af
+SHA256: 6c74a0388432a639fdb0f3443388a1d032ea46ddbd05514a836fe426bec506c1
+SHA512: 83564eb93b9cae42653b7c5c572f88e3bc6a19064ec56eef377b222eebdb4e599833737a633d127e0cbb4bcf836625237d90cc2458538a00827785e4293c6a72
+Homepage: https://www.libssh2.org/
+Description: SSH2 client-side library
+
 Package: libssl3
 Architecture: iphoneos-arm
 Version: 3.2.1
@@ -1612,11 +1760,11 @@ Maintainer: Procursus Team <support@procurs.us>
 Installed-Size: 5056
 Depends: libiosexec1 (>= 1.3.1), ca-certificates
 Filename: ./debfiles/libssl3_3.2.1_iphoneos-arm.deb
-Size: 2466446
-MD5sum: 9327c03f511e70b99bf8f0ae11ea0a72
-SHA1: 49d868e7cbd8f46db830faae88fe026beb600ecf
-SHA256: 3cea3cb368d61aeb7eb9ede4698701287dbbdf3219e26f3c09e828678e3e7493
-SHA512: 95ce0e3ea09440e076e83e70cede13625eeb00d8cb749b3ed44875d7e7712fb218f74866a52326935cd3cec47e2c067f1111813e1b941acc098148728568fccc
+Size: 2466448
+MD5sum: ce1d1a9c03a1d1a361f650eb97083e25
+SHA1: 75d3796669f801dd0aab00bd3ef8f46548a7eee3
+SHA256: d54306dd48a2212a293f59d4a3968b563a4a15912aa44ce673ea00e842a2a1f4
+SHA512: b9aaae069409a3f38c8becfc79b1226bf38424a93a36f2c12b248aa28ca1e9253026fbbd27e2877fadd5a06b7f4919ce69ab302344a6023bb3676430fab4ebc8
 Description: Secure Sockets Layer toolkit - shared libraries
  This package is part of the OpenSSL project's implementation of the SSL
  and TLS cryptographic protocols for secure communication over the
