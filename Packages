@@ -1469,22 +1469,6 @@ Description: Downgrade your apps. Well, at least try it.
 Name: Adowngrader
 Author: H6nry <henry.anonym@gmail.com>
 
-Package: cn.agricu.ota
-Architecture: iphoneos-arm
-Version: 1.0.2
-Section: System
-Maintainer: Agricu
-Depends: mobilesubstrate,firmware (>= 5.0), firmware (<= 10.3.3)
-Filename: ./debfiles/ota_1.0.2_iphoneos-arm.deb
-Size: 1298
-MD5sum: f333a29b7a9de8f39b7da6384775a920
-SHA1: 0782439a1826939077af97400757d28fbe2663b9
-SHA256: a611b35bb3d28d518e924397715492fd3cae5295f2fb16998850376b1b6fe52d
-SHA512: 9c4df46907765c6ce3e525ec062095c16e5ebcb3287b96a1483ed708408118b3ac296e67323874ff73f054eaed59a42188e28d7a8958acf5792461bdba450d3b
-Description: 禁用设备的iOS-OTA更新检测，防止意外更新
-Name: 禁用OTA更新
-Author: Agricu
-
 Package: p7zip
 Architecture: iphoneos-arm
 Version: 16.02-1
@@ -1644,7 +1628,7 @@ Version: 1.2.3
 Section: System
 Installed-Size: 1640
 Depends: firmware (<< 11.0)
-Filename: ./debfiles/repo.kuzaos.ioskdfu_1.2.3_iphoneos-arm.deb
+Filename: ./debfiles/repo.kuzaos.kdfu_1.2.3_iphoneos-arm.deb
 Size: 122442
 MD5sum: 762e5f2b576f503ad60bd588856b687e
 SHA1: b61ccdf1828cb93662602e3aa8ff003d754b57a4
@@ -1652,6 +1636,23 @@ SHA256: af886bbf97a77be7ecb422f3a07fdf53b6776c6859cb783e15a98f21a45c5b89
 SHA512: 8a4e950fd01713cad82e94717ec8607be7d3127aab8faf36ca450858b96c4058d5c85bf481df34f79c1f97a2b58d8ae8f9319c743ed39735caa599d40b29a2d0
 Description: 4s,5,5C,iPad2,iPad3,iPad4,iPadmini,touch5
 Name: 一键KDFU A5/A6所有机型
+Author: 枯燥
+
+Package: repo.kuzaos.ota
+Architecture: iphoneos-arm
+Version: 1.0.3
+Section: System
+Maintainer: Kuzaos
+Installed-Size: 132
+Depends: mobilesubstrate,firmware (>= 5.0), firmware (<= 10.3.3)
+Filename: ./debfiles/repo.kuzaos.ota_1.0.3_iphoneos-arm.deb
+Size: 7982
+MD5sum: 96f32e50efc1a447fbcd4d824f72b9a3
+SHA1: 69f41896eef40df0e62d5e77671551ad7d047bbe
+SHA256: 000d6a3fd773697b3e44c93e67b275dd57d1f893c461bdb86f4c066a9880e680
+SHA512: b08879402b4c2b428eaf9d4f9682f5f63f316cbc3574f19df0cad971c66a6e6e2c10b17745fc9b22a6b124a048b8e9a61a4af177b3c1f285217ebc08e4c45080
+Description: OFF iOS5~iOS10 OTA
+Name: OTA更新禁用
 Author: 枯燥
 
 Package: sed
