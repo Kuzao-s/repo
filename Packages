@@ -1046,26 +1046,6 @@ Name: CrackerXI+
 Website: https://ipastore.me
 Icon: file:///Applications/crackerxi.app/AppIcon.png
 
-Package: curl
-Architecture: iphoneos-arm
-Version: 8.7.1
-Priority: standard
-Section: Networking
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 364
-Depends: libiosexec1 (>= 1.3.1), libcurl4 (= 8.7.1), libc-ares2, libnghttp2-14, libidn2-0, librtmp1, libgmp10, libgnutls30, libhogweed6, libnettle8, libssh2-1, libssl3, libzstd1, libbrotli1
-Filename: ./debfiles/curl_8.7.1_iphoneos-arm.deb
-Size: 205738
-MD5sum: d85a220b5ac62b4dc8f88345e02694bc
-SHA1: 1c2d646f12c59a09cade676e3af764721fccd979
-SHA256: 84ca3ceca2e2e8d07a9adb35c153ddcfbbad1f00e814535dd0ce0061adc1f955
-SHA512: 4528382e8d3ce565a08bc0b466beb793cacb45add7d7b6ea371fda13c3776ef7bea5f86f58a8311c93a92ed25442c1399a527481c039bd2672bb258d52202bc4
-Homepage: http://curl.haxx.se/
-Description: command line tool for transferring data with URL syntax
- curl is a command line tool for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMTP, SMTPS, TELNET and TFTP.
- .
- curl supports SSL certificates, HTTP POST, HTTP PUT, FTP uploading, HTTP form based upload, proxies, cookies, user+password authentication (Basic, Digest, NTLM, Negotiate, kerberos...), file transfer resume, proxy tunneling and a busload of other useful tricks.
-
 Package: uk.invoxiplaygames.cydiahttpatch
 Architecture: iphoneos-arm
 Version: 1.0
@@ -1276,24 +1256,6 @@ Icon: https://media.havoc.app/6403ab157cd66b13e322fa81
 
 Package: ipwnderlite32
 Architecture: iphoneos-arm
-Version: 1.0.69-1
-Section: System
-Maintainer: sakuRdev/dora2ios
-Depends: firmware (>= 9.0), firmware (<< 11.0), curl, com.ra9stuff.accessoryalertblocker
-Conflicts: ipwnderlite
-Filename: ./debfiles/ipwnderlite32_1.0.69-1_iphoneos-arm.deb
-Size: 23194
-MD5sum: 397bd0c8e81336e8be96a02fc8be2cf7
-SHA1: dd9666ef2763748b094fb5833cdf6e174e8a64e7
-SHA256: b887948ac97ffb4744b087e4e5e0bfe1bdc075902481035a70b66b8be290ec02
-SHA512: 5f22ab49940bee4dd0f7225d3e5e326de21a55da9c96cfe0ef477c49d7a2ffb34a5f6179bf75e1d5c7e19621ec54c9c324edcd36e3f412ccc696ac1c5bb0bdfc
-Description: iPwnder Lite for iPhoneOS.
-Name: iPwnder Lite
-Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
-Author: sakuRdev/dora2ios
-
-Package: ipwnderlite32
-Architecture: iphoneos-arm
 Version: 1.0.70
 Section: System
 Maintainer: sakuRdev/dora2ios
@@ -1307,41 +1269,6 @@ SHA256: 57eb4383f480a11a65053c91538fe1bd83697db914722b0aa62778ed542f2b3d
 SHA512: 6957991ac7cfe87e981fde4e7b862e02da6230e5b37922817ca5967ac129177d04776b9bced25754301ce759a702ec44cc570138462efc089044929464696737
 Description: iPwnder Lite for iPhoneOS.
 Name: iPwnder Lite
-Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
-Author: sakuRdev/dora2ios
-
-Package: ipwnderlite64
-Architecture: iphoneos-arm
-Version: 1.0.69
-Section: System
-Maintainer: sakuRdev/dora2ios
-Depends: firmware (>= 11.0), curl, com.ra9stuff.accessoryalertblocker
-Conflicts: ipwnderlite
-Filename: ./debfiles/ipwnderlite64_1.0.69_iphoneos-arm.deb
-Size: 22868
-MD5sum: 48f01c9e24fc0b6d049983a29c511716
-SHA1: e508428723e9b5c24736b986d60387f91e3f45e1
-SHA256: 3a002fc710cd6aac02730ae53e5f51930d940b4402e2e4d5f4cfad1eb30e9f31
-SHA512: 77a814e82dbf141ead591e832e7a4ab1cc810ccd9d76f1f4f0b9288da0192ae9ceda5821a8f61640649f7966e644f410ffddb2b0afcac6119a8ac18c04c71fdb
-Description: iPwnder Lite for iPhoneOS.
-Name: iPwnder Lite (iOS 11+)
-Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
-Author: sakuRdev/dora2ios
-
-Package: ipwnderlite
-Architecture: iphoneos-arm64
-Version: 1.0.69
-Section: System
-Maintainer: sakuRdev/dora2ios
-Depends: firmware (>= 15.0), curl, com.ra9stuff.accessoryalertblocker
-Filename: ./debfiles/ipwnderlite64_1.0.69_iphoneos-arm64.deb
-Size: 19264
-MD5sum: 6e73d0ed0209ff2602642c85accccc30
-SHA1: c61efbc795cde3ec8da8fb0ffdc72d92c5ca79d8
-SHA256: 93a9ee4ac459478876ee17c7e4c30b418fca3a0bb2645f4293b105c816f110a6
-SHA512: 2463f81ebbade96f953e8e9b53e90d1a5b4287a097147bed7096926c97a064d77f335790c430b045592eef242ec6c56421868f5773f0b889ccd41600c4c1a0e8
-Description: iPwnder Lite for iPhoneOS.
-Name: iPwnder Lite (Rootless)
 Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
 Author: sakuRdev/dora2ios
 
@@ -1369,7 +1296,7 @@ Version: 1.0.70
 Section: System
 Maintainer: sakuRdev/dora2ios
 Depends: firmware (>= 15.0), curl, com.ra9stuff.accessoryalertblocker
-Filename: ./debfiles/ipwnderlite_1.0.70_iphoneos-arm64.deb
+Filename: ./debfiles/ipwnderlite64_1.0.70_iphoneos-arm64.deb
 Size: 19824
 MD5sum: 6c8b43b1f0bc983d69596995f99ff4ad
 SHA1: 6f7ec0e8942c99821be36729eb242f40f2fc9c61
@@ -1415,86 +1342,6 @@ Name: iTunesStoreX7
 Author: Jyvee
 Icon: file:///Library/Application%20Support/org.jyvee8games.itunesfix/Icon.png
 
-Package: org.tihmstar.kDFUApp
-Architecture: iphoneos-arm
-Version: 1.0.3
-Priority: optional
-Section: System
-Maintainer: tihmstar
-Depends: openssl, libcrippy-1.0.0, libpartialzip-1.0.0, curl, kloader, com.lukezgd.kDFUBundles, firmware (>= 6.0), firmware (<= 9.3.6)
-Filename: ./debfiles/kDFUApp_1.0.3.deb
-Size: 80264
-MD5sum: 11acba9233d569267c58a2ff1e85a600
-SHA1: 5ecdfd856331a124649cf2af6a83b39d48d6ef62
-SHA256: 1f44ba92f5e194e56234eff7f5c09bf571d30b3001c6d6d52488b55fa070cb7c
-SHA512: aa313edd3855ba87c0c844c037db5dba2fa50f157f7be642c5c53c974f20f81730464145237482289c0c8d1604babc545dc41954efb81cdaaea58a91ade52cc2
-Description: easy way to get into kDFU mode
-Name: kDFUApp
-Author: tihmstar
-dev: tihmstar
-
-Package: com.lukezgd.kDFUBundles
-Architecture: iphoneos-arm
-Version: 1.0.1
-Section: System
-Maintainer: LukeZGD
-Depends: org.tihmstar.kDFUApp
-Filename: ./debfiles/kDFUBundles-1.0.1_iphoneos-arm.deb
-Size: 10730
-MD5sum: 96964db28234171b2ebbebfc04239559
-SHA1: f5bff05635caeaeea05237f60a7ae1f2ebb0f1b9
-SHA256: dd55fa1d75cebac3c6423a1ee5405ca680580c6b569f4667869d04fe6951b141
-SHA512: 41838f42df530bcb71698dce05a74cb39e8d6e3f9e11e137b3a6798e12a46a2cf3bcec6c6adb87c1224d984ae315fcf9341b61f94d4766650b136af45fdf7c56
-Description: More device support for kDFUApp
-Name: kDFUApp Bundles
-Author: LukeZGD
-
-Package: kloader
-Architecture: iphoneos-arm
-Version: 1.0
-Priority: optional
-Section: System
-Maintainer: tihmstar
-Depends: firmware (>= 6.0)
-Conflicts: cy+cpu.arm64
-Filename: ./debfiles/kloader_1.0.0.deb
-Size: 7982
-MD5sum: 16347bf66c0c84e4870d2cbba42d1dee
-SHA1: 58194352911aa3ae03dafbc88ddb6f247818ee8f
-SHA256: 1fdbaf24db617955afd30244884f99f15be58763a723eb5d81a07b52beae42f4
-SHA512: b385be74dd495b6a9c8e484e01300677683c5d066215e14fd7055c9619adb41a064c958da8934ba57185f9f23efbb8b452926815446577f9b2e7fea90185bed5
-Homepage: https://github.com/xerub/ios-kexec-utils/blob/master/kloader.c
-Description: Don't install if you don't know what that is
-	Do not install this package if you don't know what this is.
-	Installing this on a production device is not recommended.
-Name: kloader
-Author: winocm, xerub
-
-Package: org.xbmc.kodi-ios.legacy
-Architecture: iphoneos-arm
-Version: 17.6-0
-Priority: optional
-Section: Multimedia
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 133122
-Depends: firmware (>= 5.1)
-Conflicts: org.xbmc.kodi-ios
-Filename: ./debfiles/kodi-ios.legacy_17.6-0.deb
-Size: 47963644
-MD5sum: 125ac826bbc8e53e05bdd903b7501def
-SHA1: a3f6a0311a423f658ead6094ce72e334111d9d96
-SHA256: 3ed3359a9a009ae0693fbbdb26a83737bda89a63acf383617feb12601cad6d23
-SHA512: b2e42babe3d9a54623ba1d5ad332d656fb6ef7c2bc98f7cf7a810fd1245643b9c032b54759c292acb5083c88b8c2077410cc903df8fc4a6b47d28271385ffa15
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=kodi32legacyDp
-Description: Kodi Entertainment Center for iOS
-Tag: purpose::extension
-Name: Kodi-iOS (Legacy 32-bit)
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=kodi32legacyDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-Author: Team-Kodi
-dev: teamkodi
-Icon: file:///Applications/Kodi.app/AppIcon57x57.png
-
 Package: libcrippy-1.0.0
 Architecture: iphoneos-arm
 Version: 1.0
@@ -1512,32 +1359,6 @@ Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
 Name: libcrippy-1.0.0
 Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
 
-Package: libcurl4
-Architecture: iphoneos-arm
-Version: 8.7.1
-Priority: standard
-Section: Libraries
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 616
-Depends: libiosexec1 (>= 1.3.1), libcurl4 (= 8.7.1), libc-ares2, libnghttp2-14, libidn2-0, librtmp1, libgmp10, libgnutls30, libhogweed6, libnettle8, libssh2-1, libssl3, libzstd1, libbrotli1
-Conflicts: curl (<< 8.7.1)
-Replaces: curl (<< 8.7.1)
-Filename: ./debfiles/libcurl4_8.7.1_iphoneos-arm.deb
-Size: 283802
-MD5sum: 873a79368692bd4ffd80904fdde8a0d8
-SHA1: 085a6b17b5c42045dbb62320578ca4e81bbb70dd
-SHA256: 5fa62fe940bb4736850bb9615464c4a0f9786d99a0684bb3ffaa7c7cbddc8377
-SHA512: 75c1a6b7ecbca30f2308ece1d2f90d54fe5e048e26ead1a6d85e11c9e7dc5175608fe214a9d6e27e754568cbdd5acbd984e63549ecb09a1f9c9e9b2c89a41f84
-Homepage: http://curl.haxx.se/
-Description: easy-to-use client-side URL transfer library (OpenSSL flavour)
- libcurl is an easy-to-use client-side URL transfer library, supporting DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMTP, SMTPS, TELNET and TFTP.
- .
- libcurl supports SSL certificates, HTTP POST, HTTP PUT, FTP uploading, HTTP form based upload, proxies, cookies, user+password authentication (Basic, Digest, NTLM, Negotiate, Kerberos), file transfer resume, http proxy tunneling and more!
- .
- libcurl is free, thread-safe, IPv6 compatible, feature rich, well supported, fast, thoroughly documented and is already used by many known, big and successful companies and numerous applications.
- . 
- SSL support is provided by OpenSSL
-
 Package: com.michael.libdementia
 Architecture: iphoneos-arm
 Version: 0.2.17
@@ -1553,231 +1374,6 @@ SHA512: 2433ffc69513da1fa5746121cc29dc2d258c39bbeddd35964a75f0edd90686aa16f84220
 Description: Library of dimentio
 Name: libdementia
 Author: 0x7ff
-
-Package: libffi8
-Architecture: iphoneos-arm
-Version: 3.4.6
-Multi-Arch: foreign
-Priority: optional
-Section: Libraries
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 108
-Depends: libiosexec1 (>= 1.3.1)
-Filename: ./debfiles/libffi8_3.4.6_iphoneos-arm.deb
-Size: 9282
-MD5sum: a150f903f48d10c8c5b3db32bb68369a
-SHA1: 56eaedbc5cf8a55e741b5bf24623e61d481a256c
-SHA256: f05741a7db1b818c276c0018fb3dc69b11d3b891cc729f5fda20e563be079d54
-SHA512: 29beb85a9f6b1dd548a7810f0a19ea3010a29b8f22d090e4168afabd150d6b38cf659209ca82a25fb79beb25dae21f437b53b8333afd86003481fd142da578fd
-Description: Foreign Function Interface library runtime
- A foreign function interface is the popular name for the interface that
- allows code written in one language to call code written in another
- language.
-
-Package: libgnutls30
-Architecture: iphoneos-arm
-Version: 3.8.5
-Priority: optional
-Section: Libraries
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 1924
-Provides: gnutls (= 1:0)
-Depends: libiosexec1 (>= 1.3.1), libintl8 (>= 0.20.0), libgmp10, libidn2-0, libunistring5, libnettle8, libhogweed6, libp11-kit0, libtasn1-6, libzstd1, libbrotli1
-Conflicts: gnutls (<< 1:0)
-Replaces: gnutls (<< 1:0)
-Filename: ./debfiles/libgnutls30_3.8.5_iphoneos-arm.deb
-Size: 990902
-MD5sum: adeb9d1dd56695c98ca83725156fb8be
-SHA1: 4ec9573edd25803f4fb7f7b1ab8701f2e5fb0d30
-SHA256: 2907b80f44d5bed351a242dd8a039bcd48ed6ed13d28cbb330a424d055c8206f
-SHA512: a132fde374dd1f9d89332cf3622ea0f04e6c9c64914cb48585a46526c4481f55a368f1418f4baa4d0474994e177e3e7bd4f4084d12101488d9c607e01bffa109
-Homepage: http://www.gnu.org/software/gnutls/
-Description: GNU TLS library - main runtime library
- GnuTLS is a portable library which implements the Transport Layer
- Security (TLS 1.0, 1.1, 1.2, 1.3) and Datagram
- Transport Layer Security (DTLS 1.0, 1.2) protocols.
- .
- GnuTLS features support for:
-  - certificate path validation, as well as DANE and trust on first use.
-  - public key methods, including RSA and Elliptic curves, as well as password
-    and key authentication methods such as SRP and PSK protocols.
-  - all the strong encryption algorithms, including AES and Camellia.
-  - CPU-assisted cryptography with VIA padlock and AES-NI instruction sets.
-  - HSMs and cryptographic tokens, via PKCS #11.
- .
- This package contains the main runtime library.
-
-Package: libhogweed6
-Architecture: iphoneos-arm
-Version: 3.9.1
-Priority: optional
-Section: Libraries
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 320
-Depends: libiosexec1 (>= 1.3.1), libgmp10, libnettle8 (= 3.9.1)
-Filename: ./debfiles/libhogweed6_3.9.1_iphoneos-arm.deb
-Size: 399134
-MD5sum: f4ff022b5841f3a8a222bd60e61e9d2c
-SHA1: 1461966a15875c339a6c140358433f38e4dea261
-SHA256: 23c4b90fd74132ff98dfb43620e98909fcf800b4e4d921fdccc8fcd72206bf90
-SHA512: c54a023b9ec507eff10b67b3bf8ab9aba8a19a476a4cf6c1734e46e6bac8ad2da4751ffab017dab289eb54c31166399df5863d716720e6c190497b6c56d6a31a
-Homepage: http://www.lysator.liu.se/~nisse/nettle/
-Description: low level cryptographic library (public-key cryptos)
-
-Package: libidn2-0
-Architecture: iphoneos-arm
-Version: 2.3.7
-Multi-Arch: foreign
-Priority: optional
-Section: Libraries
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 396
-Provides: libidn2 (= 2.3.7)
-Depends: libiosexec1 (>= 1.3.1), libintl8, libunistring5
-Conflicts: libidn2 (<< 2.3.7)
-Replaces: libidn2 (<< 2.3.7)
-Filename: ./debfiles/libidn2-0_2.3.7_iphoneos-arm.deb
-Size: 115662
-MD5sum: cc06307bb5718a0f0f448abdbc3b9817
-SHA1: 21465900e9ffb6ffc8c7d9ce5c7bdd37e4cd5e7c
-SHA256: 72d4fe956405c7c8e99178aae457f06fa2e25e6ce3fc66b1575aafc886237774
-SHA512: 5639bca2b0b2e2501dffa31bc31318289abca214a6219dfea05aeb1b159cc7d0b450207fb1462c94d0c73378a8a3b3c4c20eaf7f592f81475b90def33cc8f987
-Homepage: https://www.gnu.org/software/libidn/#libidn2
-Description: Internationalized domain names (IDNA2008/TR46) library
-
-Package: libimobiledevice-glue1.0-0
-Architecture: iphoneos-arm
-Version: 1.0.0+git20220522.d2ff796
-Priority: standard
-Section: Development
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 120
-Depends: libplist3 (>= 2.2.0)
-Filename: ./debfiles/libimobiledevice-glue1.0-0_1.0.0+git20220522.d2ff796_iphoneos-arm.deb
-Size: 25530
-MD5sum: ee210a4caca346ef4f79defe54d8b18f
-SHA1: b1b4faca050cd8e9d1ec6687dfd125db6e6d25c3
-SHA256: 848d522b3894045261b33658a2cc4056cfabb01b6f867c3e844afbeaffc1bfd6
-SHA512: b8022ba8bcc615680c51364feee5d476b04a5ff595a73d00b2996b2dcc2420509c6ccef1167c1f246cc5b1f165c28bce7b1f2d72446ccc1b6bf51172416b2bc1
-Description: A library with common code used by libraries and tools around the libimobiledevice project
-
-Package: libintl8
-Architecture: iphoneos-arm
-Version: 0.22
-Section: System
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 208
-Depends: libiosexec1 (>= 1.3.1)
-Filename: ./debfiles/libintl8_0.22_iphoneos-arm.deb
-Size: 83666
-MD5sum: bc5aa531bce91bf8f1623fde3a5a8c91
-SHA1: 532e33618430565f0bc740734d6af70fef843aa9
-SHA256: 42c422445d505c4ffe14ecb0d75f7c56fbc5a7a6784d2ba0ce82e037b42a60a7
-SHA512: e62b7762bc612a7015fb3956091b9c6740cb2f34ffea1bc4eb38cd8c55314d859356c6840de6925d581573c836efd30ba977bc149e69388804496065e941de1b
-Homepage: http://www.gnu.org/software/gettext/
-Description: internationalization helper for strings
-Essental: yes
-
-Package: libiosexec1
-Architecture: iphoneos-arm
-Version: 1.3.1
-Priority: required
-Essential: yes
-Section: Libraries
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 76
-Depends: libiosexec1 (>= 1.3.1)
-Filename: ./debfiles/libiosexec1_1.3.1_iphoneos-arm.deb
-Size: 7224
-MD5sum: 693d5e8b90b19e80a05a15834e7efbe4
-SHA1: 3fa3989493677de052ab112ddf5ad39ff9d24336
-SHA256: f73275074921b9a966fb1774b834caed460362e5fbaa65521e0971cb94fd99f6
-SHA512: 089da33c361ee3051b865bc533f72776828865b9c5ce1468fd79aad987a7a19668b6ae0e117ed5e961b20e9ddbfb7f0667cb72cbc9e0609804395a785818a511
-Homepage: http://github.com/ProcursusTeam/libiosexec
-Description: shim for execve w/ shell script support
-
-Package: libirecovery-utils
-Architecture: iphoneos-arm
-Version: 1.0.0+git20220628.ab5b4d8-1
-Priority: standard
-Section: Administration
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 104
-Depends: libirecovery3 (>= 1.0.0), libimobiledevice-glue1.0-0 (>= 1.0.0)
-Conflicts: libirecovery (<< 99)
-Filename: ./debfiles/libirecovery-utils_1.0.0+git20220628.ab5b4d8-1_iphoneos-arm.deb
-Size: 18612
-MD5sum: b45e963ddd299d58bc123994e6fdf494
-SHA1: 749a019c6b31340e220b358124d837e11e9f16b9
-SHA256: 8995bd6745c363176de8c63f57ac7fab20ae8da073892fba87c27254d2478219
-SHA512: bde73fd654b1270ce2a8d6b3e36a5b4b695de83f77b66310798487d40e7c4ba9a5da634f0f6c90e33e7276f33edddb4379416f9770082fe7c7726253490206f5
-Description: Communicate with iBoot/iBSS of iOS devices via USB
-
-Package: libirecovery3
-Architecture: iphoneos-arm
-Version: 1.0.0+git20220628.ab5b4d8-1
-Priority: standard
-Section: Networking
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 120
-Provides: libirecovery (= 99)
-Depends: libreadline8 (>= 8.0), libusb-1.0-0, libimobiledevice-glue1.0-0 (>= 1.0.0)
-Conflicts: libirecovery
-Replaces: libirecovery
-Filename: ./debfiles/libirecovery3_1.0.0+git20220628.ab5b4d8-1_iphoneos-arm.deb
-Size: 29230
-MD5sum: db23298ee2ff3a61ce8d2631c1de360a
-SHA1: 40825f2c7f1842a6290b92c6579a5b9d32486279
-SHA256: 495f0df17cb3bc8ef1306f44f955ab7104fb7e3207672f0a73692049ba0e3e9d
-SHA512: 7c0ded36ce0c6fecc0daafcf893e4311605115c85a999fe88d3029e99436cabd43e54036f36be25025b88317c112a99fd04ce3bae049235997ca1c8c5d29094e
-Description: Library allowing communication with iBoot/iBSS of iOS devices via USB
-
-Package: libnettle8
-Architecture: iphoneos-arm
-Version: 3.9.1
-Priority: optional
-Section: Libraries
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 348
-Depends: libiosexec1 (>= 1.3.1)
-Filename: ./debfiles/libnettle8_3.9.1_iphoneos-arm.deb
-Size: 325530
-MD5sum: 0be13e8196463be67c6d0ddf04f031e6
-SHA1: 074c5c4b1afbe00b8ace20767b70cb1260c109cc
-SHA256: 2f0e49a88e42e3fff6d2d7fad7e628da870e19c16575f26819981ad37a8501da
-SHA512: 2648855104c8cd598479eacc177b860d063cb0da76334ef82d96b8182784d568b6d12d9859ad7cd4b7134d76a70ab1c8c4055913de959c4aa8c440cd87c92b94
-Homepage: http://www.lysator.liu.se/~nisse/nettle/
-Description: low level cryptographic library (symmetric and one-way cryptos)
-
-Package: libp11-kit0
-Architecture: iphoneos-arm
-Version: 0.25.3
-Multi-Arch: foreign
-Priority: standard
-Section: Libraries
-Maintainer: Procursus Team <support@procurs.us>
-Conffiles:
- /etc/pkcs11/pkcs11.conf.example 161f8ec95326f47d853cb7c1ee76c7b8
-Installed-Size: 1156
-Depends: libiosexec1 (>= 1.3.1), libintl8, libffi8, ca-certificates
-Conflicts: p11-kit (<< 0.25.3)
-Replaces: p11-kit (<< 0.25.3)
-Filename: ./debfiles/libp11-kit0_0.25.3_iphoneos-arm.deb
-Size: 261696
-MD5sum: 8191c64588fa2a8d8ec40ea52e37aea7
-SHA1: 6e3973349c36ad045055116e5dec0d0a4d8895a7
-SHA256: 4918aca49515733a78d7d757e499f681881aa3a84c518a231800702a0e16177d
-SHA512: 29105857b50d3daa03750758f8ffc8795616fd20e5c9433a87b274669041c4741efe8a74f78940b479a4bd96bbec04c1a533d01a22e69e5c9ddda1777b879c24
-Homepage: https://p11-glue.github.io/p11-glue/p11-kit.html
-Description: library for loading and coordinating access to PKCS#11 modules - runtime
- The p11-kit library provides a way to load and enumerate Public-Key
- Cryptography Standard #11 modules, along with a standard configuration
- setup for installing PKCS#11 modules so that they're discoverable. It
- also solves problems with coordinating the use of PKCS#11 by different
- components or libraries living in the same process.
- .
- This package contains the shared library required for applications loading
- and accessing PKCS#11 modules.
 
 Package: libpartialzip-1.0.0
 Architecture: iphoneos-arm
@@ -1795,118 +1391,6 @@ SHA512: 61b9052be350fa8cd2b9dafc71685ae7338a1ae186db9e4dabf19b13077e6c3fb2de14ff
 Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
 Name: libpartialzip-1.0.0
 Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
-
-Package: librtmp1
-Architecture: iphoneos-arm
-Version: 2.4+20151223.gitfa8646d.1-1
-Priority: standard
-Section: Libraries
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 184
-Depends: libiosexec1 (>= 1.3.1), libgnutls30, libhogweed6, libnettle8, libgmp10
-Filename: ./debfiles/librtmp1_2.4+20151223.gitfa8646d.1-1_iphoneos-arm.deb
-Size: 71168
-MD5sum: 8a2a3effde87aa496ee4cdcd87939610
-SHA1: eb2996f2c3bd0dec37d04762dbd5c9fb07f01497
-SHA256: bbfc895bd7031f46c43288ea21308ec7f7172bea87d70478f05e015b0a14b21a
-SHA512: 05ebc72b4c3b16ddd18305eb66437fdb9cd5af2d54ac29d530658c784aa962e72b0d4f758d91591eb8d13be3f87f28667e076425528f8656c59819d3adc4d616
-Description: toolkit for RTMP streams (shared library)
- A small dumper for media content streamed over the RTMP protocol (like BBC's
- iPlayer high quality streams). Supplying an RTMP URL will result in a dumped
- flv file, which can be played/transcoded with standard tools.
- .
- This package contains the shared libraries, header files needed by
- programs that want to use librtmp.
-
-Package: libssh2-1
-Architecture: iphoneos-arm
-Version: 1.11.0
-Priority: optional
-Section: Libraries
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 348
-Provides: libssh2 (= 1.11.0)
-Depends: libiosexec1 (>= 1.3.1), libssl3
-Conflicts: libssh2 (<< 1.11.0)
-Replaces: libssh2 (<< 1.11.0)
-Filename: ./debfiles/libssh2-1_1.11.0_iphoneos-arm.deb
-Size: 187808
-MD5sum: 1cfe90537b00d8909599f75997758f6d
-SHA1: 8218650b036c2256446b218658d68b6a81a346af
-SHA256: 6c74a0388432a639fdb0f3443388a1d032ea46ddbd05514a836fe426bec506c1
-SHA512: 83564eb93b9cae42653b7c5c572f88e3bc6a19064ec56eef377b222eebdb4e599833737a633d127e0cbb4bcf836625237d90cc2458538a00827785e4293c6a72
-Homepage: https://www.libssh2.org/
-Description: SSH2 client-side library
-
-Package: libssl3
-Architecture: iphoneos-arm
-Version: 3.2.1
-Priority: standard
-Section: Libraries
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 5056
-Depends: libiosexec1 (>= 1.3.1), ca-certificates
-Filename: ./debfiles/libssl3_3.2.1_iphoneos-arm.deb
-Size: 2466448
-MD5sum: ce1d1a9c03a1d1a361f650eb97083e25
-SHA1: 75d3796669f801dd0aab00bd3ef8f46548a7eee3
-SHA256: d54306dd48a2212a293f59d4a3968b563a4a15912aa44ce673ea00e842a2a1f4
-SHA512: b9aaae069409a3f38c8becfc79b1226bf38424a93a36f2c12b248aa28ca1e9253026fbbd27e2877fadd5a06b7f4919ce69ab302344a6023bb3676430fab4ebc8
-Description: Secure Sockets Layer toolkit - shared libraries
- This package is part of the OpenSSL project's implementation of the SSL
- and TLS cryptographic protocols for secure communication over the
- Internet.
- .
- It provides the libssl and libcrypto shared libraries.
-
-Package: libtasn1-6
-Architecture: iphoneos-arm
-Version: 4.19.0
-Multi-Arch: foreign
-Priority: optional
-Section: Libraries
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 132
-Provides: libtasn1 (= 4.19.0)
-Depends: libiosexec1 (>= 1.3.1)
-Conflicts: libtasn1 (<< 1:0)
-Replaces: libtasn1 (<< 1:0)
-Filename: ./debfiles/libtasn1-6_4.19.0_iphoneos-arm.deb
-Size: 41756
-MD5sum: 964bd6089740e3410b3904046bb217d5
-SHA1: 130aa1214e2004691763349953076fef445bf042
-SHA256: b6386d4718d701640c781f5be7e5294ae6f753d8ce05e64140a5d4c998454d32
-SHA512: 097f279f098baf975b78cbd7eda7a3f1dc682a2858266406a6419f6b7232bb5555dececf18f795dab677f4ac08ce3bdceb7a3da0e1beaab453a9d8c142bfc927
-Homepage: https://www.gnu.org/software/libtasn1
-Description: Manage ASN.1 structures (runtime)
- Manage ASN1 (Abstract Syntax Notation One) structures.
- The main features of this library are:
-   * on-line ASN1 structure management that doesn't require any C code
-     file generation.
-   * off-line ASN1 structure management with C code file generation
-     containing an array.
-   * DER (Distinguish Encoding Rules) encoding
-   * no limits for INTEGER and ENUMERATED values
- .
- This package contains runtime libraries.
-
-Package: libunistring5
-Architecture: iphoneos-arm
-Version: 1.2
-Multi-Arch: foreign
-Priority: optional
-Section: Libraries
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 1828
-Depends: libiosexec1 (>= 1.3.1)
-Filename: ./debfiles/libunistring5_1.2_iphoneos-arm.deb
-Size: 714952
-MD5sum: 83ecb88a36ab27faea12f65be9b0216e
-SHA1: 43c4de463df3d9c6df5c1a97def23ee5d60d8bf6
-SHA256: b145bbd1cb99421ef44c4066482e094d00c5566cfd141ca7b8c2efa7c2603382
-SHA512: 561a560dfdb141d4429ab72411070bdc7e1a389c17cff4a38d016b63a7822767d7ae16849d8520f2e08565ab8395ce508e2866d4bcdd9cef2f754c66a7716f0e
-Homepage: https://www.gnu.org/software/libunistring/
-Description: Unicode string library for C
 
 Package: lol.sep.turdusmerula
 Architecture: iphoneos-arm
@@ -2245,6 +1729,24 @@ Name: PPSSPP 0.9.9.1
 Author: Henrik Rydgård <repo@hackyouriphone.org>
 Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ppsspp
 
+Package: cn.agricu.vsz.redeb
+Architecture: iphoneos-arm
+Version: 1.0.3
+Priority: extra
+Section: Utilities
+Maintainer: T.Herak
+Depends: bash (>= 4.0.17-13), coreutils (>= 8.12-12p), grep (>= 2.5.4-3), sed (>= 4.1.5-7), gawk (>= 3.1.6-2p)
+Filename: ./debfiles/redeb_1.0.3.deb
+Size: 3620
+MD5sum: 29088d17cbb85325cc83020636b5708d
+SHA1: 7bd31e1cf4df2ef1e71b256efa912014afa7a41f
+SHA256: 29f9923f72871c724d0e63da8e10eac6b2c3c7c856b5736b4278ba301b72b243
+SHA512: 483d960b9ecd2678ed2ff8bfb677f3be29da8cf87fd9ff7b92c79b30571b39f81b5c9b53495199ee4fe04c974d11d78fb79c632786364dd574e3cbe6130fd588
+Description: 已安装的DEB文件提取插件
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.vsz.redeb
+Name: Redeb 提取本地插件
+Author: T.Herak
+
 Package: sed
 Architecture: iphoneos-arm
 Version: 4.1.5-7
@@ -2576,24 +2078,6 @@ Tag: role::enduser
 Name: Unthredera1n
 Depiction: http://ichitaso.com/apt/depiction/unthredera1n.html
 Author: UnthreadedJB
-
-Package: cn.agricu.vsz.redeb
-Architecture: iphoneos-arm
-Version: 1.0.3
-Priority: extra
-Section: Utilities
-Maintainer: T.Herak
-Depends: bash (>= 4.0.17-13), coreutils (>= 8.12-12p), grep (>= 2.5.4-3), sed (>= 4.1.5-7), gawk (>= 3.1.6-2p)
-Filename: ./debfiles/vsz.redeb_1.0.3.deb
-Size: 3620
-MD5sum: 29088d17cbb85325cc83020636b5708d
-SHA1: 7bd31e1cf4df2ef1e71b256efa912014afa7a41f
-SHA256: 29f9923f72871c724d0e63da8e10eac6b2c3c7c856b5736b4278ba301b72b243
-SHA512: 483d960b9ecd2678ed2ff8bfb677f3be29da8cf87fd9ff7b92c79b30571b39f81b5c9b53495199ee4fe04c974d11d78fb79c632786364dd574e3cbe6130fd588
-Description: 已安装的DEB文件提取插件
-Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.vsz.redeb
-Name: Redeb 提取本地插件
-Author: T.Herak
 
 Package: x8a4
 Architecture: iphoneos-arm64
