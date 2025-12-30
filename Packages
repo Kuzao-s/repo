@@ -1547,10 +1547,10 @@ Conflicts: gnutls (<< 1:0)
 Replaces: gnutls (<< 1:0)
 Filename: ./debfiles/libgnutls30_3.8.5_iphoneos-arm.deb
 Size: 990902
-MD5sum: 51faf1fe9bfaefd8adc8334303bd2921
-SHA1: 045a703b4a1c2511bc69a1166069d78355bb2a4d
-SHA256: c451bf4e5aa058f47b70a5ac924fc7c4045ff8166e26126e1ad3bb4d48802b4d
-SHA512: 829d033ce9b97884dfd9da9dfa472f60320dac4d12e4ae6fd5fc098d845aca67e13eb99f6e4065714fee2a4bca93c1019fa74ef425d50fba3aae45c93c9d1d4f
+MD5sum: adeb9d1dd56695c98ca83725156fb8be
+SHA1: 4ec9573edd25803f4fb7f7b1ab8701f2e5fb0d30
+SHA256: 2907b80f44d5bed351a242dd8a039bcd48ed6ed13d28cbb330a424d055c8206f
+SHA512: a132fde374dd1f9d89332cf3622ea0f04e6c9c64914cb48585a46526c4481f55a368f1418f4baa4d0474994e177e3e7bd4f4084d12101488d9c607e01bffa109
 Homepage: http://www.gnu.org/software/gnutls/
 Description: GNU TLS library - main runtime library
  GnuTLS is a portable library which implements the Transport Layer
@@ -1620,6 +1620,23 @@ SHA1: b1b4faca050cd8e9d1ec6687dfd125db6e6d25c3
 SHA256: 848d522b3894045261b33658a2cc4056cfabb01b6f867c3e844afbeaffc1bfd6
 SHA512: b8022ba8bcc615680c51364feee5d476b04a5ff595a73d00b2996b2dcc2420509c6ccef1167c1f246cc5b1f165c28bce7b1f2d72446ccc1b6bf51172416b2bc1
 Description: A library with common code used by libraries and tools around the libimobiledevice project
+
+Package: libintl8
+Architecture: iphoneos-arm
+Version: 0.22
+Section: System
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 208
+Depends: libiosexec1 (>= 1.3.1)
+Filename: ./debfiles/libintl8_0.22_iphoneos-arm.deb
+Size: 83666
+MD5sum: bc5aa531bce91bf8f1623fde3a5a8c91
+SHA1: 532e33618430565f0bc740734d6af70fef843aa9
+SHA256: 42c422445d505c4ffe14ecb0d75f7c56fbc5a7a6784d2ba0ce82e037b42a60a7
+SHA512: e62b7762bc612a7015fb3956091b9c6740cb2f34ffea1bc4eb38cd8c55314d859356c6840de6925d581573c836efd30ba977bc149e69388804496065e941de1b
+Homepage: http://www.gnu.org/software/gettext/
+Description: internationalization helper for strings
+Essental: yes
 
 Package: libiosexec1
 Architecture: iphoneos-arm
@@ -1718,11 +1735,11 @@ Maintainer: Procursus Team <support@procurs.us>
 Installed-Size: 184
 Depends: libiosexec1 (>= 1.3.1), libgnutls30, libhogweed6, libnettle8, libgmp10
 Filename: ./debfiles/librtmp1_2.4+20151223.gitfa8646d.1-1_iphoneos-arm.deb
-Size: 71172
-MD5sum: 22897f1ba29cec1e3206badc074de7b2
-SHA1: 3e3c8257a3a2ff80e2e5188afc1952aa4e8cdab4
-SHA256: 2502986928b50b390a8135be2fa48dd486a30a7fd305fda893f1383bea6c20d6
-SHA512: 4231960c29593c3de8cd2e8fa4594248321f4bda3c0cffafa3512197ef6c995772b7f50ebbd0ad451b6245dd7b20a26354702f5911791de2083a585c010cc171
+Size: 71168
+MD5sum: 8a2a3effde87aa496ee4cdcd87939610
+SHA1: eb2996f2c3bd0dec37d04762dbd5c9fb07f01497
+SHA256: bbfc895bd7031f46c43288ea21308ec7f7172bea87d70478f05e015b0a14b21a
+SHA512: 05ebc72b4c3b16ddd18305eb66437fdb9cd5af2d54ac29d530658c784aa962e72b0d4f758d91591eb8d13be3f87f28667e076425528f8656c59819d3adc4d616
 Description: toolkit for RTMP streams (shared library)
  A small dumper for media content streamed over the RTMP protocol (like BBC's
  iPlayer high quality streams). Supplying an RTMP URL will result in a dumped
@@ -1771,6 +1788,24 @@ Description: Secure Sockets Layer toolkit - shared libraries
  Internet.
  .
  It provides the libssl and libcrypto shared libraries.
+
+Package: libunistring5
+Architecture: iphoneos-arm
+Version: 1.2
+Multi-Arch: foreign
+Priority: optional
+Section: Libraries
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 1828
+Depends: libiosexec1 (>= 1.3.1)
+Filename: ./debfiles/libunistring5_1.2_iphoneos-arm.deb
+Size: 714952
+MD5sum: 83ecb88a36ab27faea12f65be9b0216e
+SHA1: 43c4de463df3d9c6df5c1a97def23ee5d60d8bf6
+SHA256: b145bbd1cb99421ef44c4066482e094d00c5566cfd141ca7b8c2efa7c2603382
+SHA512: 561a560dfdb141d4429ab72411070bdc7e1a389c17cff4a38d016b63a7822767d7ae16849d8520f2e08565ab8395ce508e2866d4bcdd9cef2f754c66a7716f0e
+Homepage: https://www.gnu.org/software/libunistring/
+Description: Unicode string library for C
 
 Package: lol.sep.turdusmerula
 Architecture: iphoneos-arm
