@@ -487,22 +487,6 @@ Description: "Untethers" an existing CoolBooter install
 Name: CoolBooter Untetherer
 Author: CoolBooter <coolbooterios@gmail.com>
 
-Package: cn.Kuzaos.ioskdfu
-Architecture: iphoneos-arm
-Version: 1.2.3
-Section: System
-Maintainer: kazoo-s.github.io/repo
-Depends: firmware (<< 11.0)
-Filename: ./debfiles/cn.Kuzaos.ioskdfu_1.2.3_iphoneos-arm.deb
-Size: 932010
-MD5sum: 5ee841cfadab47e9c7c39df852c1ae76
-SHA1: 4af322310d54c107375f36fee732563464d2cb7f
-SHA256: 10b773895110d36a39f56696a5d19b168a43f29729aacccaeb71763f14a9d325
-SHA512: 1be040982fcbf4ad676d93b78ddb9c2cdb7760e697e343b552cf6c84ee0c25e67d361151efe6ca4c2321e07d7f659e5fe5c0c6e0ad93caa72b7517de1860d430
-Description: A5(x)+A6(x)全部机型一键进入KDFU降级模式
-Name: 一键KDFU
-Author: 枯燥
-
 Package: cn.agricu.networksp.rootless
 Architecture: iphoneos-arm
 Version: 0.2.7-1+debug
@@ -1652,6 +1636,22 @@ Description: 已安装的DEB文件提取插件
 Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.vsz.redeb
 Name: Redeb 提取本地插件
 Author: T.Herak
+
+Package: repo.kuzaos.ioskdfu
+Architecture: iphoneos-arm
+Version: 1.2.3
+Section: System
+Installed-Size: 1640
+Depends: firmware (<< 11.0)
+Filename: ./debfiles/repo.kuzaos.ioskdfu_1.2.3_iphoneos-arm.deb
+Size: 122442
+MD5sum: 762e5f2b576f503ad60bd588856b687e
+SHA1: b61ccdf1828cb93662602e3aa8ff003d754b57a4
+SHA256: af886bbf97a77be7ecb422f3a07fdf53b6776c6859cb783e15a98f21a45c5b89
+SHA512: 8a4e950fd01713cad82e94717ec8607be7d3127aab8faf36ca450858b96c4058d5c85bf481df34f79c1f97a2b58d8ae8f9319c743ed39735caa599d40b29a2d0
+Description: 4s,5,5C,iPad2,iPad3,iPad4,iPadmini,touch5
+Name: 一键KDFU A5/A6所有机型
+Author: 枯燥
 
 Package: sed
 Architecture: iphoneos-arm
