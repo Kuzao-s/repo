@@ -1046,6 +1046,26 @@ Name: CrackerXI+
 Website: https://ipastore.me
 Icon: file:///Applications/crackerxi.app/AppIcon.png
 
+Package: curl
+Architecture: iphoneos-arm
+Version: 8.7.1
+Priority: standard
+Section: Networking
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 364
+Depends: libiosexec1 (>= 1.3.1), libcurl4 (= 8.7.1), libc-ares2, libnghttp2-14, libidn2-0, librtmp1, libgmp10, libgnutls30, libhogweed6, libnettle8, libssh2-1, libssl3, libzstd1, libbrotli1
+Filename: ./debfiles/curl_8.7.1_iphoneos-arm.deb
+Size: 205738
+MD5sum: d85a220b5ac62b4dc8f88345e02694bc
+SHA1: 1c2d646f12c59a09cade676e3af764721fccd979
+SHA256: 84ca3ceca2e2e8d07a9adb35c153ddcfbbad1f00e814535dd0ce0061adc1f955
+SHA512: 4528382e8d3ce565a08bc0b466beb793cacb45add7d7b6ea371fda13c3776ef7bea5f86f58a8311c93a92ed25442c1399a527481c039bd2672bb258d52202bc4
+Homepage: http://curl.haxx.se/
+Description: command line tool for transferring data with URL syntax
+ curl is a command line tool for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMTP, SMTPS, TELNET and TFTP.
+ .
+ curl supports SSL certificates, HTTP POST, HTTP PUT, FTP uploading, HTTP form based upload, proxies, cookies, user+password authentication (Basic, Digest, NTLM, Negotiate, kerberos...), file transfer resume, proxy tunneling and a busload of other useful tricks.
+
 Package: uk.invoxiplaygames.cydiahttpatch
 Architecture: iphoneos-arm
 Version: 1.0
