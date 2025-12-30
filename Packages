@@ -1709,6 +1709,36 @@ SHA512: 2648855104c8cd598479eacc177b860d063cb0da76334ef82d96b8182784d568b6d12d98
 Homepage: http://www.lysator.liu.se/~nisse/nettle/
 Description: low level cryptographic library (symmetric and one-way cryptos)
 
+Package: libp11-kit0
+Architecture: iphoneos-arm
+Version: 0.25.3
+Multi-Arch: foreign
+Priority: standard
+Section: Libraries
+Maintainer: Procursus Team <support@procurs.us>
+Conffiles:
+ /etc/pkcs11/pkcs11.conf.example 161f8ec95326f47d853cb7c1ee76c7b8
+Installed-Size: 1156
+Depends: libiosexec1 (>= 1.3.1), libintl8, libffi8, ca-certificates
+Conflicts: p11-kit (<< 0.25.3)
+Replaces: p11-kit (<< 0.25.3)
+Filename: ./debfiles/libp11-kit0_0.25.3_iphoneos-arm.deb
+Size: 261696
+MD5sum: 8191c64588fa2a8d8ec40ea52e37aea7
+SHA1: 6e3973349c36ad045055116e5dec0d0a4d8895a7
+SHA256: 4918aca49515733a78d7d757e499f681881aa3a84c518a231800702a0e16177d
+SHA512: 29105857b50d3daa03750758f8ffc8795616fd20e5c9433a87b274669041c4741efe8a74f78940b479a4bd96bbec04c1a533d01a22e69e5c9ddda1777b879c24
+Homepage: https://p11-glue.github.io/p11-glue/p11-kit.html
+Description: library for loading and coordinating access to PKCS#11 modules - runtime
+ The p11-kit library provides a way to load and enumerate Public-Key
+ Cryptography Standard #11 modules, along with a standard configuration
+ setup for installing PKCS#11 modules so that they're discoverable. It
+ also solves problems with coordinating the use of PKCS#11 by different
+ components or libraries living in the same process.
+ .
+ This package contains the shared library required for applications loading
+ and accessing PKCS#11 modules.
+
 Package: libpartialzip-1.0.0
 Architecture: iphoneos-arm
 Version: 1.0
@@ -1788,6 +1818,37 @@ Description: Secure Sockets Layer toolkit - shared libraries
  Internet.
  .
  It provides the libssl and libcrypto shared libraries.
+
+Package: libtasn1-6
+Architecture: iphoneos-arm
+Version: 4.19.0
+Multi-Arch: foreign
+Priority: optional
+Section: Libraries
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 132
+Provides: libtasn1 (= 4.19.0)
+Depends: libiosexec1 (>= 1.3.1)
+Conflicts: libtasn1 (<< 1:0)
+Replaces: libtasn1 (<< 1:0)
+Filename: ./debfiles/libtasn1-6_4.19.0_iphoneos-arm.deb
+Size: 41756
+MD5sum: 964bd6089740e3410b3904046bb217d5
+SHA1: 130aa1214e2004691763349953076fef445bf042
+SHA256: b6386d4718d701640c781f5be7e5294ae6f753d8ce05e64140a5d4c998454d32
+SHA512: 097f279f098baf975b78cbd7eda7a3f1dc682a2858266406a6419f6b7232bb5555dececf18f795dab677f4ac08ce3bdceb7a3da0e1beaab453a9d8c142bfc927
+Homepage: https://www.gnu.org/software/libtasn1
+Description: Manage ASN.1 structures (runtime)
+ Manage ASN1 (Abstract Syntax Notation One) structures.
+ The main features of this library are:
+   * on-line ASN1 structure management that doesn't require any C code
+     file generation.
+   * off-line ASN1 structure management with C code file generation
+     containing an array.
+   * DER (Distinguish Encoding Rules) encoding
+   * no limits for INTEGER and ENUMERATED values
+ .
+ This package contains runtime libraries.
 
 Package: libunistring5
 Architecture: iphoneos-arm
