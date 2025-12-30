@@ -487,20 +487,21 @@ Description: "Untethers" an existing CoolBooter install
 Name: CoolBooter Untetherer
 Author: CoolBooter <coolbooterios@gmail.com>
 
-Package: cn.agricu.ioskdfu
+Package: cn.Kuzaos.ioskdfu
 Architecture: iphoneos-arm
-Version: 1.2.2
+Version: 1.2.3
 Section: System
-Filename: ./debfiles/cn.agricu.ioskdfu_1.2.2_iphoneos-arm.deb
-Size: 932002
-MD5sum: 6b16c3240a0146731127661019d04094
-SHA1: edfd5883359ebc18601d8b8a6ddb44e84082efa4
-SHA256: ef9053fe21491b1fa4654f41ee2f3ab9093e1d9cd8898dfbd6e9ed7d9cec0d39
-SHA512: 57cfaeaff260b07fe6ebd5d68e0c31b16dfbcda11f9b3c0541b46861df67a43f02536d079d9aff35c4f8fc0160b7006ec82ace980ff27de635515fb14c16d86d
-Description: A5、A6进入KDFU降级模式
-Name: KDFU for A5、A6
-Depiction: http://repo.agricu.cn/cydia/package.html?id=cn.agricu.ioskdfu
-Author: Agricu
+Maintainer: kazoo-s.github.io/repo
+Depends: firmware (<< 11.0)
+Filename: ./debfiles/cn.Kuzaos.ioskdfu_1.2.3_iphoneos-arm.deb
+Size: 932010
+MD5sum: 5ee841cfadab47e9c7c39df852c1ae76
+SHA1: 4af322310d54c107375f36fee732563464d2cb7f
+SHA256: 10b773895110d36a39f56696a5d19b168a43f29729aacccaeb71763f14a9d325
+SHA512: 1be040982fcbf4ad676d93b78ddb9c2cdb7760e697e343b552cf6c84ee0c25e67d361151efe6ca4c2321e07d7f659e5fe5c0c6e0ad93caa72b7517de1860d430
+Description: A5(x)+A6(x)全部机型一键进入KDFU降级模式
+Name: 一键KDFU
+Author: 枯燥
 
 Package: cn.agricu.networksp.rootless
 Architecture: iphoneos-arm
@@ -537,22 +538,6 @@ Description: 在状态栏正下方显示网络速度，可拖动至任意位置
 Name: 网速显示
 SileoDepiction: http://repo.agricu.cn/depictions/cn.agricu.networksp.rootless/depiction.json
 Author: Agricu
-
-Package: cn.Kuzaos.ioskdfu
-Architecture: iphoneos-arm
-Version: 1.2.3
-Section: System
-Maintainer: kazoo-s.github.io/repo
-Depends: firmware (<< 11.0)
-Filename: ./debfiles/cn.kuzaos.ioskdfu.deb
-Size: 933492
-MD5sum: ee2d3d4c05a2167778ef2a77550dfa8f
-SHA1: d1d9843949e30b58f968718fe60c75f1de120a31
-SHA256: f67d3a2a7f044775f7b1e9b40ed21b6e60ff184896647f96ecfdc40b348aa3ae
-SHA512: 4306c8d30a313ecdec94fdf266fec5acdbadfc5cadf1e78784c3f763d7a2ef27ea4567d59e01bdac63941d04285c99224f052a0f5bf83d50aaeea491bea61626
-Description: A5(x)+A6(x)全部机型一键进入KDFU降级模式
-Name: 一键KDFU
-Author: 枯燥
 
 Package: com.abcydia.14294gios9
 Architecture: iphoneos-arm
