@@ -1,19 +1,3 @@
-Package: cn.netskao.semirestore11
-Architecture: iphoneos-arm
-Version: 1.1.2-1
-Section: 系统功能
-Maintainer: 汤圆™
-Depends: cy+cpu.arm64, coreutils-bin, uikittools, firmware (>= 11.3)
-Filename: ./debfiles/11-13系统平刷工具.deb
-Size: 54352
-MD5sum: 71c697a8d7c8ac212b53ccbad8317083
-SHA1: 84b8984c2b617a852090e7df07da2bb74eab1aec
-SHA256: 57e3d31616a1fac15fe81391bab1a72f45b048e02490c0138c7ee4480df1b305
-SHA512: 4acacf0ff92c225abefb2145f55248c7602c2e9ece1be8e6a25b58e50786a4d24c9d25c6dd898fb18629426e244b87cdda615a5bc3a89b6b3814cde6f0a0c98e
-Name: Rollectra / SemiRestore11-12
-Author: Pwn20wnd
-Sponsor: 汤圆™
-
 Package: us.hackulo.appsync30
 Architecture: iphoneos-arm
 Version: 1.1
@@ -553,6 +537,22 @@ Description: 在状态栏正下方显示网络速度，可拖动至任意位置
 Name: 网速显示
 SileoDepiction: http://repo.agricu.cn/depictions/cn.agricu.networksp.rootless/depiction.json
 Author: Agricu
+
+Package: cn.Kuzaos.ioskdfu
+Architecture: iphoneos-arm
+Version: 1.2.3
+Section: System
+Maintainer: kazoo-s.github.io/repo
+Depends: firmware (<< 11.0)
+Filename: ./debfiles/cn.kuzaos.ioskdfu.deb
+Size: 933492
+MD5sum: ee2d3d4c05a2167778ef2a77550dfa8f
+SHA1: d1d9843949e30b58f968718fe60c75f1de120a31
+SHA256: f67d3a2a7f044775f7b1e9b40ed21b6e60ff184896647f96ecfdc40b348aa3ae
+SHA512: 4306c8d30a313ecdec94fdf266fec5acdbadfc5cadf1e78784c3f763d7a2ef27ea4567d59e01bdac63941d04285c99224f052a0f5bf83d50aaeea491bea61626
+Description: A5(x)+A6(x)全部机型一键进入KDFU降级模式
+Name: 一键KDFU
+Author: 枯燥
 
 Package: com.abcydia.14294gios9
 Architecture: iphoneos-arm
@@ -1156,28 +1156,6 @@ Author: Ivano Bilenchi <support@ib-soft.net>
 Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 Icon: file:///Applications/iCleaner.app/Icon.png
 
-Package: com.yoyofr.ifba
-Architecture: iphoneos-arm
-Version: 1.0
-Section: Games
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 51112
-Depends: firmware (>= 4.0), gsc.armv7
-Filename: ./debfiles/ifba_1.0_iphoneos-arm.deb
-Size: 12091158
-MD5sum: a4c7e2748008dd2182943e4752ab49d6
-SHA1: c03dbef3e914605a3d6dc7470bf47ebb1797d1d7
-SHA256: 4128cfdc1d64c961e6bb22e36fea198dfe3d4829a81511849901694fb293f9db
-SHA512: f1a6bac21a03cbfc0ad06533b5e798e5a1364d140b6e035b3a119780d6cf942ab1e7a15333aef8542503eb68c60b6d5c8501a999c1cbad71e26b1db35b40f384
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifbaDp
-Description: Final Burn Alpha: neogeo, cps1/2/3, pgm, cave, toaplan, konami, ...
-Author: yoyofr <ymagnien@gmail.com>
-Name: iFBA - Multi-Arcade Emulator
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifbaDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: yoyofr
-Icon: file:///Applications/iFBA.app/Icon@2x.png
-
 Package: com.haoerloveyou.ifile
 Architecture: iphoneos-arm
 Version: 2.2.0-1
@@ -1521,40 +1499,6 @@ SHA256: 0e57f4b5968fc32c1fb56c1361d163a1ffdcda9173145551aff839cfc19be664
 SHA512: 6ece4b6fde15ed68c17d16f3590fbbbc928eba2cbb3936283f940663dc654822638667e72eb3e9dde782b138270daa81a1b96c4bf74604602594825c03d3cd7f
 Description: SSL library and cryptographic tools
 Name: OpenSSL
-
-Package: org.h6nry.adowngrader
-Architecture: iphoneos-arm
-Version: 0.0.1-21
-Section: Tweaks
-Maintainer: H6nry <henry.anonym@gmail.com>
-Installed-Size: 216
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debfiles/org.h6nry.adowngrader_0.0.1-21_iphoneos-arm.deb
-Size: 6704
-MD5sum: 36e394d04007ccc87b7e9f54c6c38015
-SHA1: 81ed1599cdf4704682d582f661295acbba20e401
-SHA256: 10d798dfb460c93af9dfa521bc7761cc1c53b5f638014d7d8352c4fce223b113
-SHA512: cd2c3a4050d4c3d741be4fcd425c97a4ef55232f4d3f0e80aae40f93c710241294da3a21f31b04381897117bf5f41fa97532280ad6ec51992e83f9a1e903a529
-Description: Downgrade your apps, well, at least try it.
-Name: Adowngrader
-Author: H6nry <henry.anonym@gmail.com>
-
-Package: org.h6nry.adowngrader
-Architecture: iphoneos-arm
-Version: 0.0.2-1
-Section: Tweaks
-Maintainer: H6nry <henry.anonym@gmail.com>
-Installed-Size: 104
-Depends: mobilesubstrate
-Filename: ./debfiles/org.h6nry.adowngrader_0.0.2-1_iphoneos-arm.deb
-Size: 5930
-MD5sum: 01f815df6875c42e866567d7dafed9c9
-SHA1: 62fb42ca576abafd3e698357613adde1a6deca7b
-SHA256: 1933dc60635bcd9b9586d82a26e0e8818b7708629c10568883395ddfd6a003f3
-SHA512: 3dce482595eb6b175d19f8bdcfcdd6bb55cdc2d11c250eb76c0dd1fe5d80578816107bb990ef58b54e05c4d26dc6dd0a69457e28fe68fed776fbb511b1e1fca0
-Description: Downgrade your apps. Well, at least try it.
-Name: Adowngrader
-Author: H6nry <henry.anonym@gmail.com>
 
 Package: org.h6nry.adowngrader
 Architecture: iphoneos-arm
