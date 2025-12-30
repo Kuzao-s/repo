@@ -434,23 +434,6 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 dev: a3tweaks
 Icon: file:///Library/PreferenceLoader/Preferences/AuxoIcon@2x.png
 
-Package: cn.agricu.boot
-Architecture: iphoneos-arm
-Version: 0.1
-Priority: optional
-Section: Utilities
-Maintainer: Agricu
-Depends: firmware (>= 6.0)
-Filename: ./debfiles/boot_0.1.deb
-Size: 956
-MD5sum: 45073483d579126bda5b004201f670c2
-SHA1: a69102074877172c6867ad0c86ccf7cca972771b
-SHA256: ba08c1a24ead906d422685c45ab658e2dc8052b22fd2a6c38ddfc2a55f17e773
-SHA512: b41228ad9101fd769b835fbfbec245f88eebe226c6e68687aacb2ebee84d6fe567dca61efd6dfc8717d8ff6465110679b135b14d170a61a3796da11d2fd4d7b0
-Description: iOS7.1.X的iBoot降级恢复正常，终端命令：nvram -d boot-ramdisk
-Name: Boot-ramdisk
-Author: Agricu
-
 Package: com.hackyouriphone.c64emu
 Architecture: iphoneos-arm
 Version: 1.5.29
@@ -1636,6 +1619,24 @@ Description: 已安装的DEB文件提取插件
 Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.vsz.redeb
 Name: Redeb 提取本地插件
 Author: T.Herak
+
+Package: repo.kuzaos.boot
+Architecture: iphoneos-arm
+Version: 1.0
+Priority: optional
+Section: System
+Maintainer: Kuzaos
+Installed-Size: 0
+Depends: firmware (>= 5.0)
+Filename: ./debfiles/repo.kuzaos.boot_1.0_iphoneos-arm.deb
+Size: 12434
+MD5sum: 84b728bfe7bbffc28bb8800dbefcb82a
+SHA1: 61f6b3e729120112d70691c8dd4c28faff709eb0
+SHA256: 217c843d10480ba2201ef81c01133644e34a03eef88765fe5b33ac46b8208764
+SHA512: ba632e1a30fe663bb617a072423cd30cb89e79e284d423b8547ec29928cd6558d7e68e3df38ad6ac9aaa8fb0ccc5be4ebbdee4fcd87f50352e45c56e220d5dbd
+Description: 将iOS7.1.X的设备 iBoot降级恢复正常引导，终端命令：nvram -d boot-ramdisk
+Name: iBoot-ramdisk
+Author: 枯燥
 
 Package: repo.kuzaos.ioskdfu
 Architecture: iphoneos-arm
