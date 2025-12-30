@@ -14,29 +14,6 @@ Name: Rollectra / SemiRestore11-12
 Author: Pwn20wnd
 Sponsor: 汤圆™
 
-Package: com.saurik.afc2d
-Architecture: iphoneos-arm
-Version: 1.2
-Priority: optional
-Section: System
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Provides: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: firmware (<< 8.0) | mobilesubstrate
-Conflicts: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Replaces: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Filename: ./debfiles/AFC2d_1.2_iphoneos-arm.deb
-Size: 18114
-MD5sum: 34291f44d22cfbbf3eb4bad0ade3b89c
-SHA1: bddaf385263b9aad2b032b2116179f83afd077cc
-SHA256: 287ac4ce1a6e4095e824fd90f71fed301ff7d9508f1cd2d87a7354053e347a3c
-SHA512: 6c7d197bc29d72bf5e2a68cec5aa56d08b750d0c2523ed5da5d3838bf8f943000d3adf41e704ccd54ed4b64cbf473af3e37c36386eab3a00d37aed5c058410f1
-Description: allow full file-system access over USB
-Tag: purpose::daemon, role::enduser
-Name: Apple File Conduit "2"
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/com.saurik.afc2d/
-
 Package: us.hackulo.appsync30
 Architecture: iphoneos-arm
 Version: 1.1
