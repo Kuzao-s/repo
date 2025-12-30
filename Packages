@@ -1492,6 +1492,32 @@ Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
 Name: libcrippy-1.0.0
 Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
 
+Package: libcurl4
+Architecture: iphoneos-arm
+Version: 8.7.1
+Priority: standard
+Section: Libraries
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 616
+Depends: libiosexec1 (>= 1.3.1), libcurl4 (= 8.7.1), libc-ares2, libnghttp2-14, libidn2-0, librtmp1, libgmp10, libgnutls30, libhogweed6, libnettle8, libssh2-1, libssl3, libzstd1, libbrotli1
+Conflicts: curl (<< 8.7.1)
+Replaces: curl (<< 8.7.1)
+Filename: ./debfiles/libcurl4_8.7.1_iphoneos-arm.deb
+Size: 283802
+MD5sum: 873a79368692bd4ffd80904fdde8a0d8
+SHA1: 085a6b17b5c42045dbb62320578ca4e81bbb70dd
+SHA256: 5fa62fe940bb4736850bb9615464c4a0f9786d99a0684bb3ffaa7c7cbddc8377
+SHA512: 75c1a6b7ecbca30f2308ece1d2f90d54fe5e048e26ead1a6d85e11c9e7dc5175608fe214a9d6e27e754568cbdd5acbd984e63549ecb09a1f9c9e9b2c89a41f84
+Homepage: http://curl.haxx.se/
+Description: easy-to-use client-side URL transfer library (OpenSSL flavour)
+ libcurl is an easy-to-use client-side URL transfer library, supporting DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMTP, SMTPS, TELNET and TFTP.
+ .
+ libcurl supports SSL certificates, HTTP POST, HTTP PUT, FTP uploading, HTTP form based upload, proxies, cookies, user+password authentication (Basic, Digest, NTLM, Negotiate, Kerberos), file transfer resume, http proxy tunneling and more!
+ .
+ libcurl is free, thread-safe, IPv6 compatible, feature rich, well supported, fast, thoroughly documented and is already used by many known, big and successful companies and numerous applications.
+ . 
+ SSL support is provided by OpenSSL
+
 Package: com.michael.libdementia
 Architecture: iphoneos-arm
 Version: 0.2.17
@@ -1507,6 +1533,42 @@ SHA512: 2433ffc69513da1fa5746121cc29dc2d258c39bbeddd35964a75f0edd90686aa16f84220
 Description: Library of dimentio
 Name: libdementia
 Author: 0x7ff
+
+Package: libirecovery-utils
+Architecture: iphoneos-arm
+Version: 1.0.0+git20220628.ab5b4d8-1
+Priority: standard
+Section: Administration
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 104
+Depends: libirecovery3 (>= 1.0.0), libimobiledevice-glue1.0-0 (>= 1.0.0)
+Conflicts: libirecovery (<< 99)
+Filename: ./debfiles/libirecovery-utils_1.0.0+git20220628.ab5b4d8-1_iphoneos-arm.deb
+Size: 18612
+MD5sum: b45e963ddd299d58bc123994e6fdf494
+SHA1: 749a019c6b31340e220b358124d837e11e9f16b9
+SHA256: 8995bd6745c363176de8c63f57ac7fab20ae8da073892fba87c27254d2478219
+SHA512: bde73fd654b1270ce2a8d6b3e36a5b4b695de83f77b66310798487d40e7c4ba9a5da634f0f6c90e33e7276f33edddb4379416f9770082fe7c7726253490206f5
+Description: Communicate with iBoot/iBSS of iOS devices via USB
+
+Package: libirecovery3
+Architecture: iphoneos-arm
+Version: 1.0.0+git20220628.ab5b4d8-1
+Priority: standard
+Section: Networking
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 120
+Provides: libirecovery (= 99)
+Depends: libreadline8 (>= 8.0), libusb-1.0-0, libimobiledevice-glue1.0-0 (>= 1.0.0)
+Conflicts: libirecovery
+Replaces: libirecovery
+Filename: ./debfiles/libirecovery3_1.0.0+git20220628.ab5b4d8-1_iphoneos-arm.deb
+Size: 29230
+MD5sum: db23298ee2ff3a61ce8d2631c1de360a
+SHA1: 40825f2c7f1842a6290b92c6579a5b9d32486279
+SHA256: 495f0df17cb3bc8ef1306f44f955ab7104fb7e3207672f0a73692049ba0e3e9d
+SHA512: 7c0ded36ce0c6fecc0daafcf893e4311605115c85a999fe88d3029e99436cabd43e54036f36be25025b88317c112a99fd04ce3bae049235997ca1c8c5d29094e
+Description: Library allowing communication with iBoot/iBSS of iOS devices via USB
 
 Package: libpartialzip-1.0.0
 Architecture: iphoneos-arm
@@ -1524,6 +1586,27 @@ SHA512: 61b9052be350fa8cd2b9dafc71685ae7338a1ae186db9e4dabf19b13077e6c3fb2de14ff
 Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
 Name: libpartialzip-1.0.0
 Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
+
+Package: libssl3
+Architecture: iphoneos-arm
+Version: 3.2.1
+Priority: standard
+Section: Libraries
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 5056
+Depends: libiosexec1 (>= 1.3.1), ca-certificates
+Filename: ./debfiles/libssl3_3.2.1_iphoneos-arm.deb
+Size: 2466446
+MD5sum: 9327c03f511e70b99bf8f0ae11ea0a72
+SHA1: 49d868e7cbd8f46db830faae88fe026beb600ecf
+SHA256: 3cea3cb368d61aeb7eb9ede4698701287dbbdf3219e26f3c09e828678e3e7493
+SHA512: 95ce0e3ea09440e076e83e70cede13625eeb00d8cb749b3ed44875d7e7712fb218f74866a52326935cd3cec47e2c067f1111813e1b941acc098148728568fccc
+Description: Secure Sockets Layer toolkit - shared libraries
+ This package is part of the OpenSSL project's implementation of the SSL
+ and TLS cryptographic protocols for secure communication over the
+ Internet.
+ .
+ It provides the libssl and libcrypto shared libraries.
 
 Package: lol.sep.turdusmerula
 Architecture: iphoneos-arm
