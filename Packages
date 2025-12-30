@@ -1124,24 +1124,6 @@ SHA512: 7636ffe6d4961f65b3583d4145ebd050d88f5a6748e376886d3423d08ae02d9cf12a801c
 Name: iFile 文件管理器
 Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
 
-Package: io.github.kuzao-s
-Architecture: iphoneos-arm
-Version: 1.0.0-3+debug
-Section: System
-Maintainer: Kuzaos
-Installed-Size: 168
-Depends: firmware (>= 14.0), cy+cpu.arm64, libcurl4, libssl3, usbmuxd, curl, grep, gawk, unzip, libirecovery-utils, lol.sep.turdusmerula
-Filename: ./debfiles/io.github.kuzao-s_1.0.0-3+debug_iphoneos-arm.deb
-Size: 40114
-MD5sum: 61db82d2a609042ce1c7e06a88881795
-SHA1: 187806fe035ec6f7ac14aca0651c57c57b711955
-SHA256: 2f1de5ffbea183eab28956413c5c06521fc64a2bad86d6f1c146b9d710345766
-SHA512: ded4aa0f4d601aec7fe968f9dd901734592c8b99e5eb7f8088592977c8fcaf7fa79cdf773b0ee89ca4c97b5fd7e2cea04789d47f99386f8ca7d6ee5bf225d639
-Description: An awesome tool of some sort!!
-Tag: role::hacker
-Name: 乌鸫TMD
-Author: Kuzaos
-
 Package: xyz.cypwn.iparanger
 Architecture: iphoneos-arm
 Version: 1.4
@@ -1643,16 +1625,52 @@ Architecture: iphoneos-arm
 Version: 1.0.3
 Section: System
 Maintainer: Kuzaos
-Installed-Size: 132
+Installed-Size: 0
 Depends: mobilesubstrate,firmware (>= 5.0), firmware (<= 10.3.3)
 Filename: ./debfiles/repo.kuzaos.ota_1.0.3_iphoneos-arm.deb
-Size: 7982
-MD5sum: 96f32e50efc1a447fbcd4d824f72b9a3
-SHA1: 69f41896eef40df0e62d5e77671551ad7d047bbe
-SHA256: 000d6a3fd773697b3e44c93e67b275dd57d1f893c461bdb86f4c066a9880e680
-SHA512: b08879402b4c2b428eaf9d4f9682f5f63f316cbc3574f19df0cad971c66a6e6e2c10b17745fc9b22a6b124a048b8e9a61a4af177b3c1f285217ebc08e4c45080
+Size: 13196
+MD5sum: cb262c4d5ebc72ed55512dfc57953e1e
+SHA1: c37cd8aa959601323fea6ff9531209031db95690
+SHA256: 51dc1fac364aa2902d01320b8abb336887380e3ef8909686170fa195d6f0b97b
+SHA512: e99b6ff0c44736786fc6a108452180269f97a5fda06503cab17af3a7a1efb234fed69f820bd0a04fb7d0ba048a8f6cc40247e6da236132ceb9e8609c372dc636
 Description: OFF iOS5~iOS10 OTA
 Name: OTA更新禁用
+Author: 枯燥
+
+Package: repo.kuzaos.tmd
+Architecture: iphoneos-arm
+Version: 1.0.1
+Section: System
+Maintainer: Kuzaos
+Installed-Size: 196
+Depends: firmware (>= 14.0), cy+cpu.arm64, libcurl4, libssl3, usbmuxd, curl, grep, gawk, unzip, libirecovery-utils, lol.sep.turdusmerula
+Filename: ./debfiles/repo.kuzaos.tmd_1.0.1_iphoneos-arm.deb
+Size: 36502
+MD5sum: 40435d2191ae014efacc024d3a6cad8d
+SHA1: e1912e30644a786d2a271aff3d1cadedb0980dd5
+SHA256: 2e34a671bb2b6ece6391fb34c1e233f914b483a662a786af589e5c1c3785bc59
+SHA512: 5e33c0842a8f27e4deca6b960cc8994125cbb80edaf2c7ae2b4880d513e69cf0424f4464391019daf63148a8e718f0f56873a5f1ae1275bcc355d12414f231c7
+Description: Terminal operation TMD
+Tag: role::hacker
+Name: TMD乌鸫一键降级
+Author: 枯燥
+
+Package: repo.kuzaos.tmd
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: System
+Maintainer: Kuzaos
+Installed-Size: 216
+Depends: firmware (>= 14.0), cy+cpu.arm64, libcurl4, libssl3, usbmuxd, curl, grep, gawk, unzip, libirecovery-utils, lol.sep.turdusmerula
+Filename: ./debfiles/repo.kuzaos.tmd_1.0.1_iphoneos-arm64.deb
+Size: 40724
+MD5sum: 1df5ceebf0d59e5becd849f1f12643df
+SHA1: 57e56bc80015b9d93ce17ac588170e196b38e1d9
+SHA256: ab2f44568c7bbc17260482116532e8ec15fdb0a0928937b4787b6ce0801823bd
+SHA512: 3248e46ec87e95d54bb94a4d1f065ae97185bdaa5f7104ede273a914588769e5117b3755a603a2cdac23c57e409724d4c7e6e8ceca7fc0d3c678d5dd64bde078
+Description: Terminal operation TMD
+Tag: role::hacker
+Name: TMD乌鸫一键降级
 Author: 枯燥
 
 Package: sed
