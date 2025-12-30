@@ -1642,14 +1642,14 @@ Architecture: iphoneos-arm
 Version: 1.0.1
 Section: System
 Maintainer: Kuzaos
-Installed-Size: 196
+Installed-Size: 180
 Depends: firmware (>= 14.0), cy+cpu.arm64, libcurl4, libssl3, usbmuxd, curl, grep, gawk, unzip, libirecovery-utils, lol.sep.turdusmerula
 Filename: ./debfiles/repo.kuzaos.tmd_1.0.1_iphoneos-arm.deb
-Size: 36502
-MD5sum: 40435d2191ae014efacc024d3a6cad8d
-SHA1: e1912e30644a786d2a271aff3d1cadedb0980dd5
-SHA256: 2e34a671bb2b6ece6391fb34c1e233f914b483a662a786af589e5c1c3785bc59
-SHA512: 5e33c0842a8f27e4deca6b960cc8994125cbb80edaf2c7ae2b4880d513e69cf0424f4464391019daf63148a8e718f0f56873a5f1ae1275bcc355d12414f231c7
+Size: 39708
+MD5sum: ca690b7bed9ee0bc971bd26d19fa9859
+SHA1: 12977779e3e4f0dc35c5c81144bd3266c52afb9a
+SHA256: 9227f2a65e7fd93252a4ee0046b2d499f3964f7195cc21e482a99e00da41a8df
+SHA512: c7c9ac4bf1d5668633c7eb00d1469547c2b3acaeaa99c54f7068e46e3047b2fb23bb16bcdeccc067f36be9e77982aff41e2e5f9dfaa0086968836e2080af3ab7
 Description: Terminal operation TMD
 Tag: role::hacker
 Name: TMD乌鸫一键降级
