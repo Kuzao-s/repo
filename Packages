@@ -1534,6 +1534,26 @@ Description: Library of dimentio
 Name: libdementia
 Author: 0x7ff
 
+Package: libffi8
+Architecture: iphoneos-arm
+Version: 3.4.6
+Multi-Arch: foreign
+Priority: optional
+Section: Libraries
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 108
+Depends: libiosexec1 (>= 1.3.1)
+Filename: ./debfiles/libffi8_3.4.6_iphoneos-arm.deb
+Size: 9282
+MD5sum: a150f903f48d10c8c5b3db32bb68369a
+SHA1: 56eaedbc5cf8a55e741b5bf24623e61d481a256c
+SHA256: f05741a7db1b818c276c0018fb3dc69b11d3b891cc729f5fda20e563be079d54
+SHA512: 29beb85a9f6b1dd548a7810f0a19ea3010a29b8f22d090e4168afabd150d6b38cf659209ca82a25fb79beb25dae21f437b53b8333afd86003481fd142da578fd
+Description: Foreign Function Interface library runtime
+ A foreign function interface is the popular name for the interface that
+ allows code written in one language to call code written in another
+ language.
+
 Package: libgnutls30
 Architecture: iphoneos-arm
 Version: 3.8.5
