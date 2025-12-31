@@ -1610,12 +1610,12 @@ Version: 1.2.3
 Section: System
 Installed-Size: 1640
 Depends: firmware (<< 11.0)
-Filename: ./debfiles/repo.kuzaos.kdfu_1.2.3_iphoneos-arm.deb
-Size: 122442
-MD5sum: 762e5f2b576f503ad60bd588856b687e
-SHA1: b61ccdf1828cb93662602e3aa8ff003d754b57a4
-SHA256: af886bbf97a77be7ecb422f3a07fdf53b6776c6859cb783e15a98f21a45c5b89
-SHA512: 8a4e950fd01713cad82e94717ec8607be7d3127aab8faf36ca450858b96c4058d5c85bf481df34f79c1f97a2b58d8ae8f9319c743ed39735caa599d40b29a2d0
+Filename: ./debfiles/repo.kuzaos.ioskdfu_1.2.3_iphoneos-arm.deb
+Size: 122720
+MD5sum: a1b2c67fa504b28188c931bff3050de0
+SHA1: 463ceb2a1156ad18d883ca10a5625144dbb01269
+SHA256: b227743e04801a278920d42691b19f5047273c6e26988e0f5c099238e209f705
+SHA512: 59bb14b66daa9cf80a07ed2b55378969381ecbada29ba244446f405c9b0931d3a7e0a0a8322a1352c5e1de4bf93138bb8fc64116071e6548a1cf78ad4cd3608f
 Description: 4s,5,5C,iPad2,iPad3,iPad4,iPadmini,touch5
 Name: 一键KDFU A5/A6所有机型
 Author: 枯燥
