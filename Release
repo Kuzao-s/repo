@@ -3,7 +3,7 @@ Label: Kuzao-s
 Suite: stable
 Version: 1.0
 Codename: Kuzao-s, ios12-17  # 优化：补充iOS版本范围，更易被包管理器识别
-Architecture: iphoneos-arm iphoneos-arm64  # 关键修改：兼容32位根越狱+64位根/无根越狱
+Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e # 关键修改：兼容32位根越狱+64位根/无根越狱
 Components: main
 Rootless: yes  # 关键新增：无根越狱Sileo识别的核心标识，根越狱Cydia会自动忽略
 Description: Kuzao-s Tweaks (Support Rootful & Rootless)
