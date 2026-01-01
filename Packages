@@ -1645,12 +1645,12 @@ Maintainer: Kuzaos
 Installed-Size: 196
 Depends: firmware (>= 14.0), cy+cpu.arm64, libcurl4, libssl3, usbmuxd, curl, grep, gawk, unzip, libirecovery-utils, lol.sep.turdusmerula
 Filename: ./debfiles/repo.kuzaos.tmd_1.0.0_iphoneos-arm.deb
-Size: 30858
-MD5sum: 2107322c3bfd278f92827165fc935b3e
-SHA1: eae633d798a5533ec720b254c66c0776041b1caa
-SHA256: 3ef58ab5a68f12e0cfb4025408828007de46359da7e2693b4c956dc61117c2a7
-SHA512: 4f24b3214e4e79dd1f7d244a720a61518a4a22f3cdae83d57ccea077dd337370f39eee76d3dee21c24bfae734943e0a3355d2f82100b40eddc9d1fa893f5558d
-Description: 打开终端运行：TMD 一键降级 Terminal operation TMD
+Size: 28156
+MD5sum: 2518fcdc0481f410c7fecb3e3a6ac5b4
+SHA1: cf79740a9aea5b01c1402fc7f07ce9ac363db277
+SHA256: 67f439df376b13fc6e2e9148ee9357352c480ed0c1ef6466d7bc1696822aa647
+SHA512: 9aaac67ab98b6e77a9596ec54c79669f46169de85cd56a967cfa208b9e1f08caeb951c4c1bdaf32b48b108cc1cf8332561172c6eddbfc34af3fdc98c8ed31895
+Description: 打开终端运行：TMD 回车 一键降级 Terminal operation TMD
 Tag: role::hacker
 Name: TMD乌鸫一键降级
 Author: 枯燥
@@ -1663,12 +1663,12 @@ Maintainer: Kuzaos
 Installed-Size: 196
 Depends: firmware (>= 14.0), cy+cpu.arm64, libcurl4, libssl3, usbmuxd, curl, grep, gawk, unzip, libirecovery-utils, lol.sep.turdusmerula
 Filename: ./debfiles/repo.kuzaos.tmd_1.0.0_iphoneos-arm64.deb
-Size: 28286
-MD5sum: 57f160e42230a5e62ba28cca7ec9bd5c
-SHA1: f743e2c36802fc1dcf06a6e002fd9ef1fd5efc2c
-SHA256: 5694b2604db85b74805c32c0f92db6ba6f110cbd4a47f4d10b269337b5708db7
-SHA512: c256ce8fcabb90bd3a9cabee2ed9786bc1df146a52b554470b3dd50c7e81aa3de714350e6c5f4b7c1a9dd857907e85152cdbf38abbabe93c97dd1d29fa41f09c
-Description: 打开终端运行：TMD 一键降级 Terminal operation TMD
+Size: 29464
+MD5sum: 471a2a1094c39df9674b51ab7b8d0a8b
+SHA1: 89d4fcbbdfddc7862804de26206bd11222c3628e
+SHA256: ada3f06f808d7cfc185882d004f659f9b28d82d13bf0e14793c242b69f9fa457
+SHA512: cf1ed8e304f5a2b3654df0d9c3d1348c68b8de48574eb3eb89a80bf504e4128c1062e0e743db9ea369b907beb552f98dcfd1dbc9d89144dcfe24181ee20d5aa1
+Description: 打开终端运行：TMD 回车 一键降级 Terminal operation TMD
 Tag: role::hacker
 Name: TMD乌鸫一键降级
 Author: 枯燥
