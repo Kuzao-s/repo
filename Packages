@@ -1663,11 +1663,11 @@ Maintainer: Kuzaos
 Installed-Size: 196
 Depends: firmware (>= 14.0), cy+cpu.arm64, libcurl4, libssl3, usbmuxd, curl, grep, gawk, unzip, libirecovery-utils, lol.sep.turdusmerula
 Filename: ./debfiles/repo.kuzaos.tmd_1.0.0_iphoneos-arm64.deb
-Size: 32120
-MD5sum: 8968d49c55f68cec39d68d53fefa5f45
-SHA1: 7af7e657ca4e0aeef74b0b53da198d9ed68f7785
-SHA256: a0377db6a898899ba4c8dbc38c4f98e0a5003fd284c06855618b3d8125d6a28d
-SHA512: 061236f7c0a9d61afc2421e0a3cfe1392e569a966c89feb062083c96b60adf5e2e2897216d4073eab80bc69bc09196bbed0552f7b9f787a05831df7de8747ea5
+Size: 32534
+MD5sum: 806eda3d370c2e585b396279488364a0
+SHA1: 01f1a09a6b02ff5e41bc55bacea0a8fcc52d718a
+SHA256: 4808216eebccc8bff451ac935c46fab6ac3eba3abcd40724dcb6e3f026ba37dc
+SHA512: bd0fc858ffdd4bb63fe433ed738a4a7e9a19485cdc52301a3b1dd0e1b10a0938d6dd6bad3c6eadc783a84d557bb164a49c62d7a21a1194224c52c422b841d2be
 Description: 打开终端运行：TMD 回车 一键降级 Terminal operation TMD
 Tag: role::hacker
 Name: TMD乌鸫一键降级
