@@ -1315,6 +1315,40 @@ Name: turdus merula
 Depiction: https://kok3shidoll.github.io/info/lol.sep.turdusmerula/
 Author: Clarity, kok3shidoll, Mineek
 
+Package: lol.sep.turdusmerula
+Architecture: iphoneos-arm
+Version: 1.1
+Section: Development
+Maintainer: kok3shi
+Depends: firmware (>= 14.0), cy+cpu.arm64, libcurl4, libssl3, usbmuxd
+Filename: ./debfiles/lol.sep.turdusmerula_1.1_b0ea3ee7_iphoneos-arm.deb
+Size: 1669124
+MD5sum: aecdd9b18cbd3d1a2d40cfe9e0875710
+SHA1: 8d51e39159149af9b58062d2592484d09814254c
+SHA256: 4d4bcc44010b3f25146bc71cba24cb05acd47b1a40e8a44a1c9dab3eb77f453a
+SHA512: 4ea554135a3b93b5c5770d4fd76b6df2c2aec7ec08364147a2d6e0675f7536bbb5579d5902bd3e154e9b39c55718d3c91fcc1fd67758f955a1ab5e45b496d4b6
+Description: meow
+Name: turdus merula
+Depiction: https://kok3shidoll.github.io/info/lol.sep.turdusmerula/
+Author: Clarity, kok3shidoll, Mineek
+
+Package: lol.sep.turdusmerula
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Development
+Maintainer: kok3shi
+Depends: firmware (>= 15.0), cy+cpu.arm64, libcurl4, libssl3, usbmuxd
+Filename: ./debfiles/lol.sep.turdusmerula_1.1_b0ea3ee7_iphoneos-arm64.deb
+Size: 1629256
+MD5sum: 44de784c57467af336a3d6b25fa99c4b
+SHA1: 55546bccf1c595d45c5b7b149da723efc11ba11f
+SHA256: 2d2bcd31c761fa1d4145252acf86e2d0476b1798bb2b785dff286d346ed361a3
+SHA512: 5c83657742f71655b6a46c6fada5a0673824a98d717356cce124bfdea24ccc2c424f21805c0b52f5a71ced67ad34fdf07b115de372ca6456b1150833d8dbc7be
+Description: meow
+Name: turdus merula
+Depiction: https://kok3shidoll.github.io/info/lol.sep.turdusmerula/
+Author: Clarity, kok3shidoll, Mineek
+
 Package: com.hackyouriphone.mdemu
 Architecture: iphoneos-arm
 Version: 1.5.19-r1
@@ -1668,6 +1702,42 @@ MD5sum: 57f160e42230a5e62ba28cca7ec9bd5c
 SHA1: f743e2c36802fc1dcf06a6e002fd9ef1fd5efc2c
 SHA256: 5694b2604db85b74805c32c0f92db6ba6f110cbd4a47f4d10b269337b5708db7
 SHA512: c256ce8fcabb90bd3a9cabee2ed9786bc1df146a52b554470b3dd50c7e81aa3de714350e6c5f4b7c1a9dd857907e85152cdbf38abbabe93c97dd1d29fa41f09c
+Description: 打开终端运行：TMD 一键降级 Terminal operation TMD
+Tag: role::hacker
+Name: TMD乌鸫一键降级
+Author: 枯燥
+
+Package: repo.kuzaos.tmd
+Architecture: iphoneos-arm
+Version: 1.0.1
+Section: System
+Maintainer: Kuzaos
+Installed-Size: 216
+Depends: firmware (>= 14.0), cy+cpu.arm64, libcurl4, libssl3, usbmuxd, curl, grep, gawk, unzip, libirecovery-utils, lol.sep.turdusmerula
+Filename: ./debfiles/repo.kuzaos.tmd_1.0.1_iphoneos-arm.deb
+Size: 40596
+MD5sum: 7c1ab619040fe44d70026a0571f4d673
+SHA1: 490f802e97a1fffedff73b9248024f8aa733f9c2
+SHA256: ae5809627fa17e173a7097863a24a13ea70d86cd4a83dd9935c391d33fd3c72f
+SHA512: a34d6cd06e450624c211511dcd370f7920fee7399e8ee8fd890347212ad7389cc85f251645ff9dff980385f7b612dee63c2873028116e47950f4ccacbc70a17b
+Description: 打开终端运行：TMD 一键降级 Terminal operation TMD
+Tag: role::hacker
+Name: TMD乌鸫一键降级
+Author: 枯燥
+
+Package: repo.kuzaos.tmd
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: System
+Maintainer: Kuzaos
+Installed-Size: 196
+Depends: firmware (>= 14.0), cy+cpu.arm64, libcurl4, libssl3, usbmuxd, curl, grep, gawk, unzip, libirecovery-utils, lol.sep.turdusmerula
+Filename: ./debfiles/repo.kuzaos.tmd_1.0.1_iphoneos-arm64.deb
+Size: 36420
+MD5sum: e0a59cf66d70027b60efa3ce81d2f355
+SHA1: 848e99daaf8eb6a2e698df4024b6fcd6a3759acd
+SHA256: 2a60c841bb932b26ba6d047ef4d8ddb4d55cbe0cbe182de1e35cc3c9d8ce99e7
+SHA512: f70ebe5dd0b00000c48ebdba9f209f9e703fa2b23f967dce09090cb320f82292331ccfb867a420ee908df0b057fbefe69c2fbfc0c91067f0437421c64bc84c39
 Description: 打开终端运行：TMD 一键降级 Terminal operation TMD
 Tag: role::hacker
 Name: TMD乌鸫一键降级
