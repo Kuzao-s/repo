@@ -1283,6 +1283,40 @@ Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
 
 Package: lol.sep.turdusmerula
 Architecture: iphoneos-arm
+Version: 1.0.4
+Section: Development
+Maintainer: kok3shi
+Depends: firmware (>= 14.0), cy+cpu.arm64, libcurl4, libssl3, usbmuxd
+Filename: ./debfiles/lol.sep.turdusmerula_1.0.4_iphoneos-arm.deb
+Size: 897550
+MD5sum: a20193329e11f326adf46ea6ed0d15fd
+SHA1: 918acce7333f86ca3982bbe2ddfadcdaa0fb57df
+SHA256: 5e01437674c833e19b17d999f4068277035c61c1310d611952e67f5c8c12857d
+SHA512: e36168954ef53b51dca9e82e1e7a1c6e9e741d9f6e04e37028002601bfcd62b7d1145c0c412fa22fd1c53ac33eb0f92642e4eda04eb7a0818bbc8d08b7e85535
+Description: meow
+Name: turdus merula
+Depiction: https://kok3shidoll.github.io/info/lol.sep.turdusmerula/
+Author: Clarity, kok3shidoll, Mineek
+
+Package: lol.sep.turdusmerula
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Section: Development
+Maintainer: kok3shi
+Depends: firmware (>= 15.0), cy+cpu.arm64, libcurl4, libssl3, usbmuxd
+Filename: ./debfiles/lol.sep.turdusmerula_1.0.4_iphoneos-arm64.deb
+Size: 874088
+MD5sum: 4fa6d9f2d8ce6cff60e564d51cf0f1ab
+SHA1: 3d6e45f9f7f9de652338321a9b6f5e60e7794e2b
+SHA256: 1b3cf1708b3c8e13ae103b492e931bb309d2e4f590f46310d3bb08724f1a0119
+SHA512: 3fc70cdd04946aa1b4a01157b7d3ce7ea2d9e305036591f78583bafa2ee963121c7b2d6a4e5c01b9ccb3db5771158ef45920e7d5bc71f9a77c5276db2a925a39
+Description: meow
+Name: turdus merula
+Depiction: https://kok3shidoll.github.io/info/lol.sep.turdusmerula/
+Author: Clarity, kok3shidoll, Mineek
+
+Package: lol.sep.turdusmerula
+Architecture: iphoneos-arm
 Version: 1.1
 Section: Development
 Maintainer: kok3shi
@@ -1635,6 +1669,42 @@ SHA256: 51dc1fac364aa2902d01320b8abb336887380e3ef8909686170fa195d6f0b97b
 SHA512: e99b6ff0c44736786fc6a108452180269f97a5fda06503cab17af3a7a1efb234fed69f820bd0a04fb7d0ba048a8f6cc40247e6da236132ceb9e8609c372dc636
 Description: OFF iOS5~iOS10 OTA
 Name: OTA更新禁用
+Author: 枯燥
+
+Package: repo.kuzaos.tmd
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: System
+Maintainer: Kuzaos
+Installed-Size: 196
+Depends: firmware (>= 14.0), cy+cpu.arm64, libcurl4, libssl3, usbmuxd, curl, grep, gawk, unzip, libirecovery-utils, lol.sep.turdusmerula
+Filename: ./debfiles/repo.kuzaos.tmd_1.0.0_iphoneos-arm.deb
+Size: 30858
+MD5sum: 2107322c3bfd278f92827165fc935b3e
+SHA1: eae633d798a5533ec720b254c66c0776041b1caa
+SHA256: 3ef58ab5a68f12e0cfb4025408828007de46359da7e2693b4c956dc61117c2a7
+SHA512: 4f24b3214e4e79dd1f7d244a720a61518a4a22f3cdae83d57ccea077dd337370f39eee76d3dee21c24bfae734943e0a3355d2f82100b40eddc9d1fa893f5558d
+Description: 打开终端运行：TMD 一键降级 Terminal operation TMD
+Tag: role::hacker
+Name: TMD乌鸫一键降级
+Author: 枯燥
+
+Package: repo.kuzaos.tmd
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: System
+Maintainer: Kuzaos
+Installed-Size: 196
+Depends: firmware (>= 14.0), cy+cpu.arm64, libcurl4, libssl3, usbmuxd, curl, grep, gawk, unzip, libirecovery-utils, lol.sep.turdusmerula
+Filename: ./debfiles/repo.kuzaos.tmd_1.0.0_iphoneos-arm64.deb
+Size: 28286
+MD5sum: 57f160e42230a5e62ba28cca7ec9bd5c
+SHA1: f743e2c36802fc1dcf06a6e002fd9ef1fd5efc2c
+SHA256: 5694b2604db85b74805c32c0f92db6ba6f110cbd4a47f4d10b269337b5708db7
+SHA512: c256ce8fcabb90bd3a9cabee2ed9786bc1df146a52b554470b3dd50c7e81aa3de714350e6c5f4b7c1a9dd857907e85152cdbf38abbabe93c97dd1d29fa41f09c
+Description: 打开终端运行：TMD 一键降级 Terminal operation TMD
+Tag: role::hacker
+Name: TMD乌鸫一键降级
 Author: 枯燥
 
 Package: repo.kuzaos.tmd
