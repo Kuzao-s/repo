@@ -1264,6 +1264,39 @@ Description: Library of dimentio
 Name: libdementia
 Author: 0x7ff
 
+Package: libipatcher0
+Architecture: iphoneos-arm
+Version: 81-2
+Priority: optional
+Section: Libraries
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 236
+Depends: libcurl4, libpng16-16, liboffsetfinder64-0, libimg4tool0, libssl3, libplist3, libinsn0, libgeneral0
+Filename: ./debfiles/libipatcher0_81-2_iphoneos-arm.deb
+Size: 51692
+MD5sum: e366e4773f82485283f09c05d6908f2b
+SHA1: af69cd0b877697cccee575c9b5f53d5c5b9e44cb
+SHA256: a6eed20451d785bd46b4bc5d34a0f1fabc52f44f8dfa681dfba90de00b52e797
+SHA512: c5ff4f4d9f810ed2cee13d7becde65e6b815f2ebd7d97d77a25ef2028b6d83acbc859ed86ed549b05c9177313466c6772103a1989242937a0edbd6c7306ccef0
+Description: a convinient wrapper for iBoot32Patcher (shared libraries)
+
+Package: liboffsetfinder64-0
+Architecture: iphoneos-arm
+Version: 132
+Priority: optional
+Section: Libraries
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 184
+Depends: libgeneral0, libinsn0, libimg4tool0, libssl1.1, libplist3
+Filename: ./debfiles/liboffsetfinder64-0_132_iphoneos-arm.deb
+Size: 44738
+MD5sum: af900fa86b68a16914abcb4ecc629b33
+SHA1: dc297aae31be162af9862453205aa8482c9bbefd
+SHA256: 563f5409cd8e55fca9f2f8e6c04f7ec0a4641e24b33ebeb8411f71eb8688bd87
+SHA512: a1b52c44eaa01c45cab9db7561331329cfa6e480d5340e2b5c735054397814d1378c16a21087feffd6ccf2966ad336aebc5e40d3bebe7484ceff2a2e209a2938
+Description: A 64bit offsetfinder. It finds offsets, patches, parses Mach-O and even supports IMG4 (shared libraries)
+Tag: purpose::library, role::developer
+
 Package: libpartialzip-1.0.0
 Architecture: iphoneos-arm
 Version: 1.0
@@ -1280,6 +1313,30 @@ SHA512: 61b9052be350fa8cd2b9dafc71685ae7338a1ae186db9e4dabf19b13077e6c3fb2de14ff
 Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
 Name: libpartialzip-1.0.0
 Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
+
+Package: libssl1.1
+Architecture: iphoneos-arm
+Version: 1.1.1w
+Priority: optional
+Section: Libraries
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 2872
+Provides: libressl, libssl1.1.1 (=1.1.1w)
+Depends: libiosexec1 (>= 1.3.1), ca-certificates
+Conflicts: libressl, libssl1.1.1
+Replaces: libressl, libssl1.1.1
+Filename: ./debfiles/libssl1.1_1.1.1w_iphoneos-arm.deb
+Size: 1348180
+MD5sum: 7c1e47f6cfcd76cb0d1fd54ed605493a
+SHA1: 9b4bd62218f9730e1c8f0bfc6fe12a19809b4f94
+SHA256: 227bc2b2a717c7b4f3093d1693edf848a3ac3e891ca9d264b123f748f50082a3
+SHA512: 4ca988fd2dbdba3ebf4e10c6839b7ba0d53ecbc0ecf0b6ab768d4b5e97fda2218aa0d59755d4536dc035967fb47cf9b9106544102758792a4312aaa5a34162eb
+Description: Secure Sockets Layer toolkit - shared libraries
+ This package is part of the OpenSSL project's implementation of the SSL
+ and TLS cryptographic protocols for secure communication over the
+ Internet.
+ .
+ It provides the libssl and libcrypto shared libraries.
 
 Package: lol.sep.turdusmerula
 Architecture: iphoneos-arm
