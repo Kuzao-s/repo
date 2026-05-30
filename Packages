@@ -658,6 +658,46 @@ Name: Netfix Cydia联网修正
 Author: ABCydia <admin@abcydia.com>
 Sponsor: ABCydia <http://www.abcydia.com>
 
+Package: com.aoi.storefix6
+Architecture: iphoneos-arm
+Version: 1.0-8
+Section: System
+Maintainer: satou@aoiblog.jp
+Depends: firmware (>= 6.0), firmware (<< 7.0) ,net.nekokawa.appstorefix ,uk.invoxiplaygames.checkmatestore ,com.innoying.sbutils
+Conflicts:  com.aoi.storefix6
+Filename: ./debfiles/com.aoi.storefix6_1.0-8.deb
+Size: 1468
+MD5sum: 70a7f9433ddde88d794cfb6c8771e283
+SHA1: c4bb18b0209c2dd54a953906bc05e7fb71e99c7c
+SHA256: 7b1e3916c1bd7cbd2329c2cce3b733ae24aae68260bcc10e843f36ebeff8bb32
+SHA512: 5f9c18fed98bbdf49c9ec61cd918b248249b15bf08f84b3e7299bcbc6900c54a5e963b8ab5afd94e87b589f284248a2ffd22c72086c150c011da9fe8c013512d
+Description: Fixed an issue where iOS 6 and earlier could not connect to the App Store. (Only the host file is rewritten. A restart may be required after installation.) If you applied the patch in the previous version, you may not be able to log in with your Apple ID, so we recommend initializing it.
+Tag: purpose::extension
+Author: satou@aoiblog.jp
+Name: AppStoreFix(ios6)
+Depiction: http://aoiblog.jp/repo/index_ios6.html
+dev: aoi_satou
+
+Package: com.aoi.storefix
+Architecture: iphoneos-arm
+Version: 1.0-6
+Section: System
+Maintainer: aoi_satou
+Depends: firmware  (<= 6.1.6)
+Conflicts:  com.aoi.storefix
+Filename: ./debfiles/com.aoi.storefix_1.0-6.deb
+Size: 1270
+MD5sum: fb1224b0f97b71a5040606f5fa0b4b37
+SHA1: d4ab9af662df651022afaa6775de04450d787ca7
+SHA256: a7d02f5ca487cff4770ee68eb1409ad48f126dacf77adace7f2b681422bd7829
+SHA512: da59a9eb59105af3cb0292b56c3df97400939322abe1bf2bedbd9e0019af157e1da57bfe42cd90c9cc710a47f732422c6b768a0480dacea371ab934b1d76f946
+Description: Fixed an issue where iOS 6 and earlier could not connect to the App Store. (Only the host file is rewritten. A restart may be required after installation.) If you applied the patch in the previous version, you may not be able to log in with your Apple ID, so we recommend initializing it.
+Tag: purpose::extension
+Author: aoi_satou
+Name: AppStoreFix
+Depiction: http://aoiblog.jp/appstorefix_history.html
+dev: aoi_satou
+
 Package: com.coolbooter.coolbootercli
 Architecture: iphoneos-arm
 Version: 1.1-beta2-release
@@ -758,6 +798,44 @@ SHA512: 5f7006a86079f56abffdb13261bc687dc60ab0683978117a19a86b4ea2674738c170e004
 Description: blocks downloading accessory firmware alert.
 Name: accessoryalertblocker
 Author: rA9stuff
+
+Package: com.ruich97.itunesstorefix
+Architecture: iphoneos-arm
+Version: 1.1
+Section: Tweaks
+Maintainer: ruich97@icloud.com
+Depends: mobilesubstrate, firmware(<=7.9)
+Filename: ./debfiles/com.ruich97.itunesstorefix_1.1.deb
+Size: 64370
+MD5sum: a38b2c823d767beb30a57efc0e77752b
+SHA1: 9c596ec38c3212ea45d38649bf05595ce81906ea
+SHA256: 5caf6c68365a3efd318e4a25f13f86e3803ee33e4c2589c856c30abfa890d4b8
+SHA512: 46d4b0958d713f15c6ec5e240d0a19f8cd0358a09a45d83769c2af49c3d8413bb7a85cee541b563168626318d19c24481fe3a4cb3b89e51d03d88555ec7e4309
+Description: 该插件可修复Store无法打开的问题。它能解决所有应用程序与iTunes Store的连接问题；但由于苹果公司近期的调整，此工具可能会导致用户无法下载应用。
+Name: iTunesStoreFix for China
+Author: ruich97@icloud.com
+Icon: file:///Library/Application%20Support/com.ruich97.itunesstorefix/iTunesStoreFix-icon.png
+Depiction: http://apt.senpai114514.icu/pages/1.html
+Sponsor: 114!514!Repo <http://apt.senpai114514.icu>
+
+Package: com.ruich97.newitunesstorefix
+Architecture: iphoneos-arm
+Version: 1.0
+Section: 字研插件
+Maintainer: ruich97@icloud.com
+Depends: mobilesubstrate, firmware(<=7.9)
+Filename: ./debfiles/com.ruich97.newitunesstorefix_1.0.deb
+Size: 47654
+MD5sum: 16408e5f812a611b267dbf72f4c43f47
+SHA1: fdc04fd8748ac634db4c3800069b876cae5e0792
+SHA256: 624119728ad13a83c2dbe620095178bf953f5a2649cc18a0a329fff8864edbd7
+SHA512: 07538815445998390bd45d162ca7b8c9d886d54c6890521f168fbc1a47ff6def66697900971a0bbdb9d66803957d2a26f6f6ec7464a1ae3ec0b4fe0d9c87360c
+Description: 自行输入正确的IP地址，就可修复Store无法打开的问题
+Name: NEWiTunesStoreFix
+Author: ruich97@icloud.com
+Icon: file:///Library/Application%20Support/com.ruich97.newitunesstorefix/iTunesStoreFix-icon.png
+Depiction: http://apt.senpai114514.icu/pages/6.html
+Sponsor: 114!514!Repo <http://apt.senpai114514.icu>
 
 Package: com.skyglow.itunesstorex
 Architecture: iphoneos-arm
@@ -1694,6 +1772,57 @@ Description: 运行在iOS 上的手机终端
 Name: MTerminal 手机终端
 Author: lordscotland <admin@officialscheduler.com>
 Sponsor: ABCydia <http://www.abcydia.com>
+
+Package: net.nekokawa.appstorefix
+Architecture: iphoneos-arm
+Version: 0.3.5-4+debug
+Section: Tweaks
+Maintainer: nekokawa
+Installed-Size: 264
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 6.0), firmware (<= 6.1.6), preferenceloader
+Filename: ./debfiles/net.nekokawa.appstorefix_0.3.5-4+debug.deb
+Size: 22434
+MD5sum: 435aade5d4f33a26ae32ef1af8310090
+SHA1: 1e602811b5f60d8211ae0bc448958b672c89b7bd
+SHA256: d74c697d0f9bd6f7a1e0f5b4c147e83d340f2d07b2c5ce797ae875cbe6c8beaf
+SHA512: 87bd53236ba3e211e69acc485f4efe72d7dfdff3a81f490cb6dff020e7073ce2f9291c040e3801e4af4f5651593e9899b5a6850d11ccd6658c7d3845ac73e39c
+Description: Fix AppStore SSL connection(only iOS 6!)
+Name: StoreSSLFix
+Author: nekokawa
+
+Package: net.nekokawa.storeetcfix
+Architecture: iphoneos-arm
+Version: 0.0.4-12+debug
+Section: Tweaks
+Maintainer: nekokawa
+Installed-Size: 124
+Depends: mobilesubstrate (>= 0.9.5000), firmware (<= 6.1.6)
+Filename: ./debfiles/net.nekokawa.storeetcfix_0.0.4-12+debug.deb
+Size: 9158
+MD5sum: 540e442152dfbd0b3248cda5240e1a3d
+SHA1: c5d0176737315fcdc1c275347779beda45f48a6d
+SHA256: bada2dc38034841bc423472966d8a983a0373c135c94a8f61748a8f20069ba27
+SHA512: 2240c2a69a9f1db86403f6085946548cd561e60713cf82b3488b1dcd0d80810332fc298206f24f4b0ece1ae69c09c27cdbdb76864633ac95d7eb4b7be39a5c21
+Description: Fix various Store functions tweak
+Name: StoreEtcFix
+Author: nekokawa
+
+Package: net.nekokawa.storeloginfix
+Architecture: iphoneos-arm
+Version: 0.0.4-1+debug
+Section: Tweaks
+Maintainer: nekokawa
+Installed-Size: 124
+Depends: mobilesubstrate (>= 0.9.5000), firmware (<= 5.1.1)
+Filename: ./debfiles/net.nekokawa.storeloginfix_0.0.4-1+debug.deb
+Size: 8762
+MD5sum: 61b5d30f7efe2ef5f217723ee3cfdcc9
+SHA1: ba32d0f4cb3e3cf9be15a5aec97be34f15ad50aa
+SHA256: f71f89f7e372ff20d06b15d0fac5ade1fcfd55d1eac6c228d559408cc9d830d3
+SHA512: 4981825f5eec28818ff5b63cd3ce029815ea0c46dccd7a5fb9aa7a9b56f1fe59fe1adec2008f92e39f92d9bfd46b98ac7631cf0a4bca44160e9b65c1d1cddb50
+Description: Fix login the AppStore for iOS 5 and older
+Name: StoreLoginFix
+Author: nekokawa
 
 Package: openssh
 Architecture: iphoneos-arm
